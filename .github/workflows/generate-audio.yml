@@ -1,0 +1,33 @@
+name: Generate ownership audio
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out edition
+        uses: actions/checkout@v4
+
+      - name: Generate narrated brief
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: >-
+          node scripts/generate_signal_audio.mjs
+          --input content/audio-brief-transcript.txt
+          --output audio/suns-signal-004-permission-to-run-v1.mp3
+          --title "Suns Signal Weekly 004 — The Ownership Read"
+
+      - name: Upload narrated brief
+        uses: actions/upload-artifact@v4
+        with:
+          name: suns-signal-004-audio
+          path: |
+            audio/suns-signal-004-permission-to-run-v1.mp3
+            audio/suns-signal-004-permission-to-run-v1.metadata.json
+          if-no-files-found: error
+          retention-days: 7
