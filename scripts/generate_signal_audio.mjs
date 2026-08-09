@@ -77,7 +77,10 @@ try {
       voice_settings: VOICE_SETTINGS
     })
   });
-  if (!response.ok) throw new Error(`ElevenLabs generation failed with status ${response.status}.`);
+  if (!response.ok) {
+    const detail = (await response.text()).replace(/\s+/g, " ").slice(0, 500);
+    throw new Error(`ElevenLabs generation failed with status ${response.status}: ${detail}`);
+  }
 
   const rawPath = join(workDir, "raw.mp3");
   await writeFile(rawPath, Buffer.from(await response.arrayBuffer()));
