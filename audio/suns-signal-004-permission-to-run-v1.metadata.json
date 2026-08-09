@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-08-09T14:42:18.984Z",
+  "title": "Suns Signal Weekly 004 — The Ownership Read",
+  "voice_id": "Ib97zM6uFBc71OWgj75I",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.78,
+    "style": 0.06,
+    "use_speaker_boost": true,
+    "speed": 0.96
+  },
+  "duration_seconds": 163.968,
+  "word_count": 368,
+  "sha256": "dbc173818b6fb5cc97ef1412abeca4939cbd94b2c9d584334845817ebc25c27c"
+}

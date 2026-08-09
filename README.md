@@ -32,6 +32,9 @@ This edition preserves the approved Issue 003 architecture:
 - `assets/og-suns-signal-004-permission-to-run-ai.png` — final generated social card
 - `assets/og-suns-signal-004-permission-to-run.png` — deterministic social-card fallback
 - `scripts/build_og_image.py` — deterministic hero/fallback social asset generator
+- `audio/suns-signal-004-permission-to-run-v1.mp3` — 2:44 ownership audio brief
+- `content/audio-brief-transcript.txt` — exact narration and accessible transcript source
+- `scripts/generate_signal_audio.mjs` — reusable secure narration and normalization script
 - `sources.md` — research and evidence ledger
 - `social-capture.md` — reaction capture and interpretation notes
 
@@ -39,4 +42,15 @@ This edition preserves the approved Issue 003 architecture:
 
 ```bash
 python3 scripts/build_og_image.py
+```
+
+## Build the audio brief
+
+The audio generator requires a valid `ELEVENLABS_API_KEY`, uses the approved AVC voice, normalizes speech to mono 96 kbps MP3, and writes duration/hash metadata beside the finished audio.
+
+```bash
+node scripts/generate_signal_audio.mjs \
+  --input content/audio-brief-transcript.txt \
+  --output audio/suns-signal-004-permission-to-run-v1.mp3 \
+  --title "Suns Signal Weekly 004 — The Ownership Read"
 ```

@@ -66,6 +66,48 @@
         </div>
       </section>
 
+      <section class="signal-audio" aria-labelledby="audio-brief-title">
+        <div class="audio-player">
+          <div class="audio-copy">
+            <span>Listen First</span>
+            <h2 id="audio-brief-title">Audio Brief <em>· The Ownership Read · 2:44</em></h2>
+          </div>
+          <div class="audio-main">
+            <button class="audio-button" type="button" data-audio-back aria-label="Back 15 seconds">−15</button>
+            <button class="audio-button play" type="button" data-audio-play aria-label="Play the ownership audio brief">▶</button>
+            <div class="audio-timeline">
+              <span data-audio-current aria-live="off">0:00</span>
+              <input type="range" min="0" max="163.968" value="0" step="0.1" data-audio-range aria-label="Audio timeline">
+              <span data-audio-duration>2:44</span>
+            </div>
+            <button class="audio-button" type="button" data-audio-forward aria-label="Forward 15 seconds">+15</button>
+          </div>
+          <select class="audio-speed" data-audio-speed aria-label="Playback speed">
+            <option value="1">1×</option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+          </select>
+          <p class="audio-note" data-audio-note>Listen now, or scan the complete ownership brief below.</p>
+          <details class="audio-transcript">
+            <summary>Read exact transcript</summary>
+            <div class="audio-transcript-copy">
+              <p>Mat, the number that matters this week isn’t a Hall of Fame vote. It’s thirty-three.</p>
+              <p>Phoenix won twenty-nine games in the 2003–04 season. One year later, the Suns won sixty-two. That thirty-three-win jump is the clearest evidence of what Mike D’Antoni, Amar’e Stoudemire, and the organization helped build.</p>
+              <p>D’Antoni and Amar’e will receive individual recognition in Springfield. They earned that. But the larger Suns story lives between their biographies. Phoenix created a system in which each person’s best quality made the others more valuable.</p>
+              <p>D’Antoni gave the idea shape and the players room to operate inside it. Steve Nash made the decisions in real time. Amar’e created pressure above the rim and down the middle of the floor. Shawn Marion supplied the versatility that allowed Phoenix to play smaller without becoming smaller. Joe Johnson and Quentin Richardson made help expensive by stretching the defense.</p>
+              <p>None of those pieces tells the full story alone. Together, they became an identity.</p>
+              <p>That is where the ownership lesson begins. Innovation needs permission. A new idea cannot become normal if the person responsible for it has to defend the premise after every uncomfortable result.</p>
+              <p>Innovation also needs the right people. Not interchangeable talent. Complementary talent. Phoenix found a model that allowed very different strengths to reinforce one another.</p>
+              <p>And innovation needs patience. The second proof came the following season, when Amar’e played only three games after knee surgery. The Suns did not try to reproduce him. They redistributed function. Boris Diaw became a connective playmaker. Raja Bell added shooting and perimeter defense. Leandro Barbosa brought speed from another angle. Phoenix still won fifty-four games and returned to the Western Conference finals.</p>
+              <p>That season showed the difference between a breakthrough and an operating system. The personnel changed. The principles held.</p>
+              <p>The Seven Seconds or Less Suns did not finish the story with a championship. That matters. But they changed what the league believed winning basketball could look like. Their durable legacy is not simply pace or three-point volume. It is organizational alignment.</p>
+              <p>The Hall of Fame is the recognition. The thirty-three-win jump is the evidence. And the larger lesson is what can happen when permission, people, and patience all point in the same direction.</p>
+            </div>
+          </details>
+          <audio preload="metadata" data-audio src="audio/suns-signal-004-permission-to-run-v1.mp3"></audio>
+        </div>
+      </section>
+
       <section class="top-brief" aria-label="Suns Signal first read">
         <div class="glance-panel">
           <span class="source-tag">At A Glance</span>
@@ -384,5 +426,78 @@
       </div>
       <a href="#top">Back to top</a>
     </footer>
+    <script>
+      (() => {
+        const root = document.querySelector('.signal-audio');
+        if (!root) return;
+        const audio = root.querySelector('[data-audio]');
+        const play = root.querySelector('[data-audio-play]');
+        const back = root.querySelector('[data-audio-back]');
+        const forward = root.querySelector('[data-audio-forward]');
+        const range = root.querySelector('[data-audio-range]');
+        const current = root.querySelector('[data-audio-current]');
+        const duration = root.querySelector('[data-audio-duration]');
+        const speed = root.querySelector('[data-audio-speed]');
+        const note = root.querySelector('[data-audio-note]');
+        const formatTime = (value, round = false) => {
+          if (!Number.isFinite(value)) return '0:00';
+          const seconds = round ? Math.round(value) : Math.floor(value);
+          return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
+        };
+        const seekTo = value => {
+          const next = Math.max(0, Math.min(audio.duration || 0, value));
+          audio.currentTime = next;
+          range.value = String(next);
+          current.textContent = formatTime(next);
+        };
+        const setPlayState = isPlaying => {
+          play.textContent = isPlaying ? 'Ⅱ' : '▶';
+          play.setAttribute('aria-label', isPlaying ? 'Pause the ownership audio brief' : 'Play the ownership audio brief');
+        };
+        audio.addEventListener('loadedmetadata', () => {
+          duration.textContent = formatTime(audio.duration, true);
+          range.max = String(audio.duration);
+        });
+        audio.addEventListener('timeupdate', () => {
+          current.textContent = formatTime(audio.currentTime);
+          range.value = String(audio.currentTime);
+        });
+        audio.addEventListener('play', () => setPlayState(true));
+        audio.addEventListener('pause', () => setPlayState(false));
+        audio.addEventListener('ended', () => {
+          audio.currentTime = 0;
+          setPlayState(false);
+        });
+        audio.addEventListener('error', () => {
+          play.disabled = true;
+          back.disabled = true;
+          forward.disabled = true;
+          range.disabled = true;
+          speed.disabled = true;
+          note.textContent = 'The audio brief is temporarily unavailable. The exact transcript remains below.';
+        });
+        play.addEventListener('click', () => {
+          if (audio.paused) {
+            audio.play().catch(() => {
+              note.textContent = 'Playback did not start. Please try again or read the exact transcript below.';
+            });
+          } else {
+            audio.pause();
+          }
+        });
+        back.addEventListener('click', () => {
+          seekTo(audio.currentTime - 15);
+        });
+        forward.addEventListener('click', () => {
+          seekTo(audio.currentTime + 15);
+        });
+        range.addEventListener('input', () => {
+          seekTo(Number(range.value));
+        });
+        speed.addEventListener('change', () => {
+          audio.playbackRate = Number(speed.value);
+        });
+      })();
+    </script>
   </body>
 </html>

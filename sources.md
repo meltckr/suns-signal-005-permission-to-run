@@ -56,3 +56,11 @@ Reporting cutoff: August 9, 2026, America/Phoenix.
 - The 2005–06 season supports durability, but it does not imply the system was unaffected by Stoudemire’s absence.
 - Public reaction is used to identify themes, not to measure representative sentiment.
 - Current transaction items labeled “reported” remain distinct from official team announcements.
+
+## Final release sweep — August 9, 2026
+
+- The official Suns news index showed no newer injury, availability, or transaction announcement that changed the issue after the reporting cutoff.
+- NBA injury reporting is tied to scheduled games. Phoenix is in the offseason, so no current team injury report was available; prior-season injury statuses were excluded as stale.
+- The official Hall of Fame schedule and presenter list remained unchanged.
+- The NBA offseason tracker continued to list the Brooks extension as reported rather than team-announced.
+- No finding required a change to the feature thesis or the audio narration.
