@@ -7,16 +7,17 @@ import { spawnSync } from "node:child_process";
 
 const DEFAULT_VOICE_ID = "Ib97zM6uFBc71OWgj75I";
 const MODEL_ID = "eleven_multilingual_v2";
+const POSTPROCESS_TEMPO = 1.10;
 const VOICE_SETTINGS = Object.freeze({
   stability: 0.50,
-  similarity_boost: 0.78,
-  style: 0.06,
+  similarity_boost: 0.77,
+  style: 0.00,
   use_speaker_boost: true,
-  speed: 0.96
+  speed: 0.79
 });
 
 function usage() {
-  console.log("Usage: node generate_signal_audio.mjs --input transcript.txt --output brief.mp3 --title \"Ownership Audio Brief\"");
+  console.log("Usage: node generate_signal_audio.mjs --input transcript.txt --output brief.mp3 --title \"Ownership Audio Brief\" [--calibration]");
 }
 
 function parseArgs(argv) {
@@ -24,6 +25,10 @@ function parseArgs(argv) {
   for (let index = 0; index < argv.length; index += 1) {
     const token = argv[index];
     if (token === "--help" || token === "-h") return { help: true };
+    if (token === "--calibration") {
+      args.calibration = true;
+      continue;
+    }
     if (!token.startsWith("--") || !argv[index + 1]) throw new Error(`Invalid argument: ${token}`);
     args[token.slice(2)] = argv[index + 1];
     index += 1;
@@ -47,9 +52,13 @@ const outputPath = resolve(args.output);
 const narration = (await readFile(inputPath, "utf8")).trim();
 if (!narration) throw new Error("Narration text is empty.");
 
+const calibrationMode = args.calibration === true;
 const wordCount = narration.split(/\s+/).filter(Boolean).length;
-if (wordCount < 300 || wordCount > 420) {
-  throw new Error(`Narration must be 300-420 words for this feature brief; found ${wordCount}.`);
+const minimumWords = calibrationMode ? 55 : 300;
+const maximumWords = calibrationMode ? 110 : 420;
+if (wordCount < minimumWords || wordCount > maximumWords) {
+  const renderType = calibrationMode ? "calibration excerpt" : "feature brief";
+  throw new Error(`Narration must be ${minimumWords}-${maximumWords} words for this ${renderType}; found ${wordCount}.`);
 }
 
 const denseSentences = narration
@@ -86,7 +95,7 @@ try {
   await writeFile(rawPath, Buffer.from(await response.arrayBuffer()));
   const ffmpeg = spawnSync("ffmpeg", [
     "-hide_banner", "-loglevel", "error", "-y", "-i", rawPath,
-    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ac", "1",
+    "-af", `atempo=${POSTPROCESS_TEMPO.toFixed(2)},loudnorm=I=-16:TP=-1.5:LRA=11`, "-ac", "1",
     "-codec:a", "libmp3lame", "-b:a", "96k",
     "-metadata", `title=${args.title}`,
     "-metadata", "artist=Accelerated Velocity Consulting",
@@ -102,8 +111,10 @@ try {
   if (probe.status !== 0) throw new Error(`Audio duration check failed: ${probe.stderr}`);
 
   const durationSeconds = Number.parseFloat(probe.stdout.trim());
-  if (!Number.isFinite(durationSeconds) || durationSeconds < 140 || durationSeconds > 220) {
-    throw new Error(`Audio duration must be 140-220 seconds; found ${probe.stdout.trim()}.`);
+  const minimumDuration = calibrationMode ? 20 : 140;
+  const maximumDuration = calibrationMode ? 55 : 220;
+  if (!Number.isFinite(durationSeconds) || durationSeconds < minimumDuration || durationSeconds > maximumDuration) {
+    throw new Error(`Audio duration must be ${minimumDuration}-${maximumDuration} seconds; found ${probe.stdout.trim()}.`);
   }
 
   const audioBytes = await readFile(outputPath);
@@ -114,6 +125,8 @@ try {
     voice_id: voiceId,
     model_id: MODEL_ID,
     voice_settings: VOICE_SETTINGS,
+    postprocess_tempo: POSTPROCESS_TEMPO,
+    render_mode: calibrationMode ? "calibration" : "full",
     duration_seconds: Number(durationSeconds.toFixed(3)),
     word_count: wordCount,
     sha256: createHash("sha256").update(audioBytes).digest("hex")

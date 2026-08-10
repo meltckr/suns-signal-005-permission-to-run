@@ -20,6 +20,9 @@ Reporting cutoff: August 10, 2026, America/Phoenix.
 | D’Antoni’s offense emphasized pace, space, ball movement, shooting, and efficiency. | Official characterization | Hall of Fame / Phoenix Suns |
 | Stoudemire played three games in 2005–06; Phoenix went 54–28 and reached the Western Conference finals. | Historical record | Basketball Reference / NBA.com season review |
 | Diaw, Bell, and Barbosa took on important adapted functions in 2005–06. | Historical analysis | NBA.com season review / Phoenix Suns history |
+| Brian Gregory and Jordan Ott remain the Suns’ general manager and head coach after completing the 2025–26 season in those roles. | Official | NBA.com team page / NBA.com appointment coverage |
+| Phoenix improved from 36–46 in 2024–25 to 45–37 in 2025–26 and returned to the postseason. | Official record | NBA.com / Phoenix Suns season review |
+| Public comments after the season described clearer principles, alignment, stability, and a foundation to build upon. | Team-published public comments | Phoenix Suns season review / exit interviews |
 
 ## Primary and authoritative sources
 
@@ -41,6 +44,11 @@ Reporting cutoff: August 10, 2026, America/Phoenix.
 16. [NBA.com — 2005–06 season review](https://www.nba.com/news/history-season-review-2005-06)
 17. [Phoenix Suns history — Suns and Kobe, part two](https://www.nba.com/suns/history/suns-and-kobe-story-part-two)
 18. [Phoenix Suns — the continuing influence of the 0.5 system](https://www.nba.com/suns/features/coach-williams-05-system-calls-faster-pace-and-quicker-decision-making)
+19. [NBA.com — Brian Gregory named Suns general manager](https://www.nba.com/news/suns-announce-basketball-operations-changes)
+20. [NBA.com — Jordan Ott introduced as Suns head coach](https://www.nba.com/news/suns-coach-jordan-ott-introductory-press-conference)
+21. [NBA.com — current Phoenix Suns team leadership](https://www.nba.com/team/1610612756/suns)
+22. [Phoenix Suns — the 2025–26 season established a foundation](https://www.nba.com/suns/news/the-2026-phoenix-suns-established-a-strong-foundation-for-the-future)
+23. [Phoenix Suns — 2026 exit-interview takeaways](https://www.nba.com/suns/news/takeaways-from-phoenix-suns-exit-interviews)
 
 ## Analytical and statistical references
 
@@ -82,4 +90,12 @@ Reporting cutoff: August 10, 2026, America/Phoenix.
 - Counted the complete Hall archive by official induction category: 243 players, 124 coaches, 83 contributors, 18 referees, and 14 teams.
 - Counted recent class sizes from the official archive and checked the 21-person 2026 finalist field against the nine announced selections.
 - Reconciled the Suns’ official 2021 franchise count with the 2024 additions of Walter Davis and Vince Carter and the pending 2026 enshrinements of Stoudemire and D’Antoni.
-- The feature thesis and existing audio remain accurate; the new research is presented as an added context layer in the written edition.
+- At that stage, the feature thesis remained accurate and the Hall context was added to the written edition without changing the narration.
+
+## Current-organization audio update — August 10, 2026
+
+- Verified Brian Gregory and Jordan Ott’s current roles and their completed first season together in those positions.
+- Confirmed the improvement from 36 wins to 45 and Phoenix’s return to the postseason.
+- Used public comments about alignment, stability, clearer principles, and foundation-building as evidence for the present-day bridge.
+- Framed the championship as the organizational standard and opportunity, not a guaranteed result.
+- Reworked the narration in the established Mel voice at approximately 143 words per minute and finished it as mono speech near the minus-16 LUFS web target.

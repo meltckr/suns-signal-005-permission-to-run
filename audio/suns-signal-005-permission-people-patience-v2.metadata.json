@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-10T22:03:38Z",
+  "title": "Suns Signal Weekly 005 — Permission, People, and Patience",
+  "voice_profile": "Mel AZ Feb 2026",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.77,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 0.79
+  },
+  "postprocess_tempo": 1.1,
+  "duration_seconds": 176.505,
+  "word_count": 420,
+  "estimated_delivery_wpm": 142.772,
+  "audio_finish": {
+    "channels": 1,
+    "bit_rate": 96000,
+    "integrated_lufs_target": -16,
+    "true_peak_db_target": -1.5
+  },
+  "sha256": "4ec2dd268d75db1f42ad98e1ea62fe41fc2692480e74c7dc49dc58f9aa1ac430"
+}
