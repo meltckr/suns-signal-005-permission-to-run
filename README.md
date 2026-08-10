@@ -1,6 +1,6 @@
-# Suns Signal Weekly 004 — Permission to Run
+# Suns Signal Weekly 005 — Permission to Run
 
-Issue 004 of Suns Signal Weekly, prepared for Mat Ishbia by Accelerated Velocity Consulting.
+Issue 005 of Suns Signal Weekly, prepared for Mat Ishbia by Accelerated Velocity Consulting.
 
 ## Editorial thesis
 
@@ -22,17 +22,17 @@ This edition preserves the approved Issue 003 architecture:
 
 ## Production URL
 
-`https://meltckr.github.io/suns-signal-004-permission-to-run/`
+`https://meltckr.github.io/suns-signal-005-permission-to-run/`
 
 ## Files
 
 - `index.html` — complete issue
 - `styles.css` — preserved design system plus reusable system-map components
 - `assets/permission-to-run-cover.png` — editorial hero art
-- `assets/og-suns-signal-004-permission-to-run-ai.png` — final generated social card
-- `assets/og-suns-signal-004-permission-to-run.png` — deterministic social-card fallback
+- `assets/og-suns-signal-005-permission-to-run-ai.png` — final generated social card
+- `assets/og-suns-signal-005-permission-to-run.png` — deterministic social-card fallback
 - `scripts/build_og_image.py` — deterministic hero/fallback social asset generator
-- `audio/suns-signal-004-permission-to-run-v1.mp3` — 2:44 ownership audio brief
+- `audio/suns-signal-005-permission-to-run-v1.mp3` — 2:44 ownership audio brief
 - `content/audio-brief-transcript.txt` — exact narration and accessible transcript source
 - `scripts/generate_signal_audio.mjs` — reusable secure narration and normalization script
 - `sources.md` — research and evidence ledger
@@ -51,6 +51,6 @@ The audio generator requires a valid `ELEVENLABS_API_KEY`, uses the approved AVC
 ```bash
 node scripts/generate_signal_audio.mjs \
   --input content/audio-brief-transcript.txt \
-  --output audio/suns-signal-004-permission-to-run-v1.mp3 \
-  --title "Suns Signal Weekly 004 — The Ownership Read"
+  --output audio/suns-signal-005-permission-to-run-v1.mp3 \
+  --title "Suns Signal Weekly 005 — The Ownership Read"
 ```

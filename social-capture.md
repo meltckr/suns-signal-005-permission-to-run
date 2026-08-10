@@ -1,4 +1,4 @@
-# Suns Signal Weekly 004 — Public Reaction Capture
+# Suns Signal Weekly 005 — Public Reaction Capture
 
 Capture window: August 8–9, 2026.
 

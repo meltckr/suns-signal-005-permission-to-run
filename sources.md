@@ -1,4 +1,4 @@
-# Suns Signal Weekly 004 — Source Notes
+# Suns Signal Weekly 005 — Source Notes
 
 Reporting cutoff: August 9, 2026, America/Phoenix.
 

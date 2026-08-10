@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 HERO_OUT = ASSETS / "permission-to-run-cover.png"
-OG_OUT = ASSETS / "og-suns-signal-004-permission-to-run.png"
+OG_OUT = ASSETS / "og-suns-signal-005-permission-to-run.png"
 
 FONT_REG = Path("/System/Library/Fonts/Supplemental/Arial.ttf")
 FONT_BOLD = Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf")
@@ -111,7 +111,7 @@ def build_og():
     regular = font(FONT_REG, 27)
     stat = font(FONT_BOLD, 42)
 
-    draw.text((68, 46), "SUNS SIGNAL WEEKLY 004", font=label, fill=(255, 255, 255, 248))
+    draw.text((68, 46), "SUNS SIGNAL WEEKLY 005", font=label, fill=(255, 255, 255, 248))
     draw.text((70, 84), "SUNDAY EDITION  |  AUGUST 9, 2026", font=tiny, fill=(241, 152, 67, 245))
     draw.text((68, 148), "Permission", font=display, fill=(255, 255, 255, 255))
     draw.text((68, 226), "to Run", font=display, fill=(255, 255, 255, 255))
