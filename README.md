@@ -6,6 +6,8 @@ Issue 005 of Suns Signal Weekly, prepared for Mat Ishbia by Accelerated Velocity
 
 Mike D’Antoni and Amar’e Stoudemire entering the Hall of Fame together is the occasion. The evidence is Phoenix’s 33-win jump from 29–53 to 62–20 and the 54-win adaptation that followed with Stoudemire available for only three games.
 
+The August 10 research update adds the Saturday, August 15 enshrinement schedule, the Hall’s full category counts, recent class-size context, the 2026 finalist funnel, and an audited count of Suns-connected Hall of Famers.
+
 The ownership thesis: innovation becomes durable when the organization aligns permission, people, and patience behind it.
 
 ## Project system
