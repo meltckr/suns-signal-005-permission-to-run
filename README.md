@@ -1,4 +1,4 @@
-# Suns Signal Weekly 005 — Permission to Run
+# Suns Signal Weekly 005 — Permission, People, and Patience
 
 Issue 005 of Suns Signal Weekly, prepared for Mat Ishbia by Accelerated Velocity Consulting.
 
@@ -28,15 +28,16 @@ This edition preserves the approved Issue 003 architecture:
 
 - `index.html` — complete issue
 - `styles.css` — preserved design system plus reusable system-map components
-- `assets/permission-to-run-cover.png` — editorial hero art
-- `assets/og-suns-signal-005-permission-to-run-ai.png` — final generated social card
-- `assets/og-suns-signal-005-permission-to-run.png` — deterministic social-card fallback
+- `assets/permission-people-patience-cover.png` — editorial hero art
+- `assets/og-suns-signal-005-permission-people-patience-ai.png` — final generated social card
+- `assets/og-suns-signal-005-permission-people-patience.png` — deterministic social-card fallback
 - `scripts/build_og_image.py` — deterministic hero/fallback social asset generator
-- `audio/suns-signal-005-permission-to-run-v1.mp3` — 2:44 ownership audio brief
+- `audio/suns-signal-005-permission-people-patience-v1.mp3` — 2:44 ownership audio brief
 - `content/audio-brief-transcript.txt` — exact narration and accessible transcript source
 - `scripts/generate_signal_audio.mjs` — reusable secure narration and normalization script
 - `sources.md` — research and evidence ledger
 - `social-capture.md` — reaction capture and interpretation notes
+- `imessage.txt` — ready-to-send delivery note
 
 ## Build visual assets
 
@@ -51,6 +52,6 @@ The audio generator requires a valid `ELEVENLABS_API_KEY`, uses the approved AVC
 ```bash
 node scripts/generate_signal_audio.mjs \
   --input content/audio-brief-transcript.txt \
-  --output audio/suns-signal-005-permission-to-run-v1.mp3 \
-  --title "Suns Signal Weekly 005 — The Ownership Read"
+  --output audio/suns-signal-005-permission-people-patience-v1.mp3 \
+  --title "Suns Signal Weekly 005 — Permission, People, and Patience"
 ```

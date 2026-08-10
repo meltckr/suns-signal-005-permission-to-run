@@ -3,8 +3,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
-HERO_OUT = ASSETS / "permission-to-run-cover.png"
-OG_OUT = ASSETS / "og-suns-signal-005-permission-to-run.png"
+HERO_OUT = ASSETS / "permission-people-patience-cover.png"
+OG_OUT = ASSETS / "og-suns-signal-005-permission-people-patience.png"
 
 FONT_REG = Path("/System/Library/Fonts/Supplemental/Arial.ttf")
 FONT_BOLD = Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf")
@@ -107,14 +107,15 @@ def build_og():
 
     label = font(FONT_BOLD, 25)
     tiny = font(FONT_BOLD, 18)
-    display = font(FONT_BOLD, 72)
+    display = font(FONT_BOLD, 52)
     regular = font(FONT_REG, 27)
     stat = font(FONT_BOLD, 42)
 
     draw.text((68, 46), "SUNS SIGNAL WEEKLY 005", font=label, fill=(255, 255, 255, 248))
     draw.text((70, 84), "SUNDAY EDITION  |  AUGUST 9, 2026", font=tiny, fill=(241, 152, 67, 245))
-    draw.text((68, 148), "Permission", font=display, fill=(255, 255, 255, 255))
-    draw.text((68, 226), "to Run", font=display, fill=(255, 255, 255, 255))
+    draw.text((68, 142), "Permission,", font=display, fill=(255, 255, 255, 255))
+    draw.text((68, 199), "People,", font=display, fill=(255, 255, 255, 255))
+    draw.text((68, 256), "and Patience", font=display, fill=(255, 255, 255, 255))
     draw.text((72, 334), "The 33-win jump—and the organization", font=regular, fill=(230, 234, 239, 238))
     draw.text((72, 372), "that turned an idea into an identity.", font=regular, fill=(230, 234, 239, 238))
     draw.text((72, 444), "29–53", font=stat, fill=(255, 255, 255, 205))
