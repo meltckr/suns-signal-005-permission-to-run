@@ -34,7 +34,7 @@ This edition preserves the approved Issue 003 architecture:
 - `assets/og-suns-signal-005-permission-people-patience-ai.png` — final generated social card
 - `assets/og-suns-signal-005-permission-people-patience.png` — deterministic social-card fallback
 - `scripts/build_og_image.py` — deterministic hero/fallback social asset generator
-- `audio/suns-signal-005-permission-people-patience-v1.mp3` — 2:44 ownership audio brief
+- `audio/suns-signal-005-permission-people-patience-v2.mp3` — 2:57 ownership audio brief connecting the historical lesson to the current Suns organization
 - `content/audio-brief-transcript.txt` — exact narration and accessible transcript source
 - `scripts/generate_signal_audio.mjs` — reusable secure narration and normalization script
 - `sources.md` — research and evidence ledger
@@ -54,6 +54,6 @@ The audio generator requires a valid `ELEVENLABS_API_KEY`, uses the approved AVC
 ```bash
 node scripts/generate_signal_audio.mjs \
   --input content/audio-brief-transcript.txt \
-  --output audio/suns-signal-005-permission-people-patience-v1.mp3 \
+  --output audio/suns-signal-005-permission-people-patience-v2.mp3 \
   --title "Suns Signal Weekly 005 — Permission, People, and Patience"
 ```
