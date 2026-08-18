@@ -1,0 +1,20 @@
+{
+  "title": "The Season Has Two Scoreboards",
+  "issue": "006",
+  "engine": "Chatterbox Turbo TTS",
+  "license": "MIT",
+  "voice_reference": "rock_voice_ref_authoritative.wav",
+  "voice_label": "Established Mel Tucker / Golden Thread open-source reference",
+  "duration_seconds": 156.259,
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "bitrate_kbps": 64,
+  "integrated_loudness_lufs": -16,
+  "true_peak_limit_dbfs": -1.5,
+  "tempo_rate": 1.08,
+  "sha256": "7f2fb7772be3c390cf3b47b5749e86b6b8c5b303dc577c52f7bdb879365653a0",
+  "bytes": 1250496,
+  "transcript": "../content/audio-brief-transcript.txt",
+  "generated": "2026-08-18T19:30:00-07:00",
+  "mobile_delivery_note": "64 kbps mono derivative from the -16 LUFS 96 kbps master; duration and narration unchanged."
+}
