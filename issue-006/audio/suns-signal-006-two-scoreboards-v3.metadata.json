@@ -1,0 +1,31 @@
+{
+  "title": "The Season Has Two Scoreboards",
+  "issue": "006",
+  "version": "v3",
+  "engine": "Chatterbox Turbo TTS",
+  "license": "MIT",
+  "generation_mode": "local_offline",
+  "voice_reference": "rock_voice_ref_authoritative.wav",
+  "voice_label": "Established Mel Tucker / Golden Thread authoritative open-source reference",
+  "source": "../content/audio-brief-transcript.txt",
+  "source_word_count": 400,
+  "delivery": {
+    "segmentation": "paragraph-aware sentence groups",
+    "chunk_count": 17,
+    "paragraph_count": 12,
+    "tempo_rate": 1,
+    "estimated_words_per_minute": 148.3
+  },
+  "duration_seconds": 161.81,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 128,
+  "integrated_loudness_lufs": -16,
+  "true_peak_dbtp": -2.9,
+  "mastering": "68 Hz high-pass; restrained low-mid reduction and presence lift; gentle leveling; oversampled soft peak control",
+  "browser_side_processing": false,
+  "sha256": "7c430a1ff7d3d4439dba5d98064b1a5ae31532f66131e876e9ac487f2cbc8ccc",
+  "bytes": 2590080,
+  "generated": "2026-08-18T15:40:27-07:00",
+  "release_note": "Replaced the prior audio source with a fresh authoritative-reference render, paragraph-aware natural pauses, and a complete file-level mobile master. No client-side gain, EQ, or compressor is used."
+}

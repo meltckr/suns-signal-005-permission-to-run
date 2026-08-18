@@ -10,7 +10,7 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Suns Signal">
   <meta property="article:published_time" content="2026-08-18T19:45:00-07:00">
-  <meta property="article:modified_time" content="2026-08-18T13:52:00-07:00">
+  <meta property="article:modified_time" content="2026-08-18T19:45:00-07:00">
   <meta property="og:title" content="Suns Signal Weekly 006: The Season Has Two Scoreboards">
   <meta property="og:description" content="Basketball progress and All-Star execution are different measures. In Phoenix, they will test the same operating standard.">
   <meta property="og:url" content="https://meltckr.github.io/suns-signal-005-permission-to-run/issue-006/">
@@ -25,7 +25,7 @@
   <meta name="twitter:description" content="Basketball progress and All-Star execution are different measures. In Phoenix, they will test the same operating standard.">
   <meta name="twitter:image" content="https://meltckr.github.io/suns-signal-005-permission-to-run/issue-006/assets/og-suns-signal-006-two-scoreboards-v1.png">
   <meta name="twitter:image:alt" content="Suns Signal Weekly 006 share card connecting basketball progress and All-Star organizational execution through one operating standard">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Season Has Two Scoreboards","datePublished":"2026-08-18T19:45:00-07:00","dateModified":"2026-08-18T13:52:00-07:00","author":{"@type":"Organization","name":"Accelerated Velocity Consulting"},"publisher":{"@type":"Organization","name":"Accelerated Velocity Consulting"},"image":["https://meltckr.github.io/suns-signal-005-permission-to-run/issue-006/assets/og-suns-signal-006-two-scoreboards-v1.png"],"mainEntityOfPage":"https://meltckr.github.io/suns-signal-005-permission-to-run/issue-006/"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Season Has Two Scoreboards","datePublished":"2026-08-18T19:45:00-07:00","dateModified":"2026-08-18T19:45:00-07:00","author":{"@type":"Organization","name":"Accelerated Velocity Consulting"},"publisher":{"@type":"Organization","name":"Accelerated Velocity Consulting"},"image":["https://meltckr.github.io/suns-signal-005-permission-to-run/issue-006/assets/og-suns-signal-006-two-scoreboards-v1.png"],"mainEntityOfPage":"https://meltckr.github.io/suns-signal-005-permission-to-run/issue-006/"}</script>
   <link rel="stylesheet" href="../styles.css?v=20260818-issue006">
   <link rel="stylesheet" href="styles.css?v=20260818-issue006">
 </head>
@@ -70,15 +70,15 @@
     <div class="audio-player">
       <div class="audio-copy">
         <span>Listen First</span>
-        <h2 id="audio-brief-title">Audio Brief <em>· The Ownership Read · 2:36</em></h2>
+        <h2 id="audio-brief-title">Audio Brief <em>· The Ownership Read · 2:42</em></h2>
       </div>
       <div class="audio-main">
         <button class="audio-button" type="button" data-audio-back aria-label="Back 15 seconds">−15</button>
         <button class="audio-button play" type="button" data-audio-play aria-label="Play the ownership audio brief">▶</button>
         <div class="audio-timeline">
           <span data-audio-current aria-live="off">0:00</span>
-          <input type="range" min="0" max="156.259" value="0" step="0.1" data-audio-range aria-label="Audio timeline">
-          <span data-audio-duration>2:36</span>
+          <input type="range" min="0" max="161.810" value="0" step="0.1" data-audio-range aria-label="Audio timeline">
+          <span data-audio-duration>2:42</span>
         </div>
         <button class="audio-button" type="button" data-audio-forward aria-label="Forward 15 seconds">+15</button>
       </div>
@@ -101,7 +101,7 @@
 <p>By Sunday night, the All-Star lights will come down. The more durable result will be the operating standard that remains.</p>
 <p>The season has two scoreboards. The strongest organizations do not choose between them. They use the second to reinforce the first.</p></div>
       </details>
-      <audio preload="metadata" data-audio src="audio/suns-signal-006-two-scoreboards-v2.mp3"></audio>
+      <audio preload="metadata" data-audio src="audio/suns-signal-006-two-scoreboards-v3.mp3"></audio>
     </div>
   </section>
 
@@ -265,31 +265,13 @@
  const root=document.querySelector('.signal-audio'); if(!root)return;
  const audio=root.querySelector('[data-audio]'),play=root.querySelector('[data-audio-play]'),back=root.querySelector('[data-audio-back]'),forward=root.querySelector('[data-audio-forward]'),range=root.querySelector('[data-audio-range]'),current=root.querySelector('[data-audio-current]'),duration=root.querySelector('[data-audio-duration]'),speed=root.querySelector('[data-audio-speed]'),note=root.querySelector('[data-audio-note]');
  const format=(v,round=false)=>{if(!Number.isFinite(v))return'0:00';const s=round?Math.round(v):Math.floor(v);return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;};
- let audioContext=null,audioChainReady=false;
- const enhanceAudio=async()=>{
-   const AudioContext=window.AudioContext||window.webkitAudioContext;
-   if(!AudioContext)return;
-   if(!audioChainReady){
-     audioContext=new AudioContext();
-     const source=audioContext.createMediaElementSource(audio);
-     const highpass=audioContext.createBiquadFilter(); highpass.type='highpass'; highpass.frequency.value=70; highpass.Q.value=.7;
-     const warmth=audioContext.createBiquadFilter(); warmth.type='peaking'; warmth.frequency.value=220; warmth.Q.value=.8; warmth.gain.value=-1.5;
-     const presence=audioContext.createBiquadFilter(); presence.type='peaking'; presence.frequency.value=3200; presence.Q.value=.9; presence.gain.value=2;
-     const clarity=audioContext.createBiquadFilter(); clarity.type='peaking'; clarity.frequency.value=6000; clarity.Q.value=1.2; clarity.gain.value=1;
-     const gain=audioContext.createGain(); gain.gain.value=3.35;
-     const peakControl=audioContext.createDynamicsCompressor(); peakControl.threshold.value=-3; peakControl.knee.value=3; peakControl.ratio.value=12; peakControl.attack.value=.003; peakControl.release.value=.18;
-     source.connect(highpass).connect(warmth).connect(presence).connect(clarity).connect(gain).connect(peakControl).connect(audioContext.destination);
-     audioChainReady=true; audio.dataset.enhanced='true';
-   }
-   if(audioContext.state==='suspended')await audioContext.resume();
- };
  const seek=v=>{const n=Math.max(0,Math.min(audio.duration||0,v));audio.currentTime=n;range.value=String(n);current.textContent=format(n);};
  const state=p=>{play.textContent=p?'Ⅱ':'▶';play.setAttribute('aria-label',p?'Pause the ownership audio brief':'Play the ownership audio brief');};
  audio.addEventListener('loadedmetadata',()=>{duration.textContent=format(audio.duration,true);range.max=String(audio.duration);});
  audio.addEventListener('timeupdate',()=>{current.textContent=format(audio.currentTime);range.value=String(audio.currentTime);});
  audio.addEventListener('play',()=>state(true));audio.addEventListener('pause',()=>state(false));audio.addEventListener('ended',()=>{audio.currentTime=0;state(false);});
  audio.addEventListener('error',()=>{[play,back,forward,range,speed].forEach(x=>x.disabled=true);note.textContent='The audio brief is temporarily unavailable. The exact transcript remains below.';});
- play.addEventListener('click',async()=>{if(audio.paused){try{await enhanceAudio();await audio.play();}catch{note.textContent='Playback did not start. Please try again or read the transcript below.';}}else audio.pause();});
+ play.addEventListener('click',()=>{if(audio.paused)audio.play().catch(()=>note.textContent='Playback did not start. Please try again or read the transcript below.');else audio.pause();});
  back.addEventListener('click',()=>seek(audio.currentTime-15));forward.addEventListener('click',()=>seek(audio.currentTime+15));range.addEventListener('input',()=>seek(Number(range.value)));speed.addEventListener('change',()=>audio.playbackRate=Number(speed.value));
 })();
 </script>
