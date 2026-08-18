@@ -10,7 +10,7 @@ This edition preserves the Issue 005 static architecture, responsive system, aud
 
 - `index.html` — client page
 - `styles.css` — issue-specific additions over the shared root stylesheet
-- `audio/suns-signal-006-two-scoreboards-v2.mp3` — higher-quality open-source Chatterbox Turbo master with restrained phone-playback processing
+- `audio/suns-signal-006-two-scoreboards-v3.mp3` — freshly generated Golden Thread voice master with paragraph-aware pacing and file-level mobile mastering
 - `content/audio-brief-transcript.txt` — exact narration transcript
 - `assets/og-suns-signal-006-two-scoreboards-v1.png` — 1200x630 RGB share card
 - `sources.md` — reporting ledger and calculated facts
@@ -20,7 +20,7 @@ This edition preserves the Issue 005 static architecture, responsive system, aud
 ## Release checks
 
 - Verify the canonical URL, title, Issue 006 label, date, and absolute OG metadata.
-- Verify the v2 audio master loads, the playback enhancement initializes, and the controls function.
+- Verify the v3 file-level master loads directly, the duration resolves to 2:42, and all controls function without browser-side processing.
 - Verify the OG image returns 1200x630 RGB and is edition-specific.
 - Verify schedule, All-Star, Cup, team, and injury-report sources immediately before deployment.
 - Verify mobile and desktop layouts after GitHub Pages publishes.
