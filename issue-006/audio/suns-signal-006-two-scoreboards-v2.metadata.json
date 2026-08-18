@@ -1,0 +1,28 @@
+{
+  "title": "The Season Has Two Scoreboards",
+  "issue": "006",
+  "version": "v2",
+  "engine": "Chatterbox Turbo TTS",
+  "license": "MIT",
+  "voice_reference": "rock_voice_ref_authoritative.wav",
+  "voice_label": "Established Mel Tucker / Golden Thread open-source reference",
+  "duration_seconds": 156.259,
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "bitrate_kbps": 96,
+  "file_integrated_loudness_lufs": -26.8,
+  "playback_processing": {
+    "target_phone_loudness_lufs": -16.3,
+    "gain_db": 10.5,
+    "highpass_hz": 70,
+    "presence_eq": "-1.5 dB at 220 Hz; +2 dB at 3.2 kHz; +1 dB at 6 kHz",
+    "peak_control": "-3 dB threshold, 12:1 ratio, 3 ms attack, 180 ms release"
+  },
+  "source_sha256": "52ef0ac9df3d20a23cc0ce840bd90ff95e338186e2d23fd5b59fa41b80cb845b",
+  "sha256": "52ef0ac9df3d20a23cc0ce840bd90ff95e338186e2d23fd5b59fa41b80cb845b",
+  "bytes": 1875456,
+  "transcript": "../content/audio-brief-transcript.txt",
+  "generated": "2026-08-18T19:30:00-07:00",
+  "remastered": "2026-08-18T13:52:00-07:00",
+  "release_note": "Replaced the 64 kbps mobile derivative with the 96 kbps master and added restrained same-origin Web Audio presence, gain, and peak control for clearer phone playback."
+}
