@@ -6,7 +6,7 @@
 - Updated: August 20, 2026
 - Feature-source window: July 18–August 20, 2026
 - Weekly reporting window: August 13–20, 2026
-- Reporting cutoff: August 20, 2026, 12:52 p.m. MST
+- Reporting cutoff: August 20, 2026, 1:06 p.m. MST
 - Audience: Phoenix Suns ownership
 - Status language: team and NBA releases are labeled **Official**; credible transaction reporting that was not official at the cutoff is labeled **Reported**; analysis and public reaction are identified as external or directional.
 
@@ -24,19 +24,21 @@
 10. [NBA — reported Dillon Brooks extension](https://www.nba.com/news/dillon-brooks-suns-extension) — Reported; no team announcement was located at the cutoff.
 11. [NBA — Dillon Brooks next-level analysis](https://www.nba.com/news/dillon-brooks-next-level-phoenix-suns) — External analysis published August 18.
 12. [NBA — official 2026–27 schedule](https://cdn.nba.com/manage/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf) — Official schedule; the nine Phoenix national windows are an AVC count.
-13. [Bright Side of the Sun — Bridges community poll and discussion](https://www.brightsideofthesun.com/suns-analysis/107153/miles-bridges-trade-basketball-fit-culture-moral-debate) — Directional, self-selected community sentiment; not representative polling.
-14. [r/suns — Gillespie reaction thread](https://www.reddit.com/r/suns/comments/1ub99kt/gillespie_intends_to_sign_448m_to_stay/) — Directional, self-selected community reaction.
-15. [r/suns — Williams reaction thread](https://www.reddit.com/r/suns/comments/1ufqqct/charania_restricted_free_agent_mark_williams/) — Directional, self-selected community reaction.
-16. [Yahoo/HoopsHype — reported Highsmith one-year return](https://uk.sports.yahoo.com/news/haywood-highsmith-sign-phoenix-suns-150132153.html) — Reported through ESPN’s Shams Charania and Highsmith’s agent; no team announcement was located at the cutoff.
-17. [r/suns — Highsmith reaction thread](https://www.reddit.com/r/suns/comments/1vquo1s/charania_free_agent_f_haywood_highsmith_has/) — Directional, self-selected community reaction.
+13. [NBA — official 2026 offseason trade tracker, including the Koa Peat draft-night exchange](https://www.nba.com/news/2026-offseason-trade-tracker) — Official.
+14. [Bright Side of the Sun — Bridges community poll and discussion](https://www.brightsideofthesun.com/suns-analysis/107153/miles-bridges-trade-basketball-fit-culture-moral-debate) — Directional, self-selected community sentiment; not representative polling.
+15. [r/suns — Gillespie reaction thread](https://www.reddit.com/r/suns/comments/1ub99kt/gillespie_intends_to_sign_448m_to_stay/) — Directional, self-selected community reaction.
+16. [r/suns — Williams reaction thread](https://www.reddit.com/r/suns/comments/1ufqqct/charania_restricted_free_agent_mark_williams/) — Directional, self-selected community reaction.
+17. [Yahoo/HoopsHype — reported Highsmith one-year return](https://uk.sports.yahoo.com/news/haywood-highsmith-sign-phoenix-suns-150132153.html) — Reported through ESPN’s Shams Charania and Highsmith’s agent; no team announcement was located at the cutoff.
+18. [r/suns — Highsmith reaction thread](https://www.reddit.com/r/suns/comments/1vquo1s/charania_free_agent_f_haywood_highsmith_has/) — Directional, self-selected community reaction.
 
 ## Weekly pulse and league scan
 
-18. [Associated Press — reported $12.5 billion Lakers controlling-stake agreement](https://apnews.com/article/d5058bb845d87873e23e270a6bb9be9f) — Reported; NBA approval still required at the cutoff.
-19. [Associated Press — Jeanie Buss governance challenge involving the family trust’s remaining 17.8 percent](https://apnews.com/article/8ff70d314cfebcb8ca6b2cc7ac3754f6) — Reported.
-20. [Associated Press — reported four-team Peyton Watson sign-and-trade](https://apnews.com/article/watson-strus-trade-cavaliers-nuggets-wizards-clippers-d4eda017c31dd532c0bfbef492309ee8) — Reported; not officially announced at the cutoff.
-21. [Associated Press — reported James Harden agreement with Cleveland](https://apnews.com/article/cavaliers-harden-66aa7eed5ec93b34569141adea2fbf7b) — Reported; not officially announced at the cutoff.
-22. [NBA Official — injury-report publication system](https://official.nba.com/nba-injury-report-2025-26-season/) — Official; no game-specific report is applicable in the offseason.
+19. [Associated Press — reported $12.5 billion Lakers controlling-stake agreement](https://apnews.com/article/d5058bb845d87873e23e270a6bb9be9f) — Reported; NBA approval still required at the cutoff.
+20. [Associated Press — Jeanie Buss governance challenge involving the family trust’s remaining 17.8 percent](https://apnews.com/article/8ff70d314cfebcb8ca6b2cc7ac3754f6) — Reported.
+21. [NBA.com — reported five-team Peyton Watson sign-and-trade](https://www.nba.com/news/peyton-watson-trade-cavaliers) — Reported; the initial framework expanded to include Charlotte and Washington and had not been officially announced at the cutoff.
+22. [Associated Press — initial four-team Peyton Watson framework](https://apnews.com/article/watson-strus-trade-cavaliers-nuggets-wizards-clippers-d4eda017c31dd532c0bfbef492309ee8) — Initial reported framework; superseded in structure by the later five-team report.
+23. [Associated Press — reported James Harden agreement with Cleveland](https://apnews.com/article/cavaliers-harden-66aa7eed5ec93b34569141adea2fbf7b) — Reported; not officially announced at the cutoff.
+24. [NBA Official — injury-report publication system](https://official.nba.com/nba-injury-report-2025-26-season/) — Official; no game-specific report is applicable in the offseason.
 
 ## Editorial discipline
 

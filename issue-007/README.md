@@ -7,7 +7,7 @@ A private, mobile-first Phoenix Suns ownership brief prepared by Accelerated Vel
 - Published: August 19, 2026
 - Updated: August 20, 2026
 - Weekly reporting window: August 13–20, 2026
-- Reporting cutoff: August 20, 2026, 12:52 p.m. MST
+- Reporting cutoff: August 20, 2026, 1:06 p.m. MST
 - Feature: how Phoenix’s offseason was received, where the external case converged, and which evidence matters next
 - Audio: approximately 2:10, narrated in the approved Mel AVC voice and delivered through the standard Mel audio module
 - Share card: 1200 × 630 issue-specific RGB PNG
