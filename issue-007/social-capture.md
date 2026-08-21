@@ -6,15 +6,15 @@
 - Series: **Suns Signal Weekly**
 - Issue: **007**
 - Credit: **Prepared by Accelerated Velocity Consulting**
-- Image: `assets/og-suns-signal-007-stronger-position-v2.png`
+- Image: `assets/og-suns-signal-007-stronger-position-v3.png`
 - Dimensions: **1200 × 630**
 - Format: **PNG**
-- Alt text: **Suns Signal Weekly Issue 007 share card featuring Stronger Position and a three-to-one early-assessment graphic.**
+- Alt text: **Suns Signal Weekly Issue 007 share card reading Stronger Position, with three early grades and one big bet.**
 
 ## Metadata copy
 
 - OG title: **Suns Signal 007 | What the Summer Built**
-- OG description: **Three early reads found broad value. One consequential bet carries the proof.**
+- OG description: **Three early grades found broad value. One consequential bet carries the proof.**
 - Canonical URL: **https://meltckr.github.io/suns-signal-005-permission-to-run/issue-007/**
 
 ## iMessage preview check
