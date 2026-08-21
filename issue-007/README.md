@@ -19,7 +19,7 @@ A private, mobile-first Phoenix Suns ownership brief prepared by Accelerated Vel
 - `content/audio-brief-transcript.txt` — exact narration transcript, ending with `Much love, my brother, dominate!`
 - `audio/suns-signal-007-what-the-summer-built-mel-avc-v3.mp3` — mastered audio brief
 - `audio/suns-signal-007-what-the-summer-built-mel-avc-v3.metadata.json` — transcript/audio integrity manifest
-- `assets/og-suns-signal-007-stronger-position-v2.png` — social share card
+- `assets/og-suns-signal-007-stronger-position-v3.png` — social share card
 - `imessage.txt` — ready-to-send client note
 - `sources.md` — research ledger and status discipline
 - `social-capture.md` — share-package specification

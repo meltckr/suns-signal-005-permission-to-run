@@ -15,3 +15,7 @@ python3 scripts/validate_weekly_structure.py issue-<n>/index.html
 ```
 
 The release is not complete until the final ten seconds have been checked for the full spoken sign-off.
+
+## Audio player label
+
+Use `eyebrow="Listen"` as the visible label for narrated Suns Signal players. Do not use `Mel Tucker audio` as visible interface copy.
