@@ -1,0 +1,17 @@
+{
+  "issue": "007",
+  "title": "What the Summer Built",
+  "audio_file": "audio/suns-signal-007-what-the-summer-built-mel-avc-v3.mp3",
+  "duration_seconds": 133.160249,
+  "sample_rate_hz": 44100,
+  "channels": 1,
+  "bit_rate_bps": 128000,
+  "sha256": "359e1889dc12e1b6ac824bffec350b521270fa81074684d98cdc6bac45914590",
+  "peak_dbfs": -2.2428126226569898,
+  "rms_dbfs": -17.11702102957685,
+  "transcript_file": "content/audio-brief-transcript.txt",
+  "transcript_sha256": "4ac4a595f24067e5d0f1b3998bff07d14c79015075ec51213c0a91ac2ca153f0",
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "generated_at": "2026-08-20T14:24:00-07:00"
+}
