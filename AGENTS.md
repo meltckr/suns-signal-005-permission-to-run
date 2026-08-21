@@ -19,3 +19,9 @@ The release is not complete until the final ten seconds have been checked for th
 ## Audio player label
 
 Use `eyebrow="Listen"` as the visible label for narrated Suns Signal players. Do not use `Mel Tucker audio` as visible interface copy.
+
+## Required client iMessage
+
+Every published Suns Signal issue must include a ready-to-send `issue-<n>/imessage.txt`. Lead with an evidence-supported, positive and encouraging takeaway before describing uncertainty or risk. Briefly explain what the edition contains, including the central ownership pattern, timely Suns updates, directional sentiment when present, the Around The League scan, and the audio brief when present. Include the clean permanent public URL.
+
+Keep the note warm, concise, supportive without becoming sycophantic, and accurate about `Official`, `Reported`, analysis, and directional sentiment. Avoid first-person framing unless Mel explicitly requests it. Draft the message for Mel to send; never send it automatically.
