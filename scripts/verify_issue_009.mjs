@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+const dir=path.resolve('issue-009');
+const html=fs.readFileSync(path.join(dir,'index.html'),'utf8');
+const origin='https://meltckr.github.io/suns-signal-005-permission-to-run/issue-009/';
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g)){if(!/^https?:/.test(m[1]))assert(fs.existsSync(path.resolve(dir,m[1].split('?')[0])),`Missing ${m[1]}`)}
+for(const m of html.matchAll(/<time datetime="([^"]+)"/g))assert(m[1]>='2026-08-31'&&m[1]<='2026-09-13',`Stale date ${m[1]}`);
+for(const key of ['og:type','og:site_name','og:title','og:description','og:url','og:image','og:image:secure_url','og:image:type','og:image:width','og:image:height','og:image:alt','twitter:card','twitter:title','twitter:description','twitter:image'])assert(html.includes(`="${key}"`),key);
+assert(html.includes(`rel="canonical" href="${origin}"`));
+assert(html.includes('eyebrow="Listen"'));
+assert(!/Issue 00[5-8]|What the Summer Built|All-Star|Matt Ishbia|netlify\.app/.test(html));
+const audio=path.join(dir,'audio/suns-signal-009-next-step-arizona-v12-v1.mp3');
+const m=JSON.parse(fs.readFileSync(audio.replace('.mp3','.metadata.json')));
+assert.equal(m.sha256,hash(audio));assert.equal(m.transcript_sha256,hash(path.join(dir,'content/audio-brief-transcript.txt')));
+assert.equal(m.voice,'AVC Arizona Voice v12');assert.equal(m.closing_verified,true);assert(m.true_peak_dbtp<=-1.5);assert(m.integrated_lufs>=-17&&m.integrated_lufs<=-15);
+const png=fs.readFileSync(path.join(dir,'assets/og-suns-signal-009-next-step-v1.png'));assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
+assert(fs.readFileSync(path.join(dir,'imessage.txt'),'utf8').includes(origin));
+assert.equal(new Date('2026-09-28T12:00:00Z').getUTCDay(),1);assert.equal(new Date('2026-09-29T12:00:00Z').getUTCDay(),2);
+console.log('PASS: Issue 009 local assets, dates, metadata, voice identity, hashes, loudness, signoff and PNG dimensions. Listening approval remains separate.');

@@ -1,0 +1,164 @@
+{
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "a44a66ea7502a377f4db51bb3bed35db893aa289f5e0a57953432b714a9b9d3a",
+  "transcript_sha256": "7aae693bfe2c5b06e86fe34a9394d038d5827b353308927aa9c56d0b5a67587d",
+  "duration_seconds": 142.030458,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "integrated_lufs": -16.61,
+  "true_peak_dbtp": -2.1,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "verification_method": "Complete delivered MP3 transcribed with local Whisper large-v3-turbo; closing recognized as Much love, my brother. Dominate. Browser playback reached the end without media error. This is technical verification, not perceptual approval.",
+  "transcript_screen": "Full sequence recognized, including calendar dates and numerical claims. ASR variants include Mat/Matt, Khaman Maluach/Kamal Malouak, Duane/Dwayne and clearer/clear; exact pronunciation requires listening review.",
+  "listening_review": "pending; technical checks do not establish perceptual approval",
+  "tempo_multiplier": 1.0804674652777777,
+  "word_count": 400,
+  "words_per_minute": 168.9778399503577,
+  "assembly": "120ms protected quiet tails, 250ms final tail, 20ms fade inside quiet tail, 80ms lead; natural pauses retained",
+  "source_tail_checks": [
+    {
+      "sentence": 0,
+      "source_tail_ms": 339.08
+    },
+    {
+      "sentence": 1,
+      "source_tail_ms": 419.17
+    },
+    {
+      "sentence": 2,
+      "source_tail_ms": 450.5
+    },
+    {
+      "sentence": 3,
+      "source_tail_ms": 76.08
+    },
+    {
+      "sentence": 4,
+      "source_tail_ms": 418.0
+    },
+    {
+      "sentence": 5,
+      "source_tail_ms": 435.04
+    },
+    {
+      "sentence": 6,
+      "source_tail_ms": 267.5
+    },
+    {
+      "sentence": 7,
+      "source_tail_ms": 379.79
+    },
+    {
+      "sentence": 8,
+      "source_tail_ms": 307.83
+    },
+    {
+      "sentence": 9,
+      "source_tail_ms": 358.88
+    },
+    {
+      "sentence": 10,
+      "source_tail_ms": 59.67
+    },
+    {
+      "sentence": 11,
+      "source_tail_ms": 352.04
+    },
+    {
+      "sentence": 12,
+      "source_tail_ms": 5.04
+    },
+    {
+      "sentence": 13,
+      "source_tail_ms": 379.42
+    },
+    {
+      "sentence": 14,
+      "source_tail_ms": 21.0
+    },
+    {
+      "sentence": 15,
+      "source_tail_ms": 391.83
+    },
+    {
+      "sentence": 16,
+      "source_tail_ms": 52.83
+    },
+    {
+      "sentence": 17,
+      "source_tail_ms": 112.92
+    },
+    {
+      "sentence": 18,
+      "source_tail_ms": 376.04
+    },
+    {
+      "sentence": 19,
+      "source_tail_ms": 326.75
+    },
+    {
+      "sentence": 20,
+      "source_tail_ms": 41.04
+    },
+    {
+      "sentence": 21,
+      "source_tail_ms": 457.96
+    },
+    {
+      "sentence": 22,
+      "source_tail_ms": 471.62
+    },
+    {
+      "sentence": 23,
+      "source_tail_ms": 565.67
+    },
+    {
+      "sentence": 24,
+      "source_tail_ms": 462.62
+    },
+    {
+      "sentence": 25,
+      "source_tail_ms": 317.96
+    },
+    {
+      "sentence": 26,
+      "source_tail_ms": 372.54
+    },
+    {
+      "sentence": 27,
+      "source_tail_ms": 371.79
+    },
+    {
+      "sentence": 28,
+      "source_tail_ms": 126.87
+    },
+    {
+      "sentence": 29,
+      "source_tail_ms": 445.5
+    },
+    {
+      "sentence": 30,
+      "source_tail_ms": 86.46
+    },
+    {
+      "sentence": 31,
+      "source_tail_ms": 90.75
+    },
+    {
+      "sentence": 32,
+      "source_tail_ms": 102.46
+    },
+    {
+      "sentence": 33,
+      "source_tail_ms": 294.12
+    },
+    {
+      "sentence": 34,
+      "source_tail_ms": 674.04
+    }
+  ]
+}
