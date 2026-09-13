@@ -10,6 +10,8 @@ Audio: approved AVC Arizona Voice v12, using the Standard 004 clean-opening-and-
 
 Share card: deterministic SVG source and 1200×630 PNG, unique Issue 009 filename. Public facts only; no confidential information or private voice reference assets.
 
+September 13 review revision: five sourced cards in each weekly scan; v2 audio replaces v1 in the player without deleting the original. Version 2 uses a pronunciation alias for Khaman Maluach and regenerates 13 sentences, removing temporary spoken context only inside measured quiet pauses. The written audio brief stays unchanged and is a summary, not a reading of every scan card. See `validation.md` for the technical results and remaining listening approval.
+
 Run `python3 scripts/validate_weekly_structure.py issue-009/index.html` from the repository root. Do not treat a pass as fact verification or perceptual listening approval. See `sources.md` and `validation.md` for those separate gates.
 
 `imessage.txt` is drafted for Mel to send. Do not send automatically.

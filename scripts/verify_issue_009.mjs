@@ -12,10 +12,18 @@ for(const key of ['og:type','og:site_name','og:title','og:description','og:url',
 assert(html.includes(`rel="canonical" href="${origin}"`));
 assert(html.includes('eyebrow="Listen"'));
 assert(!/Issue 00[5-8]|What the Summer Built|All-Star|Matt Ishbia|netlify\.app/.test(html));
-const audio=path.join(dir,'audio/suns-signal-009-next-step-arizona-v12-v1.mp3');
+for(const id of ['suns-pulse','league']) {
+ const section=html.match(new RegExp(`<section id="${id}"[\\s\\S]*?</section>`))[0];
+ assert.equal((section.match(/<article>/g)||[]).length,5,`${id}: five sourced cards required`);
+}
+const audio=path.join(dir,html.match(/<mel-audio-player src="([^"]+)"/)[1]);
 const m=JSON.parse(fs.readFileSync(audio.replace('.mp3','.metadata.json')));
 assert.equal(m.sha256,hash(audio));assert.equal(m.transcript_sha256,hash(path.join(dir,'content/audio-brief-transcript.txt')));
 assert.equal(m.voice,'AVC Arizona Voice v12');assert.equal(m.closing_verified,true);assert(m.true_peak_dbtp<=-1.5);assert(m.integrated_lufs>=-17&&m.integrated_lufs<=-15);
+const repaired=m.source_tail_checks.filter(c=>c.regenerated);
+assert.equal(repaired.length,13);
+for(const c of repaired){assert(c.quiet_run_ms>=100,`No safe pause at sentence ${c.sentence}`);assert(c.cut_seconds>c.content_end_seconds);assert(c.cut_amplitude<=.001);}
+assert.equal(m.pronunciation_alias['Khaman Maluach'],'Kah-mahn Mah-loo-watch');
 const png=fs.readFileSync(path.join(dir,'assets/og-suns-signal-009-next-step-v1.png'));assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 assert(fs.readFileSync(path.join(dir,'imessage.txt'),'utf8').includes(origin));
 assert.equal(new Date('2026-09-28T12:00:00Z').getUTCDay(),1);assert.equal(new Date('2026-09-29T12:00:00Z').getUTCDay(),2);

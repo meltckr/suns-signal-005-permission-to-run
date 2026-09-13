@@ -10,7 +10,17 @@
 - Automated transcription: complete sequence and exact closing words recognized. Names produced spelling variants; minor wording variants remain for listening review. Source sentences with short tails were checked against full-file recognition; recognition does not prove consonant naturalness.
 - Share card: visually inspected; 1200×630 RGB PNG, versioned filename, central safe margins, correct issue/date/calendar and absolute OG/Twitter URLs.
 
-## Required local commands
+## September 13 review corrections — v2
+
+- Supersedes v1's tail-protection assurance: adding silence after a short source clip did not establish that the spoken word itself was complete. Mel reported clipped endings and incorrect Maluach pronunciation.
+- Regenerated 13 source sentences, including both name mentions, with additional spoken context. Removed that context only inside measured quiet gaps of 132–537ms after recognized final words. Rejected and regenerated one replacement without a safe gap. Retained the other 22 original source WAVs in full; no trimming or fading of their speech, no overlapping joins. Added 180ms quiet buffer per sentence.
+- Spoken name alias: Kah-mahn Mah-loo-watch; visible transcript unchanged. The delivered surname now transcribes with a watch ending. Full-file ASR preserves the content sequence and closing but has name/contraction variants and an apparent extra “Next” near “context”; exact diction still needs Mel's listening review. Do not treat transcription as a perceptual pass.
+- Versioned v2 MP3: 149.954 seconds, 24kHz mono, 160kbps, −16.55 LUFS dual-mono, −2.12 dBTP. Original v1 preserved. Full spoken closing recognized. Local player checked through its last 15 seconds to completion without a media error.
+- Five sourced cards in Suns Weekly Pulse and five in Around The League. Current event listing is distinguished from a newly dated announcement; new social observations remain self-selected and nonrepresentative. Added source-ledger and iMessage details; audio stays a concise summary rather than reading all ten cards.
+- 390×844 and 1280×800 checks: no horizontal overflow; ten cards present. Existing styles, shared audio player, main feature, transcript and OG image unchanged.
+- Issue validator now resolves the player’s actual audio source and checks five cards per scan, pronunciation alias and measured quiet-gap records. Required closing gate initially failed before completion verification and was retained, not bypassed.
+
+## Required local commands (current)
 
 ```sh
 python3 scripts/validate_weekly_structure.py issue-009/index.html

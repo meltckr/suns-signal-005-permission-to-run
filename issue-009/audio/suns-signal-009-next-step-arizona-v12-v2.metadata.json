@@ -1,0 +1,246 @@
+{
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "63651e20b053621c2055cd57e0b2d5184089ac9f6b2bb61c6b8a6b2ebf59612e",
+  "transcript_sha256": "7aae693bfe2c5b06e86fe34a9394d038d5827b353308927aa9c56d0b5a67587d",
+  "duration_seconds": 149.954042,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "integrated_lufs": -16.55,
+  "true_peak_dbtp": -2.12,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "verification_method": "Complete delivered MP3 transcribed with local Whisper large-v3-turbo; closing recognized as Much love, my brother. Dominate. Browser playback reached the end without media error. This is technical verification, not perceptual approval.",
+  "transcript_screen": "Delivered v2 full-file ASR recognized the complete sequence, dates, numerical claims and closing. The surname now transcribes with a watch ending (Malouwatch). Proper-name spelling, contractions and an apparent extra Next near context remain ASR uncertainties for listening review. No full temporary guard sentence was recognized. ASR is not proof of exact diction.",
+  "listening_review": "pending Mel review; ASR and quiet-gap analysis are technical checks only",
+  "tempo_multiplier": 1.0804674652777777,
+  "word_count": 400,
+  "words_per_minute": 160.04903689091623,
+  "assembly": "13 sentences regenerated with trailing spoken context; context removed only inside measured quiet gap. Other 22 source sentences retained in full. 180ms extra buffer per sentence; no speech fades or overlapping joins.",
+  "source_tail_checks": [
+    {
+      "sentence": 0,
+      "regenerated": false
+    },
+    {
+      "sentence": 1,
+      "regenerated": false
+    },
+    {
+      "sentence": 2,
+      "regenerated": true,
+      "recognized_final_word": "contributor.",
+      "content_end_seconds": 6.68,
+      "guard_start_seconds": 7.2,
+      "quiet_run_ms": 413.75,
+      "cut_seconds": 7.033125,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 3,
+      "regenerated": true,
+      "recognized_final_word": "surgery.",
+      "content_end_seconds": 4.56,
+      "guard_start_seconds": 4.98,
+      "quiet_run_ms": 400.125,
+      "cut_seconds": 4.808,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 4,
+      "regenerated": false
+    },
+    {
+      "sentence": 5,
+      "regenerated": false
+    },
+    {
+      "sentence": 6,
+      "regenerated": false
+    },
+    {
+      "sentence": 7,
+      "regenerated": false
+    },
+    {
+      "sentence": 8,
+      "regenerated": false
+    },
+    {
+      "sentence": 9,
+      "regenerated": true,
+      "recognized_final_word": "interest.",
+      "content_end_seconds": 3.42,
+      "guard_start_seconds": 4.04,
+      "quiet_run_ms": 537.4583333333334,
+      "cut_seconds": 3.7768333333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 10,
+      "regenerated": true,
+      "recognized_final_word": "rebounds.",
+      "content_end_seconds": 3.54,
+      "guard_start_seconds": 3.88,
+      "quiet_run_ms": 333.29166666666663,
+      "cut_seconds": 3.7533333333333334,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 11,
+      "regenerated": false
+    },
+    {
+      "sentence": 12,
+      "regenerated": true,
+      "recognized_final_word": "season.",
+      "content_end_seconds": 3.5,
+      "guard_start_seconds": 3.76,
+      "quiet_run_ms": 238.04166666666669,
+      "cut_seconds": 3.6809583333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 13,
+      "regenerated": false
+    },
+    {
+      "sentence": 14,
+      "regenerated": true,
+      "recognized_final_word": "change,",
+      "content_end_seconds": 6.1,
+      "guard_start_seconds": 6.6,
+      "quiet_run_ms": 385.5833333333333,
+      "cut_seconds": 6.354208333333333,
+      "cut_amplitude": 6.103515625e-05
+    },
+    {
+      "sentence": 15,
+      "regenerated": false
+    },
+    {
+      "sentence": 16,
+      "regenerated": true,
+      "recognized_final_word": "visible.",
+      "content_end_seconds": 2.04,
+      "guard_start_seconds": 2.66,
+      "quiet_run_ms": 465.4583333333333,
+      "cut_seconds": 2.4202916666666665,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 17,
+      "regenerated": true,
+      "recognized_final_word": "too.",
+      "content_end_seconds": 3.48,
+      "guard_start_seconds": 3.88,
+      "quiet_run_ms": 308.83333333333337,
+      "cut_seconds": 3.74325,
+      "cut_amplitude": 9.1552734375e-05
+    },
+    {
+      "sentence": 18,
+      "regenerated": false
+    },
+    {
+      "sentence": 19,
+      "regenerated": false
+    },
+    {
+      "sentence": 20,
+      "regenerated": true,
+      "recognized_final_word": "base.",
+      "content_end_seconds": 4.76,
+      "guard_start_seconds": 5.22,
+      "quiet_run_ms": 411.7916666666667,
+      "cut_seconds": 5.054083333333334,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 21,
+      "regenerated": false
+    },
+    {
+      "sentence": 22,
+      "regenerated": false
+    },
+    {
+      "sentence": 23,
+      "regenerated": false
+    },
+    {
+      "sentence": 24,
+      "regenerated": false
+    },
+    {
+      "sentence": 25,
+      "regenerated": false
+    },
+    {
+      "sentence": 26,
+      "regenerated": false
+    },
+    {
+      "sentence": 27,
+      "regenerated": false
+    },
+    {
+      "sentence": 28,
+      "regenerated": true,
+      "recognized_final_word": "making.",
+      "content_end_seconds": 6.08,
+      "guard_start_seconds": 6.42,
+      "quiet_run_ms": 221.75,
+      "cut_seconds": 6.349125,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 29,
+      "regenerated": false
+    },
+    {
+      "sentence": 30,
+      "regenerated": true,
+      "recognized_final_word": "release.",
+      "content_end_seconds": 8.78,
+      "guard_start_seconds": 9.1,
+      "quiet_run_ms": 278.9583333333333,
+      "cut_seconds": 9.000458333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 31,
+      "regenerated": true,
+      "recognized_final_word": "players.",
+      "content_end_seconds": 4.16,
+      "guard_start_seconds": 4.56,
+      "quiet_run_ms": 339.91666666666663,
+      "cut_seconds": 4.3741666666666665,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 32,
+      "regenerated": true,
+      "recognized_final_word": "honest.",
+      "content_end_seconds": 4.08,
+      "guard_start_seconds": 4.42,
+      "quiet_run_ms": 132.41666666666666,
+      "cut_seconds": 4.393791666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 33,
+      "regenerated": false
+    },
+    {
+      "sentence": 34,
+      "regenerated": false
+    }
+  ],
+  "pronunciation_alias": {
+    "Khaman Maluach": "Kah-mahn Mah-loo-watch",
+    "Maluach\u2019s": "Mah-loo-watch\u2019s"
+  }
+}
