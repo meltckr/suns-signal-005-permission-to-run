@@ -1,0 +1,68 @@
+/* Selected three-week calendar. All selectors are confined to the Calendar view. */
+#calendar .calendar-board { margin:28px 0 30px; padding:22px 24px 16px; color:#e9eef4; background:linear-gradient(135deg,#1b2636,#111a29); border:1px solid #445166; border-radius:14px; box-shadow:0 14px 28px #11182718,inset 0 1px #ffffff12; }
+#calendar .calendar-heading { display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:20px; }
+#calendar .calendar-heading > span { font-size:9px; color:#dcb28d; text-transform:uppercase; letter-spacing:.15em; font-weight:750; }
+#calendar .calendar-heading strong { font-size:18px; font-weight:650; letter-spacing:-.025em; }
+#calendar .calendar-heading small { font-size:12px; color:#b8c5d6; margin-left:8px; }
+#calendar .calendar-table { width:100%; table-layout:fixed; border-collapse:separate; border-spacing:3px; }
+#calendar .calendar-table th { padding:0 0 9px 10px; text-align:left; color:#b8c5d6; font-size:10px; text-transform:uppercase; font-weight:600; letter-spacing:.06em; }
+#calendar .calendar-table td { height:96px; padding:10px 9px; vertical-align:top; background:#ffffff05; border:1px solid #ffffff0b; border-radius:5px; }
+#calendar .calendar-number { display:block; font-size:19px; font-variant-numeric:tabular-nums; line-height:1; color:#c5cfdd; margin-bottom:9px; }
+#calendar .calendar-number small { color:#c5cfdd; font-size:9px; margin-left:3px; text-transform:uppercase; }
+#calendar td.next-month { background:#00000012; }
+#calendar td.has-league { background:#173337; border-color:#659b9866; }
+#calendar td.has-suns { background:#3c302b; border-color:#d1a17880; }
+#calendar td.key-suns { box-shadow:inset 0 3px #d9ab82; }
+#calendar td.has-suns .calendar-number,#calendar td.has-league .calendar-number { color:#fff; font-weight:700; }
+#calendar .calendar-event { display:block; font-size:10px; line-height:1.35; font-weight:600; margin-top:5px; }
+#calendar .suns-event { color:#f5c99f; }
+#calendar .league-event { color:#9cdbd6; }
+#calendar .event-short { display:none; }
+#calendar .calendar-board figcaption { display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; margin-top:13px; font-size:10px; line-height:1.5; color:#b8c5d6; }
+#calendar .calendar-legend { display:flex; gap:19px; }
+#calendar .calendar-legend span::before { content:''; display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:6px; }
+#calendar .suns-key::before { background:#e9b987; }
+#calendar .league-key::before { background:#90d4ce; }
+#calendar .calendar-details { display:grid; grid-template-columns:1.25fr 1fr; gap:36px; }
+#calendar .calendar-lane { font-size:10px; font-weight:800; letter-spacing:.15em; text-transform:uppercase; color:#725033; margin:0 0 14px; }
+#calendar .calendar-league .calendar-lane { color:#265d5b; }
+#calendar .calendar-details .scoreboard-grid { display:block; }
+#calendar .calendar-details article { border-top:1px solid #bdad99; padding:17px 0; }
+#calendar .calendar-details h3:not(.calendar-lane),#calendar .calendar-details h4 { margin:9px 0 6px; font-size:21px; line-height:1.25; letter-spacing:-.025em; }
+#calendar .calendar-details p { margin:9px 0 0; font-size:14px; line-height:1.65; }
+#calendar .calendar-date { color:#455b5a; font-size:10px; font-weight:750; letter-spacing:.08em; }
+#calendar .calendar-status { display:inline-block; padding:3px 7px; border-radius:4px; font-size:9px; line-height:1.2; letter-spacing:.05em; color:#5c4937; background:#ded4c7; }
+#calendar .calendar-league .calendar-status { background:#d8e4de; color:#245552; }
+#calendar .calendar-league article > a { display:inline-block; margin-top:10px; font-size:11px; color:#285c59; text-underline-offset:3px; }
+#calendar .calendar-secondary { border-top:1px solid #c4b8a8; padding:14px 0; }
+#calendar .calendar-secondary strong { display:block; font-size:12px; line-height:1.5; }
+#calendar .calendar-secondary > span { display:block; font-size:11px; line-height:1.6; color:#675948; margin-top:3px; }
+#calendar .calendar-secondary a { color:inherit; text-underline-offset:3px; }
+#calendar a:focus-visible { outline:3px solid #176e68; outline-offset:4px; border-radius:2px; }
+#calendar .calendar-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+@media(max-width:760px) {
+  .section-view.story #calendar { padding:24px 16px; }
+  #calendar .calendar-board { padding:16px 9px 12px; margin:22px -7px 27px; border-radius:10px; }
+  #calendar .calendar-heading { display:block; padding:0 4px; margin-bottom:16px; }
+  #calendar .calendar-heading strong { display:block; font-size:16px; margin-top:6px; }
+  #calendar .calendar-heading small { font-size:10px; margin-left:4px; }
+  #calendar .calendar-table { border-spacing:2px; }
+  #calendar .calendar-table th { font-size:8px; padding:0 0 7px 3px; letter-spacing:0; }
+  #calendar .calendar-table td { height:90px; padding:8px 3px; }
+  #calendar .calendar-number { font-size:16px; margin-bottom:9px; }
+  #calendar .calendar-number small { display:block; font-size:7px; margin:4px 0 0; }
+  #calendar .calendar-event { font-size:8px; line-height:1.35; overflow-wrap:normal; }
+  #calendar .event-full { display:none; }
+  #calendar .event-short { display:inline; }
+  #calendar .calendar-board figcaption { font-size:9px; padding:0 4px; gap:7px; }
+  #calendar .calendar-legend { gap:15px; }
+  #calendar .calendar-details { grid-template-columns:1fr; gap:23px; }
+  #calendar .calendar-details article { padding:16px 0; }
+}
+@media print {
+  #calendar .calendar-board { color:#172033; background:#fff; box-shadow:none; break-inside:avoid; }
+  #calendar .calendar-heading > span,#calendar .calendar-heading small,#calendar .calendar-table th,#calendar .calendar-number,#calendar .calendar-number small,#calendar td.has-suns .calendar-number,#calendar td.has-league .calendar-number,#calendar .calendar-board figcaption { color:#172033; }
+  #calendar .calendar-table td,#calendar td.next-month { background:#fff; border-color:#9ba4ac; }
+  #calendar .suns-event { color:#784721; }
+  #calendar .league-event { color:#19524d; }
+}

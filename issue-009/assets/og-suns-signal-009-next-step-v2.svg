@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Suns Signal Weekly 009 — The Next Step Starts Early</title>
+  <desc id="desc">Khaman Maluach smiling in his Phoenix Suns Summer League jersey. Earlier preparation now carries more weight. Curated for Mat Ishbia, prepared by Accelerated Velocity Consulting.</desc>
+  <defs>
+    <linearGradient id="left-shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#080b12" stop-opacity=".98"/>
+      <stop offset=".36" stop-color="#080b12" stop-opacity=".95"/>
+      <stop offset=".52" stop-color="#080b12" stop-opacity=".55"/>
+      <stop offset=".73" stop-color="#080b12" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#080b12" stop-opacity=".24"/>
+    </linearGradient>
+    <linearGradient id="bottom-shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".55" stop-color="#080b12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080b12" stop-opacity=".94"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff791d"/>
+      <stop offset=".58" stop-color="#ecb36c"/>
+      <stop offset="1" stop-color="#35c3c1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#080b12"/>
+  <image x="0" y="0" width="1200" height="630" preserveAspectRatio="xMidYMid meet" xlink:href="maluach-summer-league-primary.jpg"/>
+  <rect width="1200" height="630" fill="url(#left-shade)"/>
+  <rect width="1200" height="630" fill="url(#bottom-shade)"/>
+  <rect width="1200" height="10" fill="url(#ember)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="68" y="65" fill="#70ded8" font-size="23" font-weight="700" letter-spacing="3">SUNS SIGNAL WEEKLY 009</text>
+    <text x="68" y="99" fill="#d3d6de" font-size="16" font-weight="700" letter-spacing="1.7">THE CAMP PREVIEW / SEPTEMBER 13, 2026</text>
+    <rect x="68" y="128" width="222" height="35" rx="17.5" fill="#ff791d"/>
+    <text x="87" y="152" fill="#080b12" font-size="18" font-weight="700" letter-spacing="1.2">KHAMAN MALUACH</text>
+    <g fill="#fff" font-size="70" font-weight="900" letter-spacing="-1.8">
+      <text x="66" y="245">THE NEXT</text>
+      <text x="66" y="320">STEP STARTS</text>
+      <text x="66" y="395">EARLY</text>
+    </g>
+    <rect x="68" y="434" width="464" height="4" fill="url(#ember)"/>
+    <text x="68" y="479" fill="#f6f4f2" font-size="22" font-weight="700">Earlier preparation now carries more weight.</text>
+    <text x="68" y="568" fill="#ffb061" font-size="16" font-weight="700" letter-spacing="1.5">CURATED FOR MAT ISHBIA</text>
+    <text x="68" y="600" fill="#c6cbd5" font-size="14" font-weight="700" letter-spacing=".8">Prepared by Accelerated Velocity Consulting</text>
+  </g>
+</svg>

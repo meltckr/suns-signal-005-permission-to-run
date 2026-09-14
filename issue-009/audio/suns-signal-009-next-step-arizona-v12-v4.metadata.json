@@ -1,0 +1,362 @@
+{
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "1b8f6b4d817291336c0953a3626521dd7bd2ffd323eb89f37b2efde082a2fde7",
+  "transcript_sha256": "74e3562ffc82bd4f11c0f931bcee2e9641c73e6f0ede99c966e0d5b3a16228af",
+  "duration_seconds": 106.623667,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "integrated_lufs": -16.63,
+  "true_peak_dbtp": -2.17,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "technical_verification": {
+    "full_file_asr_checked": true,
+    "final_ten_seconds_asr_checked": true,
+    "final_ten_seconds_recognized_closing": "Much love, my brother, Dominate.",
+    "closing_words_match": true,
+    "final_300ms_pcm_peak": 0.0000021302655568433693,
+    "all_sentence_tails_verified": true,
+    "minimum_quiet_gap_ms": 127.83333333333333,
+    "asr_limitations": "Full-context recognition resolves 'may now', 'asked', and the conditional 'would' sentences. Short isolated recognition varies on 'asked' and 'would'; human delivery review is pending. The full-file recognizer appended one non-speech token at the silent tail. Independent final-ten-seconds recognition ends with the required closing, and decoded PCM confirms the final 300ms are effectively silent.",
+    "perceptual_listening_review_completed": false
+  },
+  "listening_review": "Pending Mel review. ASR and quiet-gap analysis are technical checks only.",
+  "word_count": 309,
+  "words_per_minute": 173.88259587808022,
+  "sentence_count": 24,
+  "tempo_multiplier": 1.0804674652777777,
+  "assembly": "Changed sentences regenerated with the approved Arizona Voice v12; exact transcript-matching raw clips reused where available. Every source was checked again. Temporary trailing context removed only inside measured quiet gaps of at least 100ms after recognized final words. 180ms added buffer; 380ms after final sentence. No speech fades or overlapping joins.",
+  "source_tail_checks": [
+    {
+      "sentence": 0,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "role.",
+      "content_end_seconds": 6.16,
+      "guard_start_seconds": 6.46,
+      "quiet_run_ms": 268.1666666666667,
+      "cut_seconds": 6.325916666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 1,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "surgery.",
+      "content_end_seconds": 3.28,
+      "guard_start_seconds": 3.64,
+      "quiet_run_ms": 293.4166666666667,
+      "cut_seconds": 3.4932916666666665,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 2,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "sooner.",
+      "content_end_seconds": 2.7,
+      "guard_start_seconds": 3.2,
+      "quiet_run_ms": 398.2083333333333,
+      "cut_seconds": 2.9882916666666666,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 3,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "play.",
+      "content_end_seconds": 3.96,
+      "guard_start_seconds": 4.46,
+      "quiet_run_ms": 396.0416666666667,
+      "cut_seconds": 4.236041666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 4,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "Williams.",
+      "content_end_seconds": 3.5,
+      "guard_start_seconds": 4.06,
+      "quiet_run_ms": 382.16666666666663,
+      "cut_seconds": 3.868875,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 5,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "July.",
+      "content_end_seconds": 5.92,
+      "guard_start_seconds": 6.26,
+      "quiet_run_ms": 151.41666666666669,
+      "cut_seconds": 6.184291666666667,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 6,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "interested.",
+      "content_end_seconds": 1.82,
+      "guard_start_seconds": 2.16,
+      "quiet_run_ms": 181.95833333333334,
+      "cut_seconds": 2.067083333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 7,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "role.",
+      "content_end_seconds": 4.54,
+      "guard_start_seconds": 5.0,
+      "quiet_run_ms": 424.70833333333337,
+      "cut_seconds": 4.787625,
+      "cut_amplitude": 0.000213623046875
+    },
+    {
+      "sentence": 8,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "preparation.",
+      "content_end_seconds": 2.7,
+      "guard_start_seconds": 3.14,
+      "quiet_run_ms": 248.45833333333334,
+      "cut_seconds": 3.01575,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 9,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "time.",
+      "content_end_seconds": 9.02,
+      "guard_start_seconds": 9.34,
+      "quiet_run_ms": 257.45833333333337,
+      "cut_seconds": 9.21125,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 10,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "players.",
+      "content_end_seconds": 6.34,
+      "guard_start_seconds": 6.74,
+      "quiet_run_ms": 281.875,
+      "cut_seconds": 6.5990416666666665,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 11,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "patience.",
+      "content_end_seconds": 1.58,
+      "guard_start_seconds": 1.98,
+      "quiet_run_ms": 127.83333333333333,
+      "cut_seconds": 1.9160833333333334,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 12,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "conversation.",
+      "content_end_seconds": 3.48,
+      "guard_start_seconds": 3.94,
+      "quiet_run_ms": 300.7916666666667,
+      "cut_seconds": 3.7895833333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 13,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "group.",
+      "content_end_seconds": 4.02,
+      "guard_start_seconds": 4.38,
+      "quiet_run_ms": 351.875,
+      "cut_seconds": 4.204041666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 14,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "28th.",
+      "content_end_seconds": 2.56,
+      "guard_start_seconds": 3.0,
+      "quiet_run_ms": 440.0,
+      "cut_seconds": 2.78,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 15,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "reporting.",
+      "content_end_seconds": 6.44,
+      "guard_start_seconds": 6.92,
+      "quiet_run_ms": 403.7916666666667,
+      "cut_seconds": 6.718083333333333,
+      "cut_amplitude": 9.1552734375e-05
+    },
+    {
+      "sentence": 16,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "begin.",
+      "content_end_seconds": 5.28,
+      "guard_start_seconds": 5.62,
+      "quiet_run_ms": 190.04166666666666,
+      "cut_seconds": 5.524958333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 17,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "leadership.",
+      "content_end_seconds": 5.46,
+      "guard_start_seconds": 5.92,
+      "quiet_run_ms": 373.125,
+      "cut_seconds": 5.733416666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 18,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "completed.",
+      "content_end_seconds": 3.72,
+      "guard_start_seconds": 4.14,
+      "quiet_run_ms": 321.95833333333337,
+      "cut_seconds": 3.9789583333333334,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 19,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "out.",
+      "content_end_seconds": 3.2,
+      "guard_start_seconds": 3.68,
+      "quiet_run_ms": 451.5416666666667,
+      "cut_seconds": 3.4542083333333333,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 20,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "exposure.",
+      "content_end_seconds": 5.88,
+      "guard_start_seconds": 6.28,
+      "quiet_run_ms": 212.33333333333334,
+      "cut_seconds": 6.1738333333333335,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 21,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "roles.",
+      "content_end_seconds": 5.32,
+      "guard_start_seconds": 5.94,
+      "quiet_run_ms": 574.7083333333334,
+      "cut_seconds": 5.645875,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 22,
+      "regenerated": true,
+      "reused_from_prior_version": false,
+      "verified_tail": true,
+      "recognized_final_word": "building.",
+      "content_end_seconds": 5.64,
+      "guard_start_seconds": 5.94,
+      "quiet_run_ms": 162.66666666666666,
+      "cut_seconds": 5.858666666666666,
+      "cut_amplitude": 6.103515625e-05
+    },
+    {
+      "sentence": 23,
+      "regenerated": false,
+      "reused_from_prior_version": true,
+      "verified_tail": true,
+      "recognized_final_word": "Dominate.",
+      "content_end_seconds": 1.96,
+      "guard_start_seconds": 2.26,
+      "quiet_run_ms": 201.875,
+      "cut_seconds": 2.069625,
+      "cut_amplitude": 0.0
+    }
+  ],
+  "pronunciation_alias": {
+    "Khaman Maluach": "Kah-mahn Mah-loo-watch",
+    "Maluach's": "Mah-loo-watch's"
+  },
+  "initial_new_sentence_count": 16,
+  "initial_reused_sentence_count": 8,
+  "final_reused_sentence_count": 7,
+  "retry_history": [
+    {
+      "indices": [
+        2,
+        11,
+        16,
+        20,
+        22
+      ],
+      "seed": 54
+    },
+    {
+      "indices": [
+        9,
+        11,
+        16,
+        22
+      ],
+      "seed": 87
+    },
+    {
+      "indices": [
+        11
+      ],
+      "seed": 115
+    },
+    {
+      "indices": [
+        22
+      ],
+      "seed": 115
+    }
+  ]
+}

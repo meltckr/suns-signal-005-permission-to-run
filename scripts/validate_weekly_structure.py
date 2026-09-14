@@ -59,13 +59,17 @@ def main() -> None:
     required_text = (
         "Suns Weekly Pulse",
         "Around The League",
-        "Next Watch",
         "Source Ledger",
         "Reporting cutoff:",
     )
     for text in required_text:
         if text not in html:
             fail(f"missing required release text: {text}")
+
+    # Research planning belongs in private production notes, not the client page.
+    # A separate Next Watch section is optional, not a required weekly service.
+    if "what would sharpen the next edition" in html.lower():
+        fail("internal next-edition research checklist must not appear on the client page")
 
     player_match = re.search(r"<mel-audio-player\b[^>]*>", html, re.DOTALL)
     if player_match:
