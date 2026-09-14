@@ -20,11 +20,23 @@ const audio=path.join(dir,html.match(/<mel-audio-player src="([^"]+)"/)[1]);
 const m=JSON.parse(fs.readFileSync(audio.replace('.mp3','.metadata.json')));
 assert.equal(m.sha256,hash(audio));assert.equal(m.transcript_sha256,hash(path.join(dir,'content/audio-brief-transcript.txt')));
 assert.equal(m.voice,'AVC Arizona Voice v12');assert.equal(m.closing_verified,true);assert(m.true_peak_dbtp<=-1.5);assert(m.integrated_lufs>=-17&&m.integrated_lufs<=-15);
-const repaired=m.source_tail_checks.filter(c=>c.regenerated);
-assert.equal(repaired.length,13);
-for(const c of repaired){assert(c.quiet_run_ms>=100,`No safe pause at sentence ${c.sentence}`);assert(c.cut_seconds>c.content_end_seconds);assert(c.cut_amplitude<=.001);}
+const checked=m.source_tail_checks;
+const transcript=fs.readFileSync(path.join(dir,'content/audio-brief-transcript.txt'),'utf8').trim();
+const sentences=transcript.split(/(?<=[.!?])\s+/);
+assert.equal(m.sentence_count,sentences.length);
+assert.equal(checked.length,sentences.length,'Every recut sentence needs a verified ending, including reused exact-match source clips');
+assert.equal(m.source_tail_checks.length,sentences.length);
+assert(!/Next Watch|What would sharpen the next edition/.test(html));
+assert(!/this is not|not a benefit in disguise|not a promise|it doesn't tell|does not establish|not something the|without confusing/i.test(html+'\n'+transcript),'Defensive phrasing returned');
+assert(!/what this (?:isn[’']t|is not|doesn[’']t mean)|without pretending|no inside information, medical forecast/i.test(html+'\n'+transcript),'Anti-hedge regression');
+assert(html.includes('Five days before Phoenix announced Mark Williams’s shoulder surgery, coverage was already focused on Khaman Maluach’s development.'),'Approved ownership opening changed');
+assert(html.includes('Williams’s absence puts that preparation to an earlier test. Young players may be asked to contribute sooner, giving Phoenix a clearer view of who is ready for more responsibility. Dependable contributions would give the team more options as the season begins.'),'Approved ownership note changed');
+assert(transcript.startsWith("Mat, on September sixth, Holden Sherman was writing about Khaman Maluach taking a larger role. Five days later, Phoenix announced Mark Williams's shoulder surgery.\n\nThe young players may now get their chance sooner. Camp will help show how much of their preparation carries into dependable play."),'Approved audio opening changed');
+for(const c of checked){assert(c.quiet_run_ms>=100,`No safe pause at sentence ${c.sentence}`);assert(c.cut_seconds>c.content_end_seconds);assert(c.cut_amplitude<=.001);}
 assert.equal(m.pronunciation_alias['Khaman Maluach'],'Kah-mahn Mah-loo-watch');
-const png=fs.readFileSync(path.join(dir,'assets/og-suns-signal-009-next-step-v1.png'));assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
+const ogUrl=html.match(/property="og:image" content="([^"]+)"/)[1];
+assert(ogUrl.startsWith(origin),'OG must use the permanent issue URL');
+const png=fs.readFileSync(path.join(dir,ogUrl.slice(origin.length)));assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 assert(fs.readFileSync(path.join(dir,'imessage.txt'),'utf8').includes(origin));
 assert.equal(new Date('2026-09-28T12:00:00Z').getUTCDay(),1);assert.equal(new Date('2026-09-29T12:00:00Z').getUTCDay(),2);
 console.log('PASS: Issue 009 local assets, dates, metadata, voice identity, hashes, loudness, signoff and PNG dimensions. Listening approval remains separate.');

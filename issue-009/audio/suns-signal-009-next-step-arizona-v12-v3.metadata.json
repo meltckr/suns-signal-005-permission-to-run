@@ -1,0 +1,339 @@
+{
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "1d58ea08495ed7a081ab4b9812bd893035485a72379d4fa402b6155bcb2d589e",
+  "transcript_sha256": "e0de58b04d2e49ff229a00777cc0c75fdeeb7e30de75bc7f9b46f4b1559089cb",
+  "duration_seconds": 128.915042,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "integrated_lufs": -16.62,
+  "true_peak_dbtp": -2.16,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "verification_method": "Sentence-level ASR and measured quiet-gap edits; full-file ASR recognized the content sequence and closing; independent final-ten-second ASR ends with Much love my brother dominate. Browser playback reached the end without media error. Technical verification only.",
+  "transcript_screen": "Full-file recognition preserved the recut, figures, calendar and closing, with phonetic proper-name spellings. The recognizer appended implausible extra text inside the final fraction-second silence; independent tail recognition contained no extra words, and the final 300ms measured peak 0.000000750 and RMS 0.0000000428. This was an ASR tail artifact, not evidence of additional speech. Human listening approval remains pending.",
+  "listening_review": "Pending Mel review. ASR and quiet-gap analysis are technical checks only.",
+  "word_count": 341,
+  "words_per_minute": 158.70917530322023,
+  "sentence_count": 31,
+  "tempo_multiplier": 1.0804674652777777,
+  "assembly": "All sentences regenerated. Temporary trailing context removed only inside measured quiet gaps of at least 100ms after recognized final words. 180ms added buffer; 380ms after final sentence. No speech fades or overlapping joins.",
+  "source_tail_checks": [
+    {
+      "sentence": 0,
+      "regenerated": true,
+      "recognized_final_word": "role.",
+      "content_end_seconds": 7.44,
+      "guard_start_seconds": 7.7,
+      "quiet_run_ms": 198.04166666666669,
+      "cut_seconds": 7.600958333333334,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 1,
+      "regenerated": true,
+      "recognized_final_word": "surgery.",
+      "content_end_seconds": 3.28,
+      "guard_start_seconds": 3.64,
+      "quiet_run_ms": 293.4166666666667,
+      "cut_seconds": 3.4932916666666665,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 2,
+      "regenerated": true,
+      "recognized_final_word": "focus.",
+      "content_end_seconds": 3.44,
+      "guard_start_seconds": 3.86,
+      "quiet_run_ms": 333.3333333333333,
+      "cut_seconds": 3.6933333333333334,
+      "cut_amplitude": 0.00018310546875
+    },
+    {
+      "sentence": 3,
+      "regenerated": true,
+      "recognized_final_word": "sooner.",
+      "content_end_seconds": 4.12,
+      "guard_start_seconds": 4.74,
+      "quiet_run_ms": 473.9583333333333,
+      "cut_seconds": 4.478833333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 4,
+      "regenerated": true,
+      "recognized_final_word": "up.",
+      "content_end_seconds": 3.64,
+      "guard_start_seconds": 4.1,
+      "quiet_run_ms": 459.95833333333337,
+      "cut_seconds": 3.8699583333333334,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 5,
+      "regenerated": true,
+      "recognized_final_word": "Williams.",
+      "content_end_seconds": 3.5,
+      "guard_start_seconds": 4.06,
+      "quiet_run_ms": 382.16666666666663,
+      "cut_seconds": 3.868875,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 6,
+      "regenerated": true,
+      "recognized_final_word": "point.",
+      "content_end_seconds": 4.64,
+      "guard_start_seconds": 5.04,
+      "quiet_run_ms": 396.25,
+      "cut_seconds": 4.8380833333333335,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 7,
+      "regenerated": true,
+      "recognized_final_word": "rebounds.",
+      "content_end_seconds": 3.54,
+      "guard_start_seconds": 3.88,
+      "quiet_run_ms": 293.2916666666667,
+      "cut_seconds": 3.7333333333333334,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 8,
+      "regenerated": true,
+      "recognized_final_word": "competition.",
+      "content_end_seconds": 3.82,
+      "guard_start_seconds": 4.28,
+      "quiet_run_ms": 255.54166666666666,
+      "cut_seconds": 4.152208333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 9,
+      "regenerated": true,
+      "recognized_final_word": "time.",
+      "content_end_seconds": 3.24,
+      "guard_start_seconds": 3.66,
+      "quiet_run_ms": 334.58333333333337,
+      "cut_seconds": 3.474375,
+      "cut_amplitude": 0.0001220703125
+    },
+    {
+      "sentence": 10,
+      "regenerated": true,
+      "recognized_final_word": "change.",
+      "content_end_seconds": 4.1,
+      "guard_start_seconds": 4.34,
+      "quiet_run_ms": 141.04166666666669,
+      "cut_seconds": 4.219166666666666,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 11,
+      "regenerated": true,
+      "recognized_final_word": "building.",
+      "content_end_seconds": 5.82,
+      "guard_start_seconds": 6.22,
+      "quiet_run_ms": 298.125,
+      "cut_seconds": 6.070916666666666,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 12,
+      "regenerated": true,
+      "recognized_final_word": "limited.",
+      "content_end_seconds": 3.18,
+      "guard_start_seconds": 3.82,
+      "quiet_run_ms": 498.25,
+      "cut_seconds": 3.570875,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 13,
+      "regenerated": true,
+      "recognized_final_word": "visible.",
+      "content_end_seconds": 2.88,
+      "guard_start_seconds": 3.18,
+      "quiet_run_ms": 211.25,
+      "cut_seconds": 3.074375,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 14,
+      "regenerated": true,
+      "recognized_final_word": "process.",
+      "content_end_seconds": 3.92,
+      "guard_start_seconds": 4.26,
+      "quiet_run_ms": 193.29166666666666,
+      "cut_seconds": 4.163333333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 15,
+      "regenerated": true,
+      "recognized_final_word": "players.",
+      "content_end_seconds": 6.34,
+      "guard_start_seconds": 6.74,
+      "quiet_run_ms": 281.875,
+      "cut_seconds": 6.5990416666666665,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 16,
+      "regenerated": true,
+      "recognized_final_word": "patience.",
+      "content_end_seconds": 1.64,
+      "guard_start_seconds": 2.1,
+      "quiet_run_ms": 186.0,
+      "cut_seconds": 1.9545416666666666,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 17,
+      "regenerated": true,
+      "recognized_final_word": "expectation.",
+      "content_end_seconds": 6.38,
+      "guard_start_seconds": 6.8,
+      "quiet_run_ms": 239.79166666666666,
+      "cut_seconds": 6.680083333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 18,
+      "regenerated": true,
+      "recognized_final_word": "28th.",
+      "content_end_seconds": 2.56,
+      "guard_start_seconds": 3.0,
+      "quiet_run_ms": 440.0,
+      "cut_seconds": 2.78,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 19,
+      "regenerated": true,
+      "recognized_final_word": "reporting.",
+      "content_end_seconds": 6.44,
+      "guard_start_seconds": 6.92,
+      "quiet_run_ms": 403.7916666666667,
+      "cut_seconds": 6.718083333333333,
+      "cut_amplitude": 9.1552734375e-05
+    },
+    {
+      "sentence": 20,
+      "regenerated": true,
+      "recognized_final_word": "phase.",
+      "content_end_seconds": 3.28,
+      "guard_start_seconds": 3.56,
+      "quiet_run_ms": 198.16666666666666,
+      "cut_seconds": 3.460916666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 21,
+      "regenerated": true,
+      "recognized_final_word": "forward.",
+      "content_end_seconds": 4.18,
+      "guard_start_seconds": 4.58,
+      "quiet_run_ms": 359.625,
+      "cut_seconds": 4.400166666666666,
+      "cut_amplitude": 0.000152587890625
+    },
+    {
+      "sentence": 22,
+      "regenerated": true,
+      "recognized_final_word": "-making.",
+      "content_end_seconds": 4.98,
+      "guard_start_seconds": 5.3,
+      "quiet_run_ms": 210.04166666666666,
+      "cut_seconds": 5.194958333333333,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 23,
+      "regenerated": true,
+      "recognized_final_word": "completed.",
+      "content_end_seconds": 3.72,
+      "guard_start_seconds": 4.14,
+      "quiet_run_ms": 321.95833333333337,
+      "cut_seconds": 3.9789583333333334,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 24,
+      "regenerated": true,
+      "recognized_final_word": "package.",
+      "content_end_seconds": 6.18,
+      "guard_start_seconds": 6.58,
+      "quiet_run_ms": 284.25,
+      "cut_seconds": 6.437875,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 25,
+      "regenerated": true,
+      "recognized_final_word": "exposure.",
+      "content_end_seconds": 2.96,
+      "guard_start_seconds": 3.4,
+      "quiet_run_ms": 191.375,
+      "cut_seconds": 3.304291666666667,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 26,
+      "regenerated": true,
+      "recognized_final_word": "contribution.",
+      "content_end_seconds": 5.16,
+      "guard_start_seconds": 5.74,
+      "quiet_run_ms": 358.04166666666663,
+      "cut_seconds": 5.507375,
+      "cut_amplitude": 0.00018310546875
+    },
+    {
+      "sentence": 27,
+      "regenerated": true,
+      "recognized_final_word": "clearly.",
+      "content_end_seconds": 2.9,
+      "guard_start_seconds": 3.22,
+      "quiet_run_ms": 187.91666666666669,
+      "cut_seconds": 3.1260416666666666,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 28,
+      "regenerated": true,
+      "recognized_final_word": "games.",
+      "content_end_seconds": 2.12,
+      "guard_start_seconds": 2.34,
+      "quiet_run_ms": 152.875,
+      "cut_seconds": 2.263541666666667,
+      "cut_amplitude": 0.0
+    },
+    {
+      "sentence": 29,
+      "regenerated": true,
+      "recognized_final_word": "on.",
+      "content_end_seconds": 4.48,
+      "guard_start_seconds": 4.82,
+      "quiet_run_ms": 298.1666666666667,
+      "cut_seconds": 4.670916666666667,
+      "cut_amplitude": 3.0517578125e-05
+    },
+    {
+      "sentence": 30,
+      "regenerated": true,
+      "recognized_final_word": "Dominate.",
+      "content_end_seconds": 1.96,
+      "guard_start_seconds": 2.26,
+      "quiet_run_ms": 201.875,
+      "cut_seconds": 2.069625,
+      "cut_amplitude": 0.0
+    }
+  ],
+  "pronunciation_alias": {
+    "Khaman Maluach": "Kah-mahn Mah-loo-watch",
+    "Maluach's": "Mah-loo-watch's"
+  }
+}
