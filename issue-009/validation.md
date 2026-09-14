@@ -32,13 +32,21 @@ node scripts/verify_issue_009_calendar.mjs
 git diff --check
 ```
 
-## Remaining listening gate
+## V8 pronunciation listening gate — complete
 
-No perceptual listening review was available. Mel's listening approval, especially the opening, Khaman Maluach and Duane Rankin, and the closing, remains pending. Technical transcription, loudness and browser playback checks must not be described as human listening approval.
+Mel listened to the final v8 release-chain audition on September 13 and approved the corrected Maluach pronunciation and delivery: “That sounds a lot better. Let’s go with that.” V8 remains the approved source for sentences 0–22 in v11.
 
 ## Release boundary
 
 Mel initially held the recut for local review. On September 13 he explicitly authorized GitHub Pages publication to enable iPhone review. That authorization supersedes the historical local-only holds below. The drafted iMessage remains unsent. Verify live HTML, PNG, WebP and MP3 against the authorized build, including hashes, byte-range delivery and player source; merging alone does not establish a completed deployment.
+
+## V11 declarative closing — approved release
+
+- Sentences 0–22 are byte-identical to approved v8, including both Mel-approved Maluach sentences. Sentence 23 is the complete approved terminal take; 700ms of silence is added after its source ends. No word splice, speech fade, truncation or overlapping join is used.
+- Source-line ASR recognizes `Much love, my brother. Dominate.` once. Final-ten-second ASR also ends with one complete `Dominate.` Full-file Whisper emitted repeated zero-duration or out-of-bounds tail segments for the emphatic isolated word; these are recorded as a recognition limitation. Decoded PCM is silent across the final 300ms.
+- The source take has a 600ms lead-in pause, a 600ms final-word span, 1.261× phrase RMS and a 17.5% falling pitch contour. Mel approved the exact performance by listening and then said, “That’s much better. All right let’s publish it.”
+- V11 duration: 103.423 seconds; 24kHz mono; 160kbps; −16.63 LUFS; −2.19 dBTP. MP3 SHA-256: `b053e7579853046d9f89b01a08a95c68d53f17a86fc4a321c210411791288d64`. Manifest SHA-256: `ca5bfee21e13218371a9b5555ef9715fe839d1f6af2b2384de99b30159aa61b1`.
+- V7 and v9 were rejected full masters; v10 was a rejected question-cadence audition only. The player and versioned metadata now use v11. V1–v9 remain preserved. GitHub Pages publication is authorized; the client iMessage remains unsent.
 
 ## Approved writing recut — v3, September 13
 
@@ -93,13 +101,47 @@ Mel initially held the recut for local review. On September 13 he explicitly aut
 - Extended the same procedural Blender sculpture through `build_signal_room.py`, keeping the v2 construction and materials. Added court flooring/paint, architectural wall depth and ambient light; no photograph, external model, texture or real-facility claim. Desktop and mobile compositions were separately exported and visually inspected by the renderer, root and an independent reviewer. Private PNG/.blend masters stay outside the release.
 - Desktop WebP: 1920×1200, 120,144 bytes, SHA-256 `c783933aa109c58390821af6ecc56506ad2d429b49dac3bd656034f2670c3020`. Mobile: 900×1100, 56,692 bytes, SHA-256 `8abbb1a536ed424d1ee9e64ec5e40e98c4b799c979bfb87abdfe59a21cc26d71`. Both are under the 150KB per-image budget. Responsive `picture` paths and illustration alt text match v3. V2 and the smiling-Maluach OG v2 remain unchanged.
 - Final in-app browser proof: 1280×800 document equals viewport, hero gap16px, audio and tiles end at y=779.719. Phone390×844 document equals viewport, hero gap14px, audio ends at y=562.656 and tiles at y=728.656. All five numbered tiles are visible. Both correct responsive images load, and the new room setting is visible above the controls. Native1154×1324 also passes top alignment and fit.
-- All six local verification commands pass after integration, along with `git diff --check`. The depth check now requires the v3 responsive pair, preserves old-asset budgets and rejects reintroducing centered title alignment. Editorial paragraphs, sources, calendar, v6 narration/transcript, shared player and OG v2 remain protected by existing locks. The two optional hero hotspots remain pending Mel’s decision on removal. No commit, push, Pages publication or message was made.
+- All six local verification commands pass after integration, along with `git diff --check`. The depth check now requires the v3 responsive pair, preserves old-asset budgets and rejects reintroducing centered title alignment. Editorial paragraphs, sources, calendar, v6 narration/transcript, shared player and OG v2 remain protected by existing locks. Mel later approved removing the two optional hero hotspots; the five numbered section tiles are the hub’s sole section-entry controls. No commit, push, Pages publication or message was made.
 - On the final v3 hub, desktop forward/back controls moved from0 to15 and back to0; seeking and playback through the final15seconds reached `ended:true` with no media error. Phone forward/back, seek-to-end/start and play/pause were exercised; the player was left paused at0. Calendar tile and sticky Home returned through the existing hash router with focus restored to Calendar and one player instance. Browser viewport overrides were reset before handoff.
+
+## V7 — Maluach pronunciation repair
+
+- V7 attempted to follow the written `kah-mahn mahl-oo-ahch` guide literally. Its hyphens and capitalized `OO` forced the surname into slow, separate acoustic chunks. That contradicted Maluach’s own connected delivery, heard as `kah-MAHN mahl-WAHCH`. Mel rejected v7 after listening. V7’s metadata also overstated the player recording’s role: the NBA clip was comparison evidence, not an acoustic synthesis reference.
+- Regenerated complete sentences 0 and 5 in AVC Arizona Voice v12. The other 22 raw source clips are byte-identical to v6. Each replacement was cut only after the final word inside a measured quiet gap: 192.5ms for sentence 0 and 200.08ms for sentence 5. Every one of the 24 sentence tails retains at least 100ms of verified quiet room; the minimum is 127.83ms. No token splice, speech fade or overlapping join was used.
+- V7 duration: 104.574 seconds; 24kHz mono; 160kbps; −16.74 LUFS; −2.19 dBTP. MP3 SHA-256: `da80296540508cb7e471f395ae5d88ba46c8cca654ab7645f1f462a6a2bc336d`. Manifest SHA-256: `3e110e3a37ad999f8a5f594f3a0a63a714a592375019a9ff2236b9360f4bc30e`. Transcript SHA-256 remains `ce59afbf7018ea8c92964185920586946e428c43fc8febff049af224f947e5af`.
+- Full-file recognition preserved the content sequence and required closing, and the last 300ms was effectively silent. Those technical results did not establish natural pronunciation; Mel’s listening review identified the failure.
+- The actual local player loaded v7 without autoplay, exposed one audio instance and reported no media error. The ±15-second controls and position slider worked; playback crossed both corrected sentences and reached the complete ending with `ended: true`. A direct v7 byte-range request returned HTTP 206.
+- V7 remains preserved as rejected history. The player and current checks must not return to it.
+
+## V8 — connected Maluach pronunciation approved by Mel
+
+- Research hierarchy: Maluach’s player-recorded NBA clip is the listening authority; the official NBA guide and Suns game notes print `kah-mahn mahl-oo-ahch`; his natural connected delivery compresses `oo-ah` into the glide heard as `kah-MAHN mahl-WAHCH`. The synthesis used the approved private Mel reference only. The NBA clip was not fed into the voice model.
+- Regenerated complete sentences 0 and 5 with the connected production input `Kahman Malwatch` / `Malwatch`. The selected full-name span is 0.80 seconds; the surname-only span is 0.60 seconds. Sentence 5 preserves “points and nearly thirteen rebounds.” The other 22 raw clips remain byte-identical to v6, including the approved emphatic closing.
+- V8 duration: 102.919 seconds; 24kHz mono; 160kbps; −16.59 LUFS; −2.19 dBTP. MP3 SHA-256: `4d30a8f64dbc60f750dc372dfe4dc6881b3e93265540e48176db0880cca23229`. Manifest SHA-256 after recording Mel’s approval: `6c05b20bc20ab38624a7bd768f5f4b8e4386447f12881391aa36a3f2eccffb0f`. Transcript SHA-256 remains `ce59afbf7018ea8c92964185920586946e428c43fc8febff049af224f947e5af`.
+- The replacement sentences end inside measured quiet gaps of 173.96ms and 218.25ms; the minimum verified quiet run across all 24 sources is 117.83ms. No token splice, speech fade or overlapping join was used. Independent final-ten-second recognition ends with the required close, and the final 300ms is effectively silent.
+- Mel approved the 10.582-second release-chain audition on September 13: “That sounds a lot better. Let’s go with that.” V8 is the approved local player source. No commit, push, GitHub Pages deployment or client message has been authorized.
 
 ## Authorized public release — September 13
 
 - Mel approved publication after confirming that the local preview could not open on his iPhone. Use the permanent `meltckr.github.io` issue URL, never a repository, pull request or localhost link for review.
 - GitHub Pages is public, HTTPS enforced, serving `main` at repository root through its existing Pages build and deployment workflow. The release worktree matched current production commit `c0b2d19ca5b1ee5f80b63e47f2582ceacf49cace` after a fresh fetch. Recent Pages deployments succeeded. No hosting or workflow change is needed.
-- All six local validation commands passed again immediately before release. Internal `voice/` briefs, private references, raw renders and art masters are excluded. Release source and verification scripts are included with the finished public assets. The two hero shortcuts remain as last reviewed; their removal has not been separately confirmed.
+- All six local validation commands passed again immediately before release. Internal `voice/` briefs, private references, raw renders and art masters are excluded. Release source and verification scripts are included with the finished public assets. Mel subsequently approved removing the two redundant hero shortcuts; the five numbered section tiles remain.
 - Publication approval is for the edition and public review link. No client message is sent, and technical audio verification is not described as Mel’s listening approval.
 - A bounded pre-publication source refresh found no material contradiction or changed load-bearing fact. Official/named reporting supported the injury, calendar, disciplinary, pending-transaction and television claims. Original or syndicated reporting covered access-limited pages. The earlier qualitative sentiment sample is preserved; this pass did not reconstruct every nested social reply or claim a refreshed survey. See `sources.md` for limitations.
+
+## Combined V4 room and V8 audio — local proof
+
+- Rebuilt the same procedural scene through `scripts/blender/build_signal_room_v4.py`. The V4 camera is low perspective; the scene adds converging floor cues, a ceiling and beams, warm coves, a distant glazed office band, warm/cool side light and a bounded low-density atmosphere. The steps, basketball and copper ring remain the focal objects.
+- The private facility stills supplied only general spatial reference. Blender does not load them, and no photograph, player, logo, external texture or real-facility plate appears in the deliverables.
+- Desktop WebP: 1920×1200, 77,482 bytes, SHA-256 `5799537b4e799f3c158defcc15a5d77cca127e945cf3297287639f1a762d8f5b`. Mobile WebP: 900×1100, 42,258 bytes, SHA-256 `e74ced4f78a87606001b7189f1049e0cdf39109fd24a8d7652a00e4bae301946`. Both are sRGB and below the existing 150 KB budget; raw PNG and `.blend` masters remain private.
+- Final full-quality masters and optimized WebPs were inspected at native dimensions. The desktop composition preserves a dark left reading area and places the metaphor on the right. The mobile composition retains the complete ring, ball and steps while adding foreground floor distance and far-wall depth.
+- The combined `index.html` uses both V4 responsive hero sources and the approved v8 audio file. V1–V3 art and v1–v7 audio remain present. Hub CSS/JavaScript, section tiles, decision strip, page copy, transcript and OG v2 are preserved.
+- Browser proof and all six existing validation commands plus `git diff --check` must pass again on the combined build before handoff. It remains local and unpublished until Mel separately approves GitHub Pages.
+
+## V9 — emphatic closing candidate rejected by Mel
+
+- Regenerated sentence 23 as one complete line in AVC Arizona Voice v12. Sentences 0–22 are byte-identical to approved v8, including the two Mel-approved Maluach sentences. No word-level splice, speech fade or overlapping join was used.
+- The selected take uses a 560ms pause before `Dominate!`; the source word spans 600ms and measures 1.11× the RMS of the preceding phrase before mastering. The complete line was cut inside 180ms of measured quiet audio after the final word and before the guard phrase.
+- V9 duration: 103.189 seconds; 24kHz mono; 160kbps; −16.64 LUFS; −2.19 dBTP. MP3 SHA-256: `c7a2086dc04809906d22bcb6b30e142cb534a79515af5dde1c0b8ffd8072be44`. Metadata SHA-256 after recording Mel’s rejection: `dbaeb1c9361be345d3e2e90a6172988662bd8ef4a688efa52f4c800b9b801d0a`.
+- Source-line and final-ten-second ASR each recognize the complete closing once. Full-file Whisper emitted repeated low-confidence micro-segments for the strongly isolated final word; that limitation is recorded in the metadata rather than presented as spoken repetition. The final 300ms PCM peak is effectively zero.
+- Mel rejected v9 after listening because the pause created separation without enough conviction or enthusiasm in the final word. The player stays on approved v8. No commit, push, Pages publication or client message is authorized by this audio request.
