@@ -11,6 +11,8 @@ for(const m of html.matchAll(/<time datetime="([^"]+)"/g))assert(m[1]>='2026-08-
 for(const key of ['og:type','og:site_name','og:title','og:description','og:url','og:image','og:image:secure_url','og:image:type','og:image:width','og:image:height','og:image:alt','twitter:card','twitter:title','twitter:description','twitter:image'])assert(html.includes(`="${key}"`),key);
 assert(html.includes(`rel="canonical" href="${origin}"`));
 assert(html.includes('eyebrow="Listen"'));
+assert(html.includes('<strong>September 14, 2026</strong>'));
+assert(!/Sunday Edition/i.test(html));
 assert(!/Issue 00[5-8]|What the Summer Built|All-Star|Matt Ishbia|netlify\.app/.test(html));
 for(const id of ['suns-pulse','league']) {
  const section=html.match(new RegExp(`<section id="${id}"[\\s\\S]*?</section>`))[0];
@@ -33,10 +35,27 @@ assert(html.includes('Five days before Phoenix announced Mark Williams’s shoul
 assert(html.includes('Williams’s absence puts that preparation to an earlier test. Young players may be asked to contribute sooner, giving Phoenix a clearer view of who is ready for more responsibility. Dependable contributions would give the team more options as the season begins.'),'Approved ownership note changed');
 assert(transcript.startsWith("Mat, on September sixth, Holden Sherman was writing about Khaman Maluach taking a larger role. Five days later, Phoenix announced Mark Williams's shoulder surgery.\n\nThe young players may now get their chance sooner. Camp will help show how much of their preparation carries into dependable play."),'Approved audio opening changed');
 for(const c of checked){assert(c.quiet_run_ms>=100,`No safe pause at sentence ${c.sentence}`);assert(c.cut_seconds>c.content_end_seconds);assert(c.cut_amplitude<=.001);}
-assert.equal(m.pronunciation_alias['Khaman Maluach'],'Kah-mahn Mah-loo-watch');
+assert.equal(m.candidate_version,11);
+assert.equal(m.status,'mel_listening_approved_publication_authorized');
+assert.equal(m.release_eligible,true);
+assert.equal(m.publication_authorized,true);
+assert.deepEqual(m.user_rejected_versions,[7,9,10]);
+assert.deepEqual(m.changed_sentences,[23]);
+assert.equal(m.source_audio_version,8);
+assert.equal(m.reused_raw_clips_verified_byte_identical,23);
+assert.equal(m.candidate_selection.reference_mode,'approved_private_mel_energetic_icl');
+assert.equal(m.candidate_selection.production_input,'Much love, my brother,\n\nDOMINATE.');
+assert.equal(m.pronunciation_authority.research_interpretation_for_natural_connected_delivery,'kah-MAHN mahl-WAHCH');
+assert.equal(m.pronunciation_authority.used_as_acoustic_synthesis_reference,false);
+assert.equal(m.technical_verification.perceptual_listening_review_completed,true);
+assert.equal(m.technical_verification.perceptual_listening_review_result,"Approved by Mel on 2026-09-13: That's much better. All right let's publish it.");
+assert.equal(m.technical_verification.approved_v8_maluach_raw_clips_preserved,true);
+assert.equal(m.technical_verification.whole_terminal_take_retained,true);
+assert.equal(m.technical_verification.final_ten_asr_dominate_count,1);
+assert.equal(m.technical_verification.final_300ms_pcm_peak,0);
 const ogUrl=html.match(/property="og:image" content="([^"]+)"/)[1];
 assert(ogUrl.startsWith(origin),'OG must use the permanent issue URL');
 const png=fs.readFileSync(path.join(dir,ogUrl.slice(origin.length)));assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 assert(fs.readFileSync(path.join(dir,'imessage.txt'),'utf8').includes(origin));
 assert.equal(new Date('2026-09-28T12:00:00Z').getUTCDay(),1);assert.equal(new Date('2026-09-29T12:00:00Z').getUTCDay(),2);
-console.log('PASS: Issue 009 local assets, dates, metadata, voice identity, hashes, loudness, signoff and PNG dimensions. Listening approval remains separate.');
+console.log('PASS: Issue 009 local assets, dates, metadata, voice identity, hashes, loudness, signoff and PNG dimensions. Mel listening approval is recorded separately from the technical gates.');

@@ -39,3 +39,17 @@ cwebp -q 90 -m 6 -metadata none /absolute/path/to/private-art-masters/signal-roo
 ```
 
 Desktop is 1920 × 1200, with the sculpture on the right and darker space on the left for text. Mobile is a separate 900 × 1100 composition. Keep PNG and `.blend` masters in the private art-master directory above. Inspect both optimized images before integration; verify file sizes, preserved sculpture detail, legible overlaid copy, correct responsive image selection and reduced-motion behavior. Publication still requires Mel's approval.
+
+## V4 spatial room recut
+
+`build_signal_room_v4.py` preserves the complete V3 construction and adds spatial depth without changing the hub or editorial product. The camera is now perspective rather than orthographic. Long floor seams, a high ceiling and beams, warm coves, a distant smoked-glass office band, separate warm/cool light and a restrained bounded atmosphere establish foreground, focal plane and far plane. The steps, ball and copper ring remain the focal metaphor.
+
+The facility photographs in the private canonical `voice/og-source/facility-ref/` directory are reference-only. V4 borrows only broad spatial cues such as court scale, wood tone, ceiling height and glass depth. The script never loads or composites those photographs, and they must not enter the public release.
+
+```sh
+blender --background --factory-startup --python scripts/blender/build_signal_room_v4.py -- --output /absolute/path/to/private-art-masters --samples 96
+cwebp -q 88 -m 6 -metadata none /absolute/path/to/private-art-masters/signal-room-v4-desktop.png -o issue-009/assets/signal-room-v4-desktop.webp
+cwebp -q 88 -m 6 -metadata none /absolute/path/to/private-art-masters/signal-room-v4-mobile.png -o issue-009/assets/signal-room-v4-mobile.webp
+```
+
+Desktop remains 1920 × 1200 and mobile remains a separately composed 900 × 1100 image. Keep V1–V3 delivery assets available and keep every PNG and `.blend` master private. Before review, confirm both WebPs remain under 150 KB, inspect both raw and optimized renders, and proof the complete hub at 1280×800 and approximately 390×844. Do not publish V4 until Mel approves the recut.

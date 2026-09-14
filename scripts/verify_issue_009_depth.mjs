@@ -44,12 +44,12 @@ for (const fg of foregrounds) for (const background of backgrounds) {
   const ratio = contrast(fg, background);
   assert(ratio >= 4.5, `${fg} on ${background}: ${ratio.toFixed(2)}:1 is below 4.5:1`);
 }
-for (const name of ['signal-depth-v1.webp', 'signal-premium-v2-desktop.webp', 'signal-premium-v2-mobile.webp', 'signal-room-v3-desktop.webp', 'signal-room-v3-mobile.webp']) {
+for (const name of ['signal-depth-v1.webp', 'signal-premium-v2-desktop.webp', 'signal-premium-v2-mobile.webp', 'signal-room-v3-desktop.webp', 'signal-room-v3-mobile.webp', 'signal-room-v4-desktop.webp', 'signal-room-v4-mobile.webp']) {
   assert(fs.statSync('issue-009/assets/' + name).size < 150000, `${name} exceeds the static hero asset budget`);
 }
 assert(/<picture\b/.test(current), 'Keep responsive Blender art direction');
-assert(/<source\b[^>]*media="[^"]*max-width[^"]*"[^>]*srcset="[^"]*signal-room-v3-mobile\.webp/.test(current), 'Mobile must receive its own Blender room composition');
-assert(/src="assets\/signal-room-v3-desktop\.webp"/.test(current), 'Desktop Blender room composition missing');
+assert(/<source\b[^>]*media="[^"]*max-width[^"]*"[^>]*srcset="[^"]*signal-room-v4-mobile\.webp/.test(current), 'Mobile must receive its own Blender room composition');
+assert(/src="assets\/signal-room-v4-desktop\.webp"/.test(current), 'Desktop Blender room composition missing');
 assert(/fetchpriority="high"/.test(current), 'The first-viewport hero should load with high priority');
 assert(/alt="Original 3D illustration:/.test(current), 'Keep the illustration clearly identified in alternative text');
 const hubCss = fs.readFileSync('issue-009/hub.css', 'utf8');

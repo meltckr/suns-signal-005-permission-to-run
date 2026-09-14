@@ -278,9 +278,9 @@ const EXPECTED = {
 const ORIGIN = 'https://meltckr.github.io/suns-signal-005-permission-to-run/issue-009/';
 const CALENDAR_SOURCE = 'https://www.nba.com/news/key-dates';
 const OG_IMAGE = ORIGIN + 'assets/og-suns-signal-009-next-step-v2.png';
-const CURRENT_AUDIO = 'audio/suns-signal-009-next-step-arizona-v12-v6.mp3';
+const CURRENT_AUDIO = 'audio/suns-signal-009-next-step-arizona-v12-v11.mp3';
 const TRANSCRIPT_SHA = 'ce59afbf7018ea8c92964185920586946e428c43fc8febff049af224f947e5af';
-const METADATA_SHA = 'ab29ad9de70ad43aaa2cbd7aa73d881e487299355b8ddde59cd1a2447be4f551';
+const METADATA_SHA = '576f6655fd487b8f1f7f55b9f0a026a2f36b21758cb7bb2d33383ef0d2a08360';
 const CALENDAR_NOTE = 'Calendar sources: NBA key dates — official September 29 camp opening; Duane Rankin, August 4, via HoopsHype/Yahoo — Suns media day and preseason opener. Earlier reporting included as forward calendar context.';
 const CALENDAR_ENTRY = 'NBA official 2026–27 key dates: September 29 training-camp opening; checked September 13';
 const OWNERS_SOURCE = 'https://www.espn.com/nba/story/_/id/49894591/nba-intel-board-governors-next-steps-clippers-las-vegas-seattle-europe-expansion';
@@ -295,11 +295,20 @@ const HISTORICAL_ASSETS = {
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v4.mp3': '1b8f6b4d817291336c0953a3626521dd7bd2ffd323eb89f37b2efde082a2fde7',
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v5.mp3': '866f390eb4dcd0ff449c4f69236a13cdab983673d2b88a68413399f8b7e4c860',
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v5.metadata.json': '011533a96a75998be193a3025d10af07a3bf1fd1b9bb48a43571929bc6294270',
-};
-const APPROVED_CURRENT_ASSETS = {
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v6.mp3': 'abef267c012bc66985b86a6c910aa3f8567bb98bf531534612a3b49569a9bc3b',
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v6.metadata.json': '90e39f231967e2a674a67a843e5f8ce39f154d1bb0b6ecb50295a09582133d60',
-  'issue-009/assets/og-suns-signal-009-next-step-v2.png': 'b5ffa0dc8cfb02b70b0a995a6950d4012cf0e200c4321597550a690fe3e77a34',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v7.mp3': 'da80296540508cb7e471f395ae5d88ba46c8cca654ab7645f1f462a6a2bc336d',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v7.metadata.json': '3e110e3a37ad999f8a5f594f3a0a63a714a592375019a9ff2236b9360f4bc30e',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v8.mp3': '4d30a8f64dbc60f750dc372dfe4dc6881b3e93265540e48176db0880cca23229',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v8.metadata.json': '6c05b20bc20ab38624a7bd768f5f4b8e4386447f12881391aa36a3f2eccffb0f',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v9.mp3': 'c7a2086dc04809906d22bcb6b30e142cb534a79515af5dde1c0b8ffd8072be44',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v9.metadata.json': 'dbaeb1c9361be345d3e2e90a6172988662bd8ef4a688efa52f4c800b9b801d0a',
+};
+const APPROVED_CURRENT_ASSETS = {
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v11.mp3': 'b053e7579853046d9f89b01a08a95c68d53f17a86fc4a321c210411791288d64',
+  'issue-009/audio/suns-signal-009-next-step-arizona-v12-v11.metadata.json': 'ca5bfee21e13218371a9b5555ef9715fe839d1f6af2b2384de99b30159aa61b1',
+  'issue-009/assets/og-suns-signal-009-next-step-v2.svg': '39d69c2009d677fab7f115b0793485fc848ae7995bd40e4b378ce8c268a2ff14',
+  'issue-009/assets/og-suns-signal-009-next-step-v2.png': '08d1b66543c37397b2012038c505d37a14098d41fe42a80199c67aeac67bd14a',
   'issue-009/assets/maluach-summer-league-primary.jpg': '88d88ac4f3fd11b99781b1ef94d66893b84c9c50375805e055a377be326e231e',
 };
 
@@ -382,6 +391,21 @@ export function verifyIssue009(html = fs.readFileSync('issue-009/index.html', 'u
   assert.equal(manifest.transcript_sha256, TRANSCRIPT_SHA, 'Audio manifest uses an old transcript');
   assert.equal(manifest.voice, 'AVC Arizona Voice v12');
   assert.equal(manifest.closing_verified, true);
+  assert.equal(manifest.candidate_version, 11);
+  assert.equal(manifest.status, 'mel_listening_approved_publication_authorized');
+  assert.equal(manifest.release_eligible, true);
+  assert.equal(manifest.publication_authorized, true);
+  assert.deepEqual(manifest.user_rejected_versions, [7, 9, 10]);
+  assert.deepEqual(manifest.changed_sentences, [23]);
+  assert.equal(manifest.source_audio_version, 8);
+  assert.equal(manifest.reused_raw_clips_verified_byte_identical, 23);
+  assert.equal(manifest.candidate_selection?.reference_mode, 'approved_private_mel_energetic_icl');
+  assert.equal(manifest.pronunciation_authority?.research_interpretation_for_natural_connected_delivery, 'kah-MAHN mahl-WAHCH');
+  assert.equal(manifest.pronunciation_authority?.used_as_acoustic_synthesis_reference, false);
+  assert.equal(manifest.technical_verification?.perceptual_listening_review_completed, true);
+  assert.equal(manifest.technical_verification?.approved_v8_maluach_raw_clips_preserved, true);
+  assert.equal(manifest.technical_verification?.whole_terminal_take_retained, true);
+  assert.equal(manifest.technical_verification?.final_ten_asr_dominate_count, 1);
   return p;
 }
 
@@ -393,7 +417,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
   } else {
     assert.equal(process.argv.length, 2, 'Only verification or --inspect <HTML> is supported');
     verifyIssue009();
-    console.log('PASS: approved editorial copy, source entries/links, reporting labels, 5+5 scans, hub routes, canonical metadata, v6 transcript/audio, Listen, exact close, OG v2 and immutable historical assets.');
+    console.log('PASS: approved editorial copy, source entries/links, reporting labels, 5+5 scans, hub routes, canonical metadata, Mel-approved v11 transcript/audio, Listen, exact close, OG v2 and immutable historical assets.');
     console.log('Scope: content/asset preservation. Browser navigation, mobile layout, audio interaction and perceptual listening are separate checks.');
   }
 }
