@@ -11,6 +11,8 @@ for(const m of html.matchAll(/<time datetime="([^"]+)"/g))assert(m[1]>='2026-08-
 for(const key of ['og:type','og:site_name','og:title','og:description','og:url','og:image','og:image:secure_url','og:image:type','og:image:width','og:image:height','og:image:alt','twitter:card','twitter:title','twitter:description','twitter:image'])assert(html.includes(`="${key}"`),key);
 assert(html.includes(`rel="canonical" href="${origin}"`));
 assert(html.includes('eyebrow="Listen"'));
+assert(html.includes('<strong>September 14, 2026</strong>'));
+assert(!/Sunday Edition/i.test(html));
 assert(!/Issue 00[5-8]|What the Summer Built|All-Star|Matt Ishbia|netlify\.app/.test(html));
 for(const id of ['suns-pulse','league']) {
  const section=html.match(new RegExp(`<section id="${id}"[\\s\\S]*?</section>`))[0];

@@ -20,6 +20,8 @@ Run `python3 scripts/validate_weekly_structure.py issue-009/index.html` from the
 
 `imessage.txt` is drafted for Mel to send. Do not send automatically.
 
+The visible edition line and share card use the Monday delivery date: `September 14, 2026`. The Sunday Edition label was removed. The reporting cutoff remains September 13.
+
 ## Pronunciation repair — v7 rejected, v8 approved locally
 
 V7 was rejected by Mel after listening because its literal `mahl-OO-ahch` production spelling broke Maluach’s surname into slow, separate chunks. The official written guides show `kah-mahn mahl-oo-ahch`; Maluach’s own NBA recording and 2023 self-demonstration compress the vowel sequence into the connected delivery `kah-MAHN mahl-WAHCH`. V7 also incorrectly recorded the NBA clip as an acoustic synthesis reference. It was comparison evidence only; the render used the approved Mel reference.

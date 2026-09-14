@@ -280,7 +280,7 @@ const CALENDAR_SOURCE = 'https://www.nba.com/news/key-dates';
 const OG_IMAGE = ORIGIN + 'assets/og-suns-signal-009-next-step-v2.png';
 const CURRENT_AUDIO = 'audio/suns-signal-009-next-step-arizona-v12-v11.mp3';
 const TRANSCRIPT_SHA = 'ce59afbf7018ea8c92964185920586946e428c43fc8febff049af224f947e5af';
-const METADATA_SHA = 'ab29ad9de70ad43aaa2cbd7aa73d881e487299355b8ddde59cd1a2447be4f551';
+const METADATA_SHA = '576f6655fd487b8f1f7f55b9f0a026a2f36b21758cb7bb2d33383ef0d2a08360';
 const CALENDAR_NOTE = 'Calendar sources: NBA key dates — official September 29 camp opening; Duane Rankin, August 4, via HoopsHype/Yahoo — Suns media day and preseason opener. Earlier reporting included as forward calendar context.';
 const CALENDAR_ENTRY = 'NBA official 2026–27 key dates: September 29 training-camp opening; checked September 13';
 const OWNERS_SOURCE = 'https://www.espn.com/nba/story/_/id/49894591/nba-intel-board-governors-next-steps-clippers-las-vegas-seattle-europe-expansion';
@@ -307,7 +307,8 @@ const HISTORICAL_ASSETS = {
 const APPROVED_CURRENT_ASSETS = {
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v11.mp3': 'b053e7579853046d9f89b01a08a95c68d53f17a86fc4a321c210411791288d64',
   'issue-009/audio/suns-signal-009-next-step-arizona-v12-v11.metadata.json': 'ca5bfee21e13218371a9b5555ef9715fe839d1f6af2b2384de99b30159aa61b1',
-  'issue-009/assets/og-suns-signal-009-next-step-v2.png': 'b5ffa0dc8cfb02b70b0a995a6950d4012cf0e200c4321597550a690fe3e77a34',
+  'issue-009/assets/og-suns-signal-009-next-step-v2.svg': '39d69c2009d677fab7f115b0793485fc848ae7995bd40e4b378ce8c268a2ff14',
+  'issue-009/assets/og-suns-signal-009-next-step-v2.png': '08d1b66543c37397b2012038c505d37a14098d41fe42a80199c67aeac67bd14a',
   'issue-009/assets/maluach-summer-league-primary.jpg': '88d88ac4f3fd11b99781b1ef94d66893b84c9c50375805e055a377be326e231e',
 };
 
