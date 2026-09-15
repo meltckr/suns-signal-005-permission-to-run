@@ -2,6 +2,10 @@
 
 Preserve the established Suns Signal Weekly architecture, permanent issue URLs, prior editions, metadata system, standard Mel audio module, and GitHub Pages release workflow.
 
+## Product of record
+
+Read and follow [`EDITION-LOCK.md`](EDITION-LOCK.md) before every new issue. Issue 009 is the shipped product standard: clone its command-deck shell, then refresh the content, headline, dates, hero treatment, lead-player OG photo, audio, sources, metadata, and iMessage. Do not redesign or rebuild the hub for a routine edition. Preserve the system. Refresh the edition.
+
 ## Required audio closing
 
 Every narrated Suns Signal Weekly transcript and delivered audio file must end with the exact words:
