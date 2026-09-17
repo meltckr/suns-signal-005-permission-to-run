@@ -1,0 +1,85 @@
+Suns Signal — LOCK THE FACTORY from Issue 009 (do not start from scratch next time)
+
+Context: Issue 009 “The Next Step Starts Early” is the product of record (live: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-009/). Studio checkout may still be on an older branch without issue-009 — sync first. This job is NOT a new topic and NOT a redesign from zero. Freeze everything we established into durable project files so the NEXT commission only refreshes content inside the 009 shell.
+
+## Phase 0 — Sync
+1. In this repo (`suns-signal-005-permission-to-run`), fetch/checkout the branch that has live `issue-009/` (prefer `main` / whatever ships Pages). Pull latest.
+2. Confirm local `issue-009/` matches live github.io structure (hub.css/js, depth, premium, audio, OG).
+3. Keep prior editions (006–008) intact. Preserve permanent URLs.
+
+## Phase 1 — Write the lock (durable)
+Create/update these files (commit on a branch like `codex/suns-signal-factory-lock-009`):
+
+### A) `EDITION-LOCK.md` (canonical product lock — Mel 13–14 Sep 2026)
+Document that **Issue 009 is the last shipped product standard**. Every future issue MUST inherit:
+
+**Design / UX**
+- Command-deck hub = first viewport (desktop + ~390 mobile)
+- Blender premium hero with in-room court depth (extend the scene; do NOT paste stock/photoreal Suns practice-facility stills as hero)
+- Facility refs only for Blender in-scene depth: `voice/og-source/facility-ref/` (REFERENCE ONLY)
+- Audio module ON the hub: seek + ±15 work
+- Player chrome: eyebrow `Listen` (or LISTEN); track title = edition title; NEVER Mel / Mel Tucker / personal name
+- Section tiles on hub: Ownership / First read · Suns Weekly Pulse · Around The League · Calendar Ahead · Source Ledger
+- Tap tile → section; sticky ← Home / Suns Signal back to hub
+- Hash routes: `#hub` `#ownership` `#pulse` `#league` `#calendar` `#sources`
+- Strip redundant “Suns Signal Weekly” kicker + floating second Suns logo; one edition lane under masthead
+- Decision strip on hub: 1–3 short ownership signals (not a second article)
+- Collapse top dead space under masthead so first viewport holds: tightened hero + decision strip + audio + tiles 01–05
+
+**OG / share**
+- YouTube-thumbnail style 1200×630: short hed + real photo of THIS edition’s lead player (Issue 009 pattern = Issue 008 player-card full-bleed)
+- Always Mat (one T) on cards; never Matt
+- Keep prior OG versions when recutting; update meta/alt
+
+**Voice / copy**
+- Outside consultant to Mat (ownership). Always Mat, never Matt.
+- Gladwell METHOD only (not costume): one concrete → one turn (looked like vs is) → name the pattern → stop
+- Anti-hedge (Mel 13 Sep): NO “this is X, not Y / what this is not saying / what this doesn’t mean” loop. State what it means / may mean / what to watch. Soft words only when evidence is soft. Keep Official / Reported / directional labels.
+- Run humanizer / unslop / mel-tucker-voice (already global in ~/.codex/AGENTS.md) on page + transcript
+- Final Buzzer = score-first; no audio/quotes/sentiment there
+- Cut: game changer, elite mentality, must-win, fan/scout/pundit voice, AI slop
+
+**Audio (avc-audio-module)**
+- Studio Qwen3-TTS Arizona v12 recipe (ignore any leftover ElevenLabs 007 lines)
+- Exact closing line, standalone final transcript line: `Much love, my brother, dominate!`
+- After any transcript edit: new versioned MP3 filename; sync transcript, player src, metadata, README, client note
+- Validate: `python3 scripts/validate_weekly_structure.py issue-<n>/index.html`
+- Release incomplete until final ~10s checked for full spoken sign-off
+
+**Ship**
+- Private repo → public Pages only: `meltckr.github.io/suns-signal-005-permission-to-run/issue-<n>/`
+- Never ChatGPT Sites / visbrk
+- Ready `issue-<n>/imessage.txt` (draft for Mel; never send)
+- NO live Pages push until Mel yes + CoS proof (copy, Mat one T, leftover isolation, this-story OG, MP3 hole scan + full listen)
+
+**Scope fence (do not invent into the factory)**
+- Not a multi-edition always-on platform
+- Not GenAI ask→viz
+- Not Omniverse / pixel-stream
+- Not a new bot or new repo
+
+### B) Update root `AGENTS.md`
+Keep existing audio closing / Listen eyebrow / iMessage rules. ADD a short “Product of record” section that points to `EDITION-LOCK.md` and says: **clone Issue 009 shell for every new issue; refresh content, hed, OG photo, audio, sources — do not redesign the hub.**
+
+### C) Scaffold for next edition
+Add `scripts/new_issue_from_009.sh` (or equivalent) that:
+- Copies `issue-009/` → `issue-<n>/`
+- Clears/resets content placeholders (hed, sections, sources, audio paths, OG, imessage)
+- Keeps hub/CSS/JS/Blender shell and hash routes
+Document usage in `EDITION-LOCK.md`.
+
+### D) Voice pack stays in repo
+Ensure `voice/` Gladwell pack + OG briefs remain tracked (or document paths). Do not delete `voice/ISSUE-009-HUB-OPTION-B.md` / `OG-009-MALUACH-BRIEF.md` — they are provenance for the lock.
+
+## Phase 2 — Prove the lock (no new edition topic)
+1. Open local `issue-009/index.html` — hub one-screen, tiles, Home, hash routes, audio seek/±15 still work after any path fixes from sync.
+2. Run `python3 scripts/validate_weekly_structure.py issue-009/index.html`
+3. Open a PR: “Lock Suns Signal factory to Issue 009 product standard”
+4. Do NOT invent Issue 010 copy/topic. Do NOT push Pages unless Mel already yes’d (lock PR only).
+
+## Done when
+- `EDITION-LOCK.md` + updated `AGENTS.md` + new-issue scaffold exist
+- PR open with clear “next Signal = refresh 009 shell”
+- Report: branch, PR URL, one-line confirmation that next commission will not rebuild hub from scratch
+
+If Codex CLI / checkout is missing issue-009, pull from GitHub first — live Pages is source of truth for the product shell.
