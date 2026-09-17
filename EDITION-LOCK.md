@@ -12,6 +12,8 @@ Issue 009 is the last shipped Suns Signal product standard. Every future issue m
 
 This is a product lock, not a content lock. Future commissions replace the reporting, analysis, title, dates, hero treatment, lead-player photograph, OG card, audio, sources, and client note. They inherit the architecture and release gates below.
 
+Use `/Users/meltucker/.codex/skills/suns-signal-weekly/SKILL.md` as the operating manual and `/Users/meltucker/.codex/skills/avc-audio-module/SKILL.md` as the audio implementation standard. This file remains the repository product lock. If instructions drift, reconcile them to the shipped Issue 009 shell and the approved audio standard before starting a new edition.
+
 ## Mandatory product inheritance
 
 ### Design and UX
@@ -20,7 +22,7 @@ This is a product lock, not a content lock. Future commissions replace the repor
 - Keep the premium Blender hero with in-room court depth. Extend the scene for the new edition; do not paste a stock or photoreal Suns practice-facility still behind it.
 - Use the facility references in `voice/og-source/facility-ref/` only to study in-scene depth, scale, wood tone, ceiling height, glass, and light. Their status is **REFERENCE ONLY**.
 - Keep the audio module on the hub. Seeking and the `−15` and `+15` controls must work.
-- Player chrome uses the eyebrow `Listen` or `LISTEN`. The track title is the edition title. Never label the player with `Mel`, `Mel Tucker`, or another personal name.
+- Player chrome uses the eyebrow `Listen` or `Audio`. The track title is the edition title. Never label the player with `Mel`, `Mel Tucker`, another personal name, or an engine/provider name.
 - Keep five section tiles on the hub:
   1. Ownership / First read
   2. Suns Weekly Pulse
@@ -55,7 +57,8 @@ The locked Issue 009 shell consists of `issue-009/index.html`, `styles.css`, `de
 
 ### Audio
 
-- Use the Studio Qwen3-TTS **AVC Arizona Voice v12** recipe for Suns Signal narration. Ignore leftover ElevenLabs Issue 007 lines or defaults. Do not substitute another voice unless Mel explicitly approves it.
+- Use the Studio Qwen3-TTS **AVC Arizona Voice v12** recipe for Suns Signal narration: model `mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit`, rendered through `/Users/meltucker/avc-tools/avc-audio-render.sh`, with the approved declarative reference pair `/Users/meltucker/avc-tools/breeze-proof/mel-az-2026-decl-18s.wav` and `/Users/meltucker/avc-tools/breeze-proof/mel-az-2026-decl-18s.txt`. Do not use the full 66-second source, the 10-second kittens clip, a greeting/consent clip, or the default punch clip. ElevenLabs, Chatterbox, Breeze, Gemini stock voices, and other substitutes remain off for new renders unless Mel explicitly names one for that edition.
+- Keep visible Suns copy spelled `Mat`. A temporary private TTS input may spell the name `Matt` when that pronunciation is required; never carry that spelling into page copy, transcript display, metadata, OG, or the iMessage.
 - End every transcript and delivered audio file with this exact standalone final line:
 
   `Much love, my brother, dominate!`
@@ -124,5 +127,7 @@ This check protects the Issue 009 product-of-record files, required routes, play
 - `voice/AVC-Gladwell-voice-pack.md` and `voice/CODEX-GLADWELL-PROMPT.md` preserve the method calibration; they are posture references, never a source of reusable facts or copied prose.
 - `voice/og-source/PRIMARY-maluach-summer-league.jpg` preserves the approved Issue 009 OG source photograph.
 - `voice/og-source/facility-ref/` contains reference-only room-depth material. The Blender scene must be rebuilt in-scene; the facility photographs must not be pasted into the hero.
+- `voice/CODEX-LOCK-FACTORY-FROM-009-PASTE.txt` preserves the original Issue 009 factory-lock commission.
+- `voice/CODEX-UPDATE-SUNS-SIGNAL-WEEKLY-SKILL-PASTE.txt` preserves the commission that aligned the installed skill and Arizona v12 audio standard with this lock.
 
 These files explain how the standard was reached. They do not authorize reusing Issue 009 facts, title, player, dates, or conclusions in a later edition.

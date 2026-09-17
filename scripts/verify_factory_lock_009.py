@@ -35,6 +35,8 @@ REQUIRED_VOICE_FILES = (
     "voice/CODEX-GLADWELL-PROMPT.md",
     "voice/og-source/PRIMARY-maluach-summer-league.jpg",
     "voice/og-source/facility-ref/README-REFERENCE-ONLY.md",
+    "voice/CODEX-LOCK-FACTORY-FROM-009-PASTE.txt",
+    "voice/CODEX-UPDATE-SUNS-SIGNAL-WEEKLY-SKILL-PASTE.txt",
 )
 ROUTES = ("hub", "ownership", "pulse", "league", "calendar", "sources")
 
@@ -105,6 +107,8 @@ def verify_contract() -> None:
             "Preserve the system. Refresh the edition.",
             "#hub`, `#ownership`, `#pulse`, `#league`, `#calendar`, and `#sources",
             "Studio Qwen3-TTS **AVC Arizona Voice v12**",
+            "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+            "mel-az-2026-decl-18s.wav",
             "Much love, my brother, dominate!",
             "Do not push a live Pages release until Mel says yes",
             "./scripts/new_issue_from_009.sh <issue-number>",
@@ -115,6 +119,7 @@ def verify_contract() -> None:
         (
             "## Product of record",
             "Issue 009 is the shipped product standard",
+            "/Users/meltucker/.codex/skills/suns-signal-weekly/SKILL.md",
             "Do not redesign or rebuild the hub",
             "## Required audio closing",
             "## Audio player label",

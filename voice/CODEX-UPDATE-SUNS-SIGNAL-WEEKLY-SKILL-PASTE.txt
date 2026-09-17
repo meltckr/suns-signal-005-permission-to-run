@@ -1,0 +1,123 @@
+Suns Signal — UPDATE the durable Codex skill to match the live Issue 009 factory + current AVC stack
+
+You are in Mel Tucker’s Studio Codex. This is a skill-lock job, not a new edition and not a redesign.
+
+## Goal
+Rewrite and expand the project skill so every future Suns Signal commission automatically inherits what we already proved on Issue 009 and in the house AVC stack (Gladwell method, anti-hedge Mel voice, humanizers, Arizona Qwen3-TTS audio, hub/OG/ship rules).
+
+Primary skill to update:
+`/Users/meltucker/.codex/skills/suns-signal-weekly/SKILL.md`
+(and any `references/` or `agents/` files under that skill that contradict the lock)
+
+Also keep in sync (do not leave stale pointers):
+- Repo product lock: `Documents/Phoenix Suns 2/suns-signal-005-permission-to-run/` → `EDITION-LOCK.md` if present / create if missing; root `AGENTS.md` “Product of record” section
+- Global voice already live: `~/.codex/AGENTS.md`, `~/.codex/skills/mel-tucker-voice/`, `humanizer`, `humanizer-voice`, `unslop`, `humanize-ai-writing`, `mel-executive-writing`
+- Audio factory: `~/.codex/skills/avc-audio-module/SKILL.md` (v12 Arizona Qwen3-TTS — NOT ElevenLabs, NOT Chatterbox, NOT Gemini stock for new renders)
+- Voice pack in repo: `…/suns-signal-005-permission-to-run/voice/` (Gladwell pack + anti-hedge + existing CODEX-LOCK-FACTORY-FROM-009-PASTE.txt)
+
+Live product of record:
+https://meltckr.github.io/suns-signal-005-permission-to-run/issue-009/
+
+## Why this job exists
+`suns-signal-weekly/SKILL.md` is stale. It still tells Codex to use local Chatterbox and warns about ElevenLabs. That is wrong for the current house. Issue 009 already ships the command-deck hub, Blender in-room depth, Gladwell/anti-hedge copy, Arizona audio, OG player-card pattern, and Mat-one-T rules. Lock the skill to that reality so the next issue only refreshes content inside the 009 shell.
+
+## Non-goals
+- Do NOT invent Issue 010 topic/copy
+- Do NOT redesign the hub
+- Do NOT push GitHub Pages without Mel yes
+- Do NOT reintroduce ElevenLabs 007 / Chatterbox / Breeze / Gemini stock as the default voice
+- Do NOT put Mel / Mel Tucker / personal names on player chrome
+
+## Phase 0 — Audit (report before rewrite)
+1. Open and summarize current `~/.codex/skills/suns-signal-weekly/SKILL.md` + `references/*`
+2. Diff against:
+   - live issue-009 shell behaviors
+   - `voice/CODEX-LOCK-FACTORY-FROM-009-PASTE.txt`
+   - `avc-audio-module` v12 recipe
+   - global Mel voice / anti-hedge / humanizer skills
+3. List every stale instruction (especially audio engine, sign-off line, player chrome, hub structure, OG rules)
+
+## Phase 1 — Rewrite `suns-signal-weekly` skill
+Update SKILL.md so it is the single operating manual for future editions. Must include:
+
+### A) Product of record
+- Issue 009 is the factory shell
+- New issues: copy 009 → issue-N; refresh hed, body, sources, OG photo, audio, imessage draft
+- Preserve permanent URLs for prior issues
+- Public Pages only: `meltckr.github.io/suns-signal-005-permission-to-run/issue-<n>/`
+- Never ChatGPT Sites / visbrk
+
+### B) Audience / spelling
+- Mat Ishbia only — always **Mat** (one T), never Matt in visible copy or OG
+- Outside consultant / AVC discreet; never staff, GM, scout, fan, pundit voice
+
+### C) Voice (Gladwell method + Mel anti-hedge + humanizers)
+- Gladwell is METHOD not costume: one concrete → one turn (looked like vs is) → name the pattern → stop
+- Anti-hedge (Mel 13 Sep 2026): ban “this is X, not Y / what this is not saying / what this doesn’t mean”
+- Instead: what it means / may|could mean / what to watch|monitor|evaluate — then stop
+- Soft language only when evidence is soft; keep Official / Reported / directional labels
+- On every draft/revise: run mel-tucker-voice + humanizer + humanizer-voice + unslop (or humanize-ai-writing)
+- Final Buzzer / score blocks stay score-first: no audio, quotes, or sentiment there
+- Cut: game changer, elite mentality, must-win, AI slop, Gladwell cosplay
+
+### D) Structure / UX (009 shell)
+- Command-deck hub = first viewport (desktop + ~390 mobile)
+- Blender premium hero with in-room court depth (no pasted photoreal practice-facility still as hero)
+- Audio ON hub: seek + ±15
+- Player chrome: eyebrow `Audio` or `Listen` only; track title = edition title only; NEVER Mel / Mel Tucker / personal name; NEVER engine names (Qwen, ElevenLabs, etc.)
+- Hub tiles: Ownership / First read · Suns Weekly Pulse · Around The League · Calendar Ahead · Source Ledger
+- Hash routes: `#hub` `#ownership` `#pulse` `#league` `#calendar` `#sources`
+- Sticky ← Home back to hub
+- Decision strip 1–3 short ownership signals
+- Collapse top dead space so first viewport holds tightened hero + decision strip + audio + tiles
+
+### E) Audio (current house — override all old skill audio lines)
+- Apply `avc-audio-module` v12 Arizona recipe end-to-end
+- Engine: Qwen3-TTS 12Hz 1.7B Base 8-bit on Studio via mlx-audio
+- ICL: 18–20s declarative Mel AZ Feb 2026 slice (`mel-az-decl-18s.wav`) — NOT full 66s dump, NOT 10s kittens clip
+- TTS input spelling `Matt`; visible page copy `Mat`
+- Suns Signal closing line (standalone final transcript line): `Much love, my brother, dominate!`
+- After any transcript change: new versioned MP3 filename; sync transcript, player src, metadata, README, client note
+- Fail-closed proof: hole scan alone is not enough; listen final ~10s for full spoken sign-off; seek/±15 work
+- Validate with repo script if present: `python3 scripts/validate_weekly_structure.py issue-<n>/index.html`
+- ElevenLabs stays off for new renders unless Mel explicitly names it for that edition
+
+### F) OG / iMessage
+- 1200×630 YouTube-thumbnail style: short hed + real photo of THIS edition’s lead
+- Unique OG filename per issue to bust iMessage cache
+- Absolute metadata; Mat one T on cards
+- Ready `issue-<n>/imessage.txt` draft for Mel — never send
+
+### G) Accuracy / research / release gates
+- Keep accuracy-standard + claim-by-claim gate
+- Source ledger; Official vs Reported vs inferred
+- Redundancy audit before proof
+- Mobile ~390×844 + desktop ~1280×800 check
+- Incomplete until: accuracy, redundancy, page, OG, absolute meta, proof link, source ledger, audio proof (if audio)
+
+### H) Explicit deletions from old skill
+Remove or rewrite any instruction that says:
+- local Chatterbox as default
+- ElevenLabs as the implied path
+- any player other than the 007 / mel-audio-player / house `<mel-audio-player>` pattern required by avc-audio-module
+- anything that implies redesigning the hub per edition
+
+## Phase 2 — Repo lock files (same PR / same report)
+1. Ensure `EDITION-LOCK.md` exists in the Suns Signal repo and points at Issue 009 as product of record (content can mirror the skill; don’t fork two truths)
+2. Update repo `AGENTS.md` with a short “Product of record → Issue 009 shell” pointer to EDITION-LOCK.md + the skill path
+3. If missing, add `scripts/new_issue_from_009.sh` (copy 009 → N; reset content placeholders; keep hub/CSS/JS/audio shell)
+4. Keep `voice/` Gladwell + lock pastes tracked
+
+## Phase 3 — Prove
+1. Show a before/after of the stale audio lines vs new v12 lines in the skill
+2. Confirm skill description frontmatter still triggers on Suns Signal / Mat briefing / Pages / OG work
+3. Open a PR titled like: “Lock suns-signal-weekly skill to Issue 009 + Arizona v12 audio”
+4. Do NOT push Pages. Do NOT draft Issue 010.
+
+## Done when
+- `~/.codex/skills/suns-signal-weekly/SKILL.md` (+ references) match Issue 009 + avc-audio-module v12 + Mel Gladwell/anti-hedge/humanizer stack
+- Repo EDITION-LOCK.md + AGENTS.md agree with the skill
+- PR URL reported
+- One-line confirmation: “Next Suns Signal = refresh 009 shell; skill no longer mentions Chatterbox/ElevenLabs as default”
+
+If anything conflicts, prefer: live issue-009 shell > avc-audio-module > Mel 13 Sep anti-hedge voice > older skill text.

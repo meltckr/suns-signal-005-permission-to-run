@@ -4,7 +4,7 @@ Preserve the established Suns Signal Weekly architecture, permanent issue URLs, 
 
 ## Product of record
 
-Read and follow [`EDITION-LOCK.md`](EDITION-LOCK.md) before every new issue. Issue 009 is the shipped product standard: clone its command-deck shell, then refresh the content, headline, dates, hero treatment, lead-player OG photo, audio, sources, metadata, and iMessage. Do not redesign or rebuild the hub for a routine edition. Preserve the system. Refresh the edition.
+Read and follow [`EDITION-LOCK.md`](EDITION-LOCK.md) and `/Users/meltucker/.codex/skills/suns-signal-weekly/SKILL.md` before every new issue. `EDITION-LOCK.md` protects the product shell; the installed skill is the operating manual. Issue 009 is the shipped product standard: clone its command-deck shell, then refresh the content, headline, dates, hero treatment, lead-player OG photo, audio, sources, metadata, and iMessage. Do not redesign or rebuild the hub for a routine edition. Preserve the system. Refresh the edition.
 
 ## Required audio closing
 
