@@ -1,0 +1,18 @@
+{
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "8a94222de611a955227b1d69e1e129f487648fd83908d6641ab420e6a9fd8e52",
+  "transcript_sha256": "f6900ef6bff599613aec4500aa653e5959e29c4dc1c223ef8214ca312228865c",
+  "duration_seconds": 72.421583,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "verification_method": "Complete delivered MP3 transcribed with local Whisper large-v3-turbo; full sequence and closing recognized. Browser played V4 and \u00b115 seek worked through a range-capable local preview server. Technical verification does not establish perceptual approval.",
+  "transcript_screen": "ASR recognized all intended paragraphs and the complete closing. It rendered Mat as Matt, which is phonetically identical; visible text remains Mat. Punctuation varied without a material wording change.",
+  "listening_review": "pending; a human must listen to the full final file before release",
+  "word_count": 233,
+  "assembly": "Arizona v12 render via avc-audio-render.sh, then a 0.87 tempo pass to restore a comfortable brief pace. The final MP3 is versioned v4."
+}

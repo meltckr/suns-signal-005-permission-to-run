@@ -1,0 +1,18 @@
+{
+  "voice": "Mel AZ Feb 2026 (supplied filename)",
+  "provider": "ElevenLabs (supplied filename)",
+  "model": "not specified with supplied MP3",
+  "sha256": "adf9fc4c16eb1dd638ace4ec355535ab0c7e474b62e9bdb23b70e9f077beb476",
+  "transcript_sha256": "f6900ef6bff599613aec4500aa653e5959e29c4dc1c223ef8214ca312228865c",
+  "duration_seconds": 78.947846,
+  "sample_rate_hz": 44100,
+  "channels": 1,
+  "bitrate_kbps": 128,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "verification_method": "Local Whisper large-v3-turbo recognized the complete script and closing through 78.64 s; the MP3 ends at 78.95 s. Subsequent ASR text had impossible timestamps beyond file duration and was discarded. Browser playback and both \u00b115 controls worked with byte-range serving at 390px. Human listening remains pending.",
+  "transcript_screen": "All substantive sections aligned with the existing transcript. ASR rendered spoken Mat as Matt; visible copy remains Mat. Punctuation and numeric form varied.",
+  "listening_review": "pending; human listening to the complete supplied MP3 is still required before release",
+  "word_count": 233,
+  "assembly": "Supplied ElevenLabs MP3 copied into Issue 011 without transcoding; Arizona v4 remains in the same audio folder as backup."
+}

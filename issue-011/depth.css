@@ -1,0 +1,53 @@
+/* Blender art + presentation layer only. Existing content and player are intact. */
+body{background:radial-gradient(ellipse at 94% 23%,#e9dfd5 0,transparent 42%),linear-gradient(135deg,#f8f5f0,#eee9e2);}
+.site-header{box-shadow:0 1px 0 #fff9,0 8px 28px #12151b0d;}
+.issue-nine-hero{min-height:760px;isolation:isolate;border-bottom:1px solid #d6956555;box-shadow:0 18px 60px #0c101a30;}
+.issue-nine-hero .hero-art{object-position:center;opacity:1;}
+.issue-nine-hero .hero-overlay{background:linear-gradient(90deg,#080b13eb 0%,#080b13cf 32%,#080b136b 55%,#080b1305 80%),linear-gradient(0deg,#080b13d9 0%,transparent 50%);}
+.issue-nine-hero .hero-copy{width:min(1180px,calc(100% - 64px));max-width:1180px;padding:60px 0 76px;}
+.issue-nine-hero h1{max-width:700px;font-size:clamp(48px,6.8vw,88px);letter-spacing:-.05em;text-shadow:0 4px 22px #0007;}
+.issue-nine-hero .dek{max-width:620px;color:#ece8e3;}
+.issue-nine-hero .series-row{max-width:none;}
+.issue-nine-hero .suns-context-logo{background:linear-gradient(140deg,#ffffff17,#ffffff05);border:1px solid #ffffff30;box-shadow:inset 0 1px 0 #ffffff22,0 18px 40px #0006;}
+.grade-callout{border-color:#d69d6f70;background:linear-gradient(130deg,#252630ed,#111720f0);box-shadow:inset 0 1px 0 #ffffff1f,0 12px 28px #0005;}
+.grade-callout span{color:#ecc093;}
+.signal-audio{position:relative;z-index:2;filter:drop-shadow(0 18px 22px #151a2225);}
+/* The shared player uses --player-bg as a gradient color stop AND icon color.
+   It must be an opaque color, never another gradient or a translucent value. */
+.signal-audio mel-audio-player{--player-bg:#11151d;--player-surface:#29313e;--player-text:#ffffff;--player-muted:#c9d2df;--player-border:#b78154;--player-accent:#edb57b;--player-accent-soft:#44382e;}
+.glance-panel,.ownership-note{border-radius:18px;box-shadow:inset 0 1px 0 #ffffffb3,0 3px 5px #1c1e2410,0 20px 42px #1c1e2412;}
+.glance-panel{background:linear-gradient(145deg,#fffefa,#f2ede5);}
+.ownership-note{background:radial-gradient(ellipse at 100% 0,#60463855,transparent 65%),linear-gradient(140deg,#252733,#121720);box-shadow:inset 0 1px 0 #f4c58e30,0 3px 6px #10131a20,0 22px 44px #10131a30;}
+.ownership-note .source-tag{color:#edb57b;}
+.glance-grid article,.roundup-grid article,.scoreboard-grid article{border-radius:12px;border:1px solid #cbbdac75;background:linear-gradient(145deg,#fffefb,#eee8df);box-shadow:inset 0 1px 0 #fff,0 2px 3px #24202c09,0 9px 20px #24202c0b;transition:transform 220ms ease,box-shadow 220ms ease,border-color 220ms ease;}
+.roundup-grid{gap:18px;}
+.roundup-grid article{padding:23px;border-top:2px solid #c58e60;}
+.roundup-grid article:last-child:nth-child(odd){grid-column:1/-1;min-height:0;}
+.roundup-grid article:last-child:nth-child(odd) p{max-width:760px;}
+.rail-block{border-left-color:#b57845;box-shadow:inset 0 1px 0 #fff9,0 9px 22px #24202c09;border-radius:0 10px 10px 0;}
+.story section[id]{scroll-margin-top:110px;}
+.story .stat-strip{box-shadow:inset 0 1px 0 #ffffff20,0 18px 38px #18192325;border-radius:12px;}
+@media(hover:hover) and (pointer:fine){
+ .roundup-grid article:hover,.glance-grid article:hover,.scoreboard-grid article:hover{transform:perspective(1100px) translateY(-4px) rotateX(1deg);box-shadow:inset 0 1px 0 #fff,0 4px 6px #24202c0b,0 20px 34px #24202c17;border-color:#b47c4d;}
+ .roundup-grid article:focus-within{transform:translateY(-3px);outline:2px solid #9a5a2b;outline-offset:3px;}
+}
+@media(prefers-reduced-motion:no-preference){
+ .issue-nine-hero .hero-art{animation:scene-arrive 4s cubic-bezier(.2,.65,.3,1) both;}
+ @keyframes scene-arrive{from{transform:scale(1.045)}to{transform:scale(1)}}
+}
+@media(max-width:760px){
+ .issue-nine-hero{min-height:830px;align-items:end;}
+ .issue-nine-hero .hero-art{height:500px;object-position:68% top;object-fit:cover;}
+ .issue-nine-hero .hero-overlay{background:linear-gradient(0deg,#080b13 0%,#080b13fc 33%,#080b13b8 57%,#080b131a 88%);}
+ .issue-nine-hero .hero-copy{width:calc(100% - 40px);padding:255px 0 48px;}
+ .issue-nine-hero .series-row{gap:12px;}
+ .issue-nine-hero .suns-context-logo{width:55px;}
+ .issue-nine-hero h1{font-size:clamp(44px,11.5vw,68px);max-width:570px;}
+ .issue-nine-hero .dek{font-size:17px;line-height:1.5;}
+ .roundup-grid{gap:14px;}
+ .roundup-grid article{padding:20px;}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto;}
+ .hero-art,.roundup-grid article,.glance-grid article,.scoreboard-grid article{animation:none!important;transition:none!important;transform:none!important;}
+}
