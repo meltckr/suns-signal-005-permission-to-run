@@ -33,7 +33,7 @@ function route() {
   hub.hidden = !atHome;
   views.forEach(view => { view.hidden = view.dataset.sectionView !== name; });
   toolbar.hidden = atHome;
-  footer.hidden = atHome;
+  footer.hidden = false;
   document.body.dataset.route = name;
   document.querySelector('.current-section').textContent = labels[name];
   document.title = atHome ? `Suns Signal ${issueNumber} | ${issueTitle}` : `${labels[name]} | Suns Signal ${issueNumber}`;

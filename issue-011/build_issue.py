@@ -8,8 +8,8 @@ TITLE='The Standard in Your Own Words'
 DESCRIPTION='Your public remarks on care, culture, roles and accountability, alongside this week’s Suns updates and league briefing.'
 URL='https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/'
 DATE='2026-09-27T00:00:00-07:00'
-MODIFIED='2026-09-27T18:49:28-07:00'
-STAMP='Updated Sep. 27, 2026 · 6:49 PM Arizona'
+MODIFIED='2026-09-27T18:53:36-07:00'
+STAMP='Updated Sep. 27, 2026 · 6:53 PM Arizona'
 OG='og-suns-signal-011-the-standard-in-your-own-words-v3.png'
 AUDIO='suns-signal-011-v2.mp3'
 ROOT=html.fromstring((HERE/'index.html').read_text())
@@ -32,8 +32,8 @@ def tag_link(label,url):return f'<a href="{escape(url,quote=True)}">{escape(labe
 
 # Metadata and first viewport remain in the approved Issue 009 shell.
 set_attr('//link[@rel="stylesheet" and (starts-with(@href,"../styles.css") or starts-with(@href,"base.css"))]','href','base.css?v=011-base-v1')
-set_attr('//link[@rel="stylesheet" and starts-with(@href,"hub.css")]','href','hub.css?v=011-hub-v4')
-set_attr('//script[starts-with(@src,"hub.js")]','src','hub.js?v=011-hub-v3')
+set_attr('//link[@rel="stylesheet" and starts-with(@href,"hub.css")]','href','hub.css?v=011-hub-v5')
+set_attr('//script[starts-with(@src,"hub.js")]','src','hub.js?v=011-hub-v4')
 set_text('//head/title','Suns Signal 011 | '+TITLE)
 set_attr('//meta[@name="robots"]','content','index,follow,max-image-preview:large')
 for prop in ('description','twitter:description'):
@@ -54,6 +54,9 @@ set_attr('//body','data-issue-title',TITLE)
 set_attr('//script[contains(@src,"audio-player.js")]','src','../assets/audio-player/audio-player.js?v=011-neutral-v2')
 set_text('//header//div[@class="edition"]/strong','September 27, 2026')
 set_text('//footer/div/span','Sports strategy and sentiment intelligence. · '+STAMP)
+set_attr('//footer/img','src','../assets/brand/logos/AVC-logo-horizontal-light.svg')
+set_attr('//footer/img','alt','Accelerated Velocity Consulting')
+one('//footer/img').attrib.pop('aria-hidden',None)
 set_attr('//section[@id="hub"]//source[@media="(max-width:760px)"]','srcset','assets/signal-philosophy-011-mobile.webp')
 set_attr('//section[@id="hub"]//img[@class="hero-art"]','src','assets/signal-philosophy-011-desktop.webp')
 set_attr('//section[@id="hub"]//img[@class="hero-art"]','alt','Original 3D Suns court room with basketball, rising platforms, bronze arc, and three etched quote panels on the far wall.')
