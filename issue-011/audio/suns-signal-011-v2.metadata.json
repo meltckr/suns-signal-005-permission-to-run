@@ -13,7 +13,9 @@
   "required_closing": "Much love, my brother, dominate!",
   "closing_verified": true,
   "listening_approved": false,
-  "listening_review": "Pending Mel’s complete review of this new narration; do not merge.",
+  "listening_review": "Full human listening review not recorded; Mel explicitly authorized publication of the finished client edition.",
   "assembly": "Same canonical recipe as the approved previous file: 19.25-second declarative reference pair; sentence renders at temperature 0.9, top_k 50, top_p 1.0, max_tokens 384, seed 42; trailing trim; 60ms crossfades; one atempo=1.15; de-essing; two-pass normalization; 24kHz mono 160kbps CBR with Xing; no inserted silence.",
-  "verification_method": "Canonical factory and independent silence/digital-black scans passed. Local ASR recovered eight themes, all eight names including the phonetic Suns identity, and the complete closing. Human listening approval remains pending."
+  "verification_method": "Canonical factory and independent silence/digital-black scans passed. Local ASR recovered eight themes, all eight names including the phonetic Suns identity, and the complete closing. Human listening approval remains pending.",
+  "publication_authorized": true,
+  "publication_authorized_at": "2026-09-27T18:49:28-07:00"
 }

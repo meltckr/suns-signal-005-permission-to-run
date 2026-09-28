@@ -1,6 +1,6 @@
 # Issue 011 second-person review record
 
-Status: technically verified review draft. Mel’s complete listening approval of the new 58.97575-second narration is pending. Do not merge or publish this revision.
+Status: technically verified final edition. Mel explicitly authorized client publication of this revision. A separate full human listening approval of the new 58.97575-second narration is not recorded.
 
 - The published Issue 011 is the base. Layout, logos, six routes, dates, all source URLs and all eight direct quotations are preserved. Framing copy addresses you, Mat; title, H1, player, OG/Twitter/Article metadata, share card, transcript and iMessage use “The Standard in Your Own Words.” Abstract headings were replaced with concrete lines. Other people retain their correct identities.
 - The separately authorized player-code cleanup is already live from PR 20. Its class, tag, events and saved-speed key use neutral AVC identifiers; Issue 011 selectors and the builder match. Its live HTML/JS/CSS bytes were verified after Pages deployment. All existing copy, source labels, transcript and MP3 bytes were unchanged by that live fix. Playback, jump controls, speed persistence, transcript and download were retested.

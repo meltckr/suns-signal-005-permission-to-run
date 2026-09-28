@@ -6,4 +6,4 @@ This is a fresh local render of the same house Arizona voice: canonical Qwen fac
 
 The active manifest is `suns-signal-011-v2.metadata.json`; edition.json records its exact duration and hashes. The original approved MP3 and Arizona v4 remain unchanged as backups. Private voice references and pronunciation input stay outside the repository and share kit.
 
-Mel’s complete listening review of this new file is pending. Do not merge until Mel approves it.
+Mel explicitly authorized publication of the finished edition. Technical audio checks passed; a separate full human listening review of this new file is not recorded.
