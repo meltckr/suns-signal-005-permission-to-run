@@ -36,7 +36,7 @@ with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as z:
     z.writestr('START-HERE.html', start)
     z.writestr('share-card.png', og.read_bytes())
     # Keep the full content visible when opened locally without a module server.
-    offline = html.replace('<script type="module" src="hub.js?v=011-hub-v3"></script>', '').replace('<body ', '<body data-review="all" data-route="hub" ', 1)
+    offline = html.replace('<script type="module" src="hub.js?v=011-hub-v4"></script>', '').replace('<body ', '<body data-review="all" data-route="hub" ', 1)
     z.writestr('issue-011/complete-edition.html', offline)
     for p in sorted(edition.rglob('*')):
         if not p.is_file() or 'ship' in p.parts or p.suffix == '.py' or p.name == 'render-og.mjs' or 'arizona-v12-v4' in p.name or p.name in {'suns-signal-011.metadata.json', 'suns-signal-011.mp3'} or ('og-suns-signal-' in p.name and p.name != og.name): continue

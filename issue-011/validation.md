@@ -11,3 +11,5 @@ Status: technically verified final edition. Mel explicitly authorized client pub
 - Mobile at 390px and desktop at 1440px show all five sections in full-edition view with zero horizontal overflow. The 1200×630 RGB share card is refreshed and the review ZIP contains the new edition, audio, transcript, card, metadata, sources and unsent iMessage.
 - Home returns to #hub by the edition navigation contract; the root currently opens Issue 005 and is not a series index. The meltckr hostname remains identifying and requires changing host to anonymize.
 - Weekly structure validation, verbatim quote/source-link comparisons, active third-person-remnant scan, JavaScript syntax, metadata/hash/duration checks and diff checks passed. No client message was sent and repository visibility is unchanged.
+
+- AVC visibility correction: approved full wordmark at full opacity in header and footer, with a light contrast panel. Header branding stays visible on 390px phones and section pages; the footer is available on the hub. Desktop and mobile have zero horizontal overflow. Editorial copy, source links, direct quotes and narration are unchanged.
