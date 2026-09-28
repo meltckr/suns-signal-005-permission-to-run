@@ -1,9 +1,9 @@
-# Issue 011 audio
+# Issue 011 audio review
 
-The review player uses `suns-signal-011.mp3` and `../content/audio-brief-transcript.txt`. The corrected overview lists all eight page themes, including Suns identity, and ends exactly with “Much love, my brother, dominate!” as Mel specified.
+The player uses `suns-signal-011-v2.mp3` with the second-person `../content/audio-brief-transcript.txt` and the title “The Standard in Your Own Words.” The script includes all eight quote subjects and ends exactly with “Much love, my brother, dominate!”
 
-The MP3 uses the house Qwen Arizona voice, rendered locally through the canonical factory. `suns-signal-011.metadata.json` binds its audio and transcript hashes. `../edition.json` records the exact ffprobe duration. The existing Arizona v4 and its metadata remain as backup. The former ElevenLabs audio has been removed.
+This is a fresh local render of the same house Arizona voice: canonical Qwen factory, approved declarative reference pair, sentence renders at temperature 0.9 / top_k 50 / top_p 1.0 / max_tokens 384, trailing trim, 60 ms crossfades, one atempo 1.15 pass, de-essing and two-pass normalization. Delivery is 24 kHz mono, 160 kb/s CBR MP3 with Xing.
 
-Technical gates passed: 24 kHz mono, 160 kb/s CBR with Xing; zero silence gaps at −50 dB lasting 0.30 seconds; zero digital-black intervals longer than 0.28 seconds. All three requested spectrogram windows were generated in private QA. Local speech recognition recovered the complete eight-theme overview and exact closing. It placed about 140 ms of natural air after the opening Matt, within the requested approximate 170 ms pause.
+The active manifest is `suns-signal-011-v2.metadata.json`; edition.json records its exact duration and hashes. The original approved MP3 and Arizona v4 remain unchanged as backups. Private voice references and pronunciation input stay outside the repository and share kit.
 
-Mel approved the complete narration and authorized publication on September 27, 2026. The approval is recorded in the audio manifest.
+Mel explicitly authorized publication of the finished edition. Technical audio checks passed; a separate full human listening review of this new file is not recorded.
