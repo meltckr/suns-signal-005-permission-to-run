@@ -44,7 +44,7 @@ function route() {
     window.scrollTo({top:0, behavior:'instant'});
     if (!firstLoad) target?.focus({preventScroll:true});
     if (focusAudio) {
-      const player = hub.querySelector('mel-audio-player');
+      const player = hub.querySelector('avc-audio-player');
       player.scrollIntoView({block:'center', behavior:'instant'});
       player.shadowRoot?.querySelector('.play')?.focus({preventScroll:true});
       focusAudio = false;

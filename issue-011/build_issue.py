@@ -32,8 +32,8 @@ def tag_link(label,url):return f'<a href="{escape(url,quote=True)}">{escape(labe
 
 # Metadata and first viewport remain in the approved Issue 009 shell.
 set_attr('//link[@rel="stylesheet" and (starts-with(@href,"../styles.css") or starts-with(@href,"base.css"))]','href','base.css?v=011-base-v1')
-set_attr('//link[@rel="stylesheet" and starts-with(@href,"hub.css")]','href','hub.css?v=011-hub-v3')
-set_attr('//script[starts-with(@src,"hub.js")]','src','hub.js?v=011-hub-v2')
+set_attr('//link[@rel="stylesheet" and starts-with(@href,"hub.css")]','href','hub.css?v=011-hub-v4')
+set_attr('//script[starts-with(@src,"hub.js")]','src','hub.js?v=011-hub-v3')
 set_text('//head/title','Suns Signal 011 | '+TITLE)
 set_attr('//meta[@name="robots"]','content','index,follow,max-image-preview:large')
 for prop in ('description','twitter:description'):
@@ -51,7 +51,7 @@ set_attr('//meta[@property="og:image:alt"]','content',alt)
 set_attr('//meta[@name="twitter:image:alt"]','content',alt)
 set_text('//script[@type="application/ld+json"]',json.dumps({'@context':'https://schema.org','@type':'Article','headline':TITLE,'datePublished':DATE,'dateModified':MODIFIED,'author':{'@type':'Organization','name':'Accelerated Velocity Consulting'},'publisher':{'@type':'Organization','name':'Accelerated Velocity Consulting'},'image':[URL+'assets/'+OG],'mainEntityOfPage':URL}))
 set_attr('//body','data-issue-title',TITLE)
-set_attr('//script[contains(@src,"audio-player.js")]','src','../assets/audio-player/audio-player.js')
+set_attr('//script[contains(@src,"audio-player.js")]','src','../assets/audio-player/audio-player.js?v=011-neutral-v2')
 set_text('//header//div[@class="edition"]/strong','September 27, 2026')
 set_text('//footer/div/span','Sports strategy and sentiment intelligence. · '+STAMP)
 set_attr('//section[@id="hub"]//source[@media="(max-width:760px)"]','srcset','assets/signal-philosophy-011-mobile.webp')
@@ -64,7 +64,7 @@ for div,label,read in zip(one('//section[@id="hub"]//div[@class="decision-strip"
  ('Public record','Leadership pattern','Next public test'),
  ('Care and daily standards','Roles and accountability','Media day · Sept. 28')):
  div.xpath('./span')[0].text=label;div.xpath('./strong')[0].text=read
-player=one('//mel-audio-player');player.set('src','audio/'+AUDIO);player.set('title',TITLE);player.set('eyebrow','Audio');player.attrib.pop('duration_seconds',None)
+player=one('//avc-audio-player');player.set('src','audio/'+AUDIO);player.set('title',TITLE);player.set('eyebrow','Audio');player.attrib.pop('duration_seconds',None)
 set_text('//nav[@class="hub-tiles"]/a[@href="#pulse"]//small','Three Suns signals')
 set_text('//nav[@class="hub-tiles"]/a[@href="#league"]//small','Five league developments')
 set_text('//nav[@class="hub-tiles"]/a[@href="#calendar"]//small','Media day through preseason')

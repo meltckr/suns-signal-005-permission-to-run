@@ -309,7 +309,7 @@ template.innerHTML = `
   </section>
 `;
 
-export class MelAudioPlayer extends HTMLElement {
+export class AvcAudioPlayer extends HTMLElement {
   static observedAttributes = ["src", "title", "eyebrow", "transcript", "download"];
 
   constructor() {
@@ -338,7 +338,7 @@ export class MelAudioPlayer extends HTMLElement {
   }
 
   disconnectedCallback() {
-    window.removeEventListener("mel-audio-player:play", this.boundPauseOtherPlayers);
+    window.removeEventListener("avc-audio-player:play", this.boundPauseOtherPlayers);
   }
 
   attributeChangedCallback() {
@@ -371,7 +371,7 @@ export class MelAudioPlayer extends HTMLElement {
     });
     this.audio.addEventListener("error", () => this.announce("Audio is unavailable. Use the transcript if provided."));
     this.addEventListener("keydown", (event) => this.handleKeyboard(event));
-    window.addEventListener("mel-audio-player:play", this.boundPauseOtherPlayers);
+    window.addEventListener("avc-audio-player:play", this.boundPauseOtherPlayers);
   }
 
   syncAttributes() {
@@ -406,7 +406,7 @@ export class MelAudioPlayer extends HTMLElement {
     }
 
     if (this.audio.paused || this.audio.ended) {
-      window.dispatchEvent(new CustomEvent("mel-audio-player:play", { detail: this }));
+      window.dispatchEvent(new CustomEvent("avc-audio-player:play", { detail: this }));
       try {
         await this.audio.play();
         this.announce("Audio playing");
@@ -437,13 +437,13 @@ export class MelAudioPlayer extends HTMLElement {
     });
 
     if (persist) {
-      try { localStorage.setItem("mel-audio-player:rate", String(rate)); } catch { /* storage is optional */ }
+      try { localStorage.setItem("avc-audio-player:rate", String(rate)); } catch { /* storage is optional */ }
       this.announce(`Playback speed ${rate === 1 ? "normal" : `${rate} times`}`);
     }
   }
 
   readStoredRate() {
-    try { return localStorage.getItem("mel-audio-player:rate") || 1; } catch { return 1; }
+    try { return localStorage.getItem("avc-audio-player:rate") || 1; } catch { return 1; }
   }
 
   handleKeyboard(event) {
@@ -487,8 +487,8 @@ export class MelAudioPlayer extends HTMLElement {
   }
 }
 
-if (!customElements.get("mel-audio-player")) {
-  customElements.define("mel-audio-player", MelAudioPlayer);
+if (!customElements.get("avc-audio-player")) {
+  customElements.define("avc-audio-player", AvcAudioPlayer);
 }
 
 export { PLAYBACK_RATES };
