@@ -8,8 +8,10 @@ TITLE='The Standard in His Own Words'
 DESCRIPTION='Mat Ishbia’s public remarks reveal a consistent view of care, culture, roles and accountability, with a current Suns and league briefing.'
 URL='https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/'
 DATE='2026-09-27T00:00:00-07:00'
+MODIFIED='2026-09-27T18:09:29-07:00'
+STAMP='Updated Sep. 27, 2026 · 6:09 PM Arizona'
 OG='og-suns-signal-011-words-behind-work-v1.png'
-AUDIO='suns-signal-011-elevenlabs-mel-az-feb2026.mp3'
+AUDIO='suns-signal-011.mp3'
 ROOT=html.fromstring((HERE/'index.html').read_text())
 def one(xpath):
  found=ROOT.xpath(xpath)
@@ -40,15 +42,18 @@ for prop in ('og:description',):set_attr(f'//meta[@property="{prop}"]','content'
 for prop in ('og:title','twitter:title'):
  sel=f'//meta[@property="{prop}"]' if prop.startswith('og:') else f'//meta[@name="{prop}"]'
  set_attr(sel,'content','Suns Signal 011 | '+TITLE)
-for prop in ('article:published_time','article:modified_time'):set_attr(f'//meta[@property="{prop}"]','content',DATE)
+set_attr('//meta[@property="article:published_time"]','content',DATE)
+set_attr('//meta[@property="article:modified_time"]','content',MODIFIED)
 for prop in ('og:image','og:image:secure_url'):set_attr(f'//meta[@property="{prop}"]','content',URL+'assets/'+OG)
 set_attr('//meta[@name="twitter:image"]','content',URL+'assets/'+OG)
 alt='Suns Signal Issue 011 share card, The Standard in His Own Words, with Mat Ishbia portrait and AVC branding.'
 set_attr('//meta[@property="og:image:alt"]','content',alt)
 set_attr('//meta[@name="twitter:image:alt"]','content',alt)
-set_text('//script[@type="application/ld+json"]',json.dumps({'@context':'https://schema.org','@type':'Article','headline':TITLE,'datePublished':DATE,'author':{'@type':'Organization','name':'Accelerated Velocity Consulting'},'publisher':{'@type':'Organization','name':'Accelerated Velocity Consulting'},'image':[URL+'assets/'+OG],'mainEntityOfPage':URL}))
+set_text('//script[@type="application/ld+json"]',json.dumps({'@context':'https://schema.org','@type':'Article','headline':TITLE,'datePublished':DATE,'dateModified':MODIFIED,'author':{'@type':'Organization','name':'Accelerated Velocity Consulting'},'publisher':{'@type':'Organization','name':'Accelerated Velocity Consulting'},'image':[URL+'assets/'+OG],'mainEntityOfPage':URL}))
 set_attr('//body','data-issue-title',TITLE)
+set_attr('//script[contains(@src,"audio-player.js")]','src','../assets/audio-player/audio-player.js')
 set_text('//header//div[@class="edition"]/strong','September 27, 2026')
+set_text('//footer/div/span','Sports strategy and sentiment intelligence. · '+STAMP)
 set_attr('//section[@id="hub"]//source[@media="(max-width:760px)"]','srcset','assets/signal-philosophy-011-mobile.webp')
 set_attr('//section[@id="hub"]//img[@class="hero-art"]','src','assets/signal-philosophy-011-desktop.webp')
 set_attr('//section[@id="hub"]//img[@class="hero-art"]','alt','Original 3D Suns court room with basketball, rising platforms, bronze arc, and three etched quote panels on the far wall.')
@@ -59,7 +64,7 @@ for div,label,read in zip(one('//section[@id="hub"]//div[@class="decision-strip"
  ('Public record','Leadership pattern','Next public test'),
  ('Care and daily standards','Roles and accountability','Media day · Sept. 28')):
  div.xpath('./span')[0].text=label;div.xpath('./strong')[0].text=read
-player=one('//mel-audio-player');player.set('src','audio/'+AUDIO);player.set('title',TITLE)
+player=one('//mel-audio-player');player.set('src','audio/'+AUDIO);player.set('title',TITLE);player.set('eyebrow','Audio');player.attrib.pop('duration_seconds',None)
 set_text('//nav[@class="hub-tiles"]/a[@href="#pulse"]//small','Three Suns signals')
 set_text('//nav[@class="hub-tiles"]/a[@href="#league"]//small','Five league developments')
 set_text('//nav[@class="hub-tiles"]/a[@href="#calendar"]//small','Media day through preseason')
@@ -118,10 +123,10 @@ pulse=[
  ('2026-09-22','NBA preview · Sept. 22','Last season sets the baseline.','The NBA’s season preview records Phoenix at 45–37 in 2025–26 and ninth in defensive ranking. Repeating the habits behind that improvement is a useful early-season question.','https://www.nba.com/news/2026-27-season-preview-phx','NBA.com'),
 ]
 league=[
- ('2026-09-14','Official statement · Sept. 14','The Clippers case reached the owner’s desk.','Steve Ballmer accepted responsibility for the organization’s compliance failures and said the fine had been paid. The episode shows how league enforcement reaches ownership.','https://www.nba.com/news/statement-from-clippers-governor-steve-ballmer','NBA.com'),
- ('2026-09-16','League report · Sept. 16','Expansion remains an open decision.','Adam Silver said the league aims to reach a decision by year-end. Market and arena questions remain in front of the Board. No franchise award has been announced.','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','NBA.com'),
- ('2026-09-16','League report · Sept. 16','Europe still depends on negotiation.','Silver described ongoing talks around the intended 2027 European league. Existing basketball institutions remain part of the conversation, with structure unresolved.','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','NBA.com'),
- ('2026-09-16','League report · Sept. 16','Board leadership changes during a busy period.','Micky Arison now chairs the Board of Governors. The transition comes as the league weighs expansion and international plans.','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','NBA.com'),
+ ('2026-09-13','Official statement · Sept. 13','The Clippers case reached the owner’s desk.','Steve Ballmer accepted responsibility for the organization’s compliance failures and said the fine had been paid. The episode shows how league enforcement reaches ownership.','https://www.nba.com/news/statement-from-clippers-governor-steve-ballmer','NBA.com'),
+ ('2026-09-15','League report · Sept. 15','Expansion remains an open decision.','Adam Silver said the league aims to reach a decision by year-end. Market and arena questions remain in front of the Board. No franchise award has been announced.','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','NBA.com'),
+ ('2026-09-15','League report · Sept. 15','Europe still depends on negotiation.','Silver described ongoing talks around the intended 2027 European league. Existing basketball institutions remain part of the conversation, with structure unresolved.','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','NBA.com'),
+ ('2026-09-15','League report · Sept. 15','Board leadership changes during a busy period.','Micky Arison now chairs the Board of Governors. The transition comes as the league weighs expansion and international plans.','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','NBA.com'),
  ('2026-09-27','City status · reviewed Sept. 27','Portland’s arena plan still needs an agreement.','The city describes a proposed financing arrangement tied to a new 20-year lease, with a December 2026 deadline in the state framework. Civic approval and an executable lease remain the watch points.','https://www.portland.gov/venues/moda-center/moda-project-overview/moda-whats-next-get-facts','City of Portland'),
 ]
 def render_cards(cards):
@@ -175,8 +180,8 @@ sources=[
  ('Arizona Sports · Sept. 16, 2026','https://arizonasports.com/nba/phoenix-suns/rex-chapman-expanded-tv-role-calling-suns-games','Suns local broadcast plan','Reported current'),
  ('Arizona Sports · Sept. 16, 2026','https://arizonasports.com/nba/phoenix-suns/phoenix-suns-sign-duop-reath-for-depth-after-mark-williams-injury','reported Reath depth signing','Reported current'),
  ('NBA.com · Sept. 22, 2026','https://www.nba.com/news/2026-27-season-preview-phx','prior-season Phoenix baseline','League preview'),
- ('NBA.com · Sept. 14, 2026','https://www.nba.com/news/statement-from-clippers-governor-steve-ballmer','Ballmer response','Official statement'),
- ('NBA.com · Sept. 16, 2026','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','expansion, Europe and board leadership','League report'),
+ ('NBA.com · Sept. 13, 2026','https://www.nba.com/news/statement-from-clippers-governor-steve-ballmer','Ballmer response','Official statement'),
+ ('NBA.com · Sept. 15, 2026','https://www.nba.com/news/adam-silver-board-of-governors-september-2026','expansion, Europe and board leadership','League report'),
  ('City of Portland · reviewed Sept. 27, 2026','https://www.portland.gov/venues/moda-center/moda-project-overview/moda-whats-next-get-facts','proposed Moda Center financing and lease deadline','Official ongoing'),
  ('NBA · reviewed Sept. 27, 2026','https://www.nba.com/news/nba-media-days-schedule-for-all-30-teams','Suns media day','Official schedule'),
  ('NBA · reviewed Sept. 27, 2026','https://www.nba.com/news/key-dates','camp and preseason start','Official schedule'),

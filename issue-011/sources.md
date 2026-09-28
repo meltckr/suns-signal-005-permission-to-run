@@ -14,8 +14,8 @@ The rendered page carries these linked sources and claim labels:
 - [Arizona Sports · Sept. 16, 2026](https://arizonasports.com/nba/phoenix-suns/rex-chapman-expanded-tv-role-calling-suns-games) · Reported current · Suns local broadcast plan.
 - [Arizona Sports · Sept. 16, 2026](https://arizonasports.com/nba/phoenix-suns/phoenix-suns-sign-duop-reath-for-depth-after-mark-williams-injury) · Reported current · reported Reath depth signing.
 - [NBA.com · Sept. 22, 2026](https://www.nba.com/news/2026-27-season-preview-phx) · League preview · prior-season Phoenix baseline.
-- [NBA.com · Sept. 14, 2026](https://www.nba.com/news/statement-from-clippers-governor-steve-ballmer) · Official statement · Ballmer response.
-- [NBA.com · Sept. 16, 2026](https://www.nba.com/news/adam-silver-board-of-governors-september-2026) · League report · expansion, Europe and board leadership.
+- [NBA.com · Sept. 13, 2026](https://www.nba.com/news/statement-from-clippers-governor-steve-ballmer) · Official statement · Ballmer response.
+- [NBA.com · Sept. 15, 2026](https://www.nba.com/news/adam-silver-board-of-governors-september-2026) · League report · expansion, Europe and board leadership.
 - [City of Portland · reviewed Sept. 27, 2026](https://www.portland.gov/venues/moda-center/moda-project-overview/moda-whats-next-get-facts) · Official ongoing · proposed Moda Center financing and lease deadline.
 - [NBA · reviewed Sept. 27, 2026](https://www.nba.com/news/nba-media-days-schedule-for-all-30-teams) · Official schedule · Suns media day.
 - [NBA · reviewed Sept. 27, 2026](https://www.nba.com/news/key-dates) · Official schedule · camp and preseason start.
