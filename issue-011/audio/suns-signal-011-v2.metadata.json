@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-28T01:39:44.534043+00:00",
+  "title": "The Standard in Your Own Words",
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "a07fd0af8bc494848f0757483b3df63bfbef3897603b4c81646ca18abc346fc4",
+  "transcript_sha256": "b5052a05c243545ed910f977c731137c144febaf51757209a36ba2420459af4b",
+  "duration_seconds": 58.97575,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "listening_approved": false,
+  "listening_review": "Pending Mel’s complete review of this new narration; do not merge.",
+  "assembly": "Same canonical recipe as the approved previous file: 19.25-second declarative reference pair; sentence renders at temperature 0.9, top_k 50, top_p 1.0, max_tokens 384, seed 42; trailing trim; 60ms crossfades; one atempo=1.15; de-essing; two-pass normalization; 24kHz mono 160kbps CBR with Xing; no inserted silence.",
+  "verification_method": "Canonical factory and independent silence/digital-black scans passed. Local ASR recovered eight themes, all eight names including the phonetic Suns identity, and the complete closing. Human listening approval remains pending."
+}

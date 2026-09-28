@@ -1,6 +1,6 @@
 # Suns Signal 011 source ledger
 
-Reporting window: September 14–27, 2026. Historical Mat quotations are labeled background and original dates stay attached.
+Reporting window: September 14–27, 2026. Your historical quotations are labeled background and original dates stay attached.
 
 The rendered page carries these linked sources and claim labels:
 

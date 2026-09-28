@@ -1,16 +1,17 @@
-# Suns Signal 011 — The Standard in His Own Words
+# Suns Signal 011 — The Standard in Your Own Words
 
-Issue 011 was published on September 27, 2026. Mel approved the complete house-voice narration and authorized the final release on September 27, 2026.
+Status: second-person revision for Mat’s review. PR only; do not merge or publish until Mel listens to the complete revised audio and explicitly approves.
 
-Canonical live URL: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/
+The published Issue 011 is the base. Its Issue 009 layout, branding, five sections, shared audio player, source URLs, dates and eight verbatim quotations are preserved. The surrounding copy now addresses you directly, and the headings name concrete actions or facts. The title is synchronized across the page, share card, metadata, player, transcript and iMessage.
 
-Full-edition view: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/?review=all
+Active audio: `audio/suns-signal-011-v2.mp3`. The original approved MP3 and Arizona v4 stay as backups. The revised narration uses the same house voice and recipe, and ends with the exact Suns Signal closing. Your new audio approval is pending.
 
-The proof preserves the approved Issue 009 architecture, all eight sourced philosophy excerpts, other prose and layout. It corrects Ballmer and Silver publication dates to Arizona time, removes the personal name from the active audio and player asset paths, and changes the player eyebrow to Audio. The corrected eight-theme narration uses the locked house voice and exact Suns Signal closing. Its exact duration is recorded in edition.json and the audio manifest. Arizona v4 remains as backup.
+Build: `python3 issue-011/build_issue.py`
 
-Home links return to this edition’s hub. The repository root currently opens Issue 005 and is not a series index.
+Validation: `python3 scripts/validate_weekly_structure.py issue-011/index.html`
 
-Build: python3 issue-011/build_issue.py
-Validation: python3 scripts/validate_weekly_structure.py issue-011/index.html
+Share kit: `ship/suns-signal-011-your-words-review.zip`, containing the complete review edition, audio, transcript, share card, metadata, sources and ready-to-send iMessage.
 
-The share kit includes the complete edition, approved narration, transcript, share card, metadata and ready-to-send iMessage. Post-deployment verification covers the live stamp, mobile view and exact deployed audio bytes. Repository visibility remains unchanged.
+Canonical URL after approval: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/
+
+Home links retain the edition-hub destination. No iMessage has been sent; repository visibility is unchanged.
