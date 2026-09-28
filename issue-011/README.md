@@ -1,5 +1,14 @@
-# Suns Signal 011 online review
+# Suns Signal 011 — The Standard in His Own Words
 
-Review copy of The Standard in His Own Words, prepared September 27, 2026. Open index.html?review=all for the entire edition on one continuous page.
+Mel approved merging and publishing Issue 011 on September 27, 2026.
 
-This branch supplies an online proof link only. Main and the live Suns Signal site remain unchanged. The active ElevenLabs MP3 and transcript match the local edition; the Arizona v4 backup remains in the local working folder. Full human audio review and final release approval remain pending.
+Canonical URL: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/
+
+Full-edition view: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/?review=all
+
+Uses the approved Issue 009 architecture, eight sourced Mat philosophy excerpts, three Suns updates, five league developments, the calendar and the 78.95-second ElevenLabs overview requested by Mel. The Arizona v4 audio and metadata remain as backup.
+
+Weekly structure, online section visibility, branding, audio load and audio hash were verified. Full human audio listening remains pending; Mel explicitly authorised immediate publication for review. No iMessage has been sent.
+
+Build: python3 issue-011/build_issue.py
+Validation: python3 scripts/validate_weekly_structure.py issue-011/index.html
