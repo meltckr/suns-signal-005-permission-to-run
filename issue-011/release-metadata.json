@@ -1,0 +1,56 @@
+{
+  "title": "The Standard in His Own Words",
+  "issue": "011",
+  "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/",
+  "complete_view_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/?review=all",
+  "description": "Mat Ishbia’s public remarks reveal a consistent view of care, culture, roles and accountability, with a current Suns and league briefing.",
+  "social": {
+    "og:type": "article",
+    "og:site_name": "Suns Signal",
+    "article:published_time": "2026-09-27T00:00:00-07:00",
+    "article:modified_time": "2026-09-27T18:23:57-07:00",
+    "og:title": "Suns Signal 011 | The Standard in His Own Words",
+    "og:description": "Mat Ishbia’s public remarks reveal a consistent view of care, culture, roles and accountability, with a current Suns and league briefing.",
+    "og:url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/",
+    "og:image": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/assets/og-suns-signal-011-the-standard-in-his-own-words-v2.png",
+    "og:image:secure_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/assets/og-suns-signal-011-the-standard-in-his-own-words-v2.png",
+    "og:image:type": "image/png",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "Suns Signal Issue 011 share card, The Standard in His Own Words, with Mat Ishbia portrait and AVC branding.",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Suns Signal 011 | The Standard in His Own Words",
+    "twitter:description": "Mat Ishbia’s public remarks reveal a consistent view of care, culture, roles and accountability, with a current Suns and league briefing.",
+    "twitter:image": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/assets/og-suns-signal-011-the-standard-in-his-own-words-v2.png",
+    "twitter:image:alt": "Suns Signal Issue 011 share card, The Standard in His Own Words, with Mat Ishbia portrait and AVC branding."
+  },
+  "structured_data": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Standard in His Own Words",
+    "datePublished": "2026-09-27T00:00:00-07:00",
+    "dateModified": "2026-09-27T18:23:57-07:00",
+    "author": {
+      "@type": "Organization",
+      "name": "Accelerated Velocity Consulting"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Accelerated Velocity Consulting"
+    },
+    "image": [
+      "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/assets/og-suns-signal-011-the-standard-in-his-own-words-v2.png"
+    ],
+    "mainEntityOfPage": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/"
+  },
+  "audio": {
+    "issue": "011",
+    "title": "The Standard in His Own Words",
+    "audio": "audio/suns-signal-011.mp3",
+    "transcript": "content/audio-brief-transcript.txt",
+    "duration_seconds": 63.656458,
+    "audio_sha256": "81f4ab2d75ba1b356efcdfc4ce300d6785c6c34762641f81b1e59c1806bb72b2",
+    "transcript_sha256": "9a7f2433b7c6f0b3bde847008b5b148828234c10d2be1c89459abec79009e2a5"
+  },
+  "share_card_sha256": "7a028c352ea9811f48d15565ecc8bf9ef835b1f299d8ffb98d01f01cd516eec3"
+}

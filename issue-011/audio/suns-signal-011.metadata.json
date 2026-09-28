@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-09-28T01:10:51.799357+00:00",
+  "title": "The Standard in His Own Words",
+  "voice": "AVC Arizona Voice v12",
+  "provider": "Private local MLX Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "sha256": "81f4ab2d75ba1b356efcdfc4ce300d6785c6c34762641f81b1e59c1806bb72b2",
+  "transcript_sha256": "9a7f2433b7c6f0b3bde847008b5b148828234c10d2be1c89459abec79009e2a5",
+  "duration_seconds": 63.656458,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "bitrate_kbps": 160,
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "verification_method": "Canonical renderer and independent -50 dB / 0.30 s silence scan passed; no digital black longer than 0.28 s. Local Whisper recognized the complete opening, eight themes and exact closing. Opening word timing places approximately 140 ms of natural air after Matt.",
+  "listening_review": "Approved by Mel after full-file review; explicit approval received 2026-09-27T18:23:57-07:00",
+  "assembly": "Sentence-boundary renders, same approved 19.25-second reference and exact reference transcript, temperature 0.9 / top_k 50 / top_p 1.0 / max_tokens 384. Trailing trim, 60 ms crossfades, one atempo=1.15 pass, de-essing, 24 kHz mono 160 kb/s CBR with Xing. No inserted digital silence.",
+  "word_count": 235,
+  "listening_approved": true,
+  "approved_at": "2026-09-27T18:23:57-07:00"
+}
