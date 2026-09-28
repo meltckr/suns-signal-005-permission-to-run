@@ -71,7 +71,7 @@ def main() -> None:
     if "what would sharpen the next edition" in html.lower():
         fail("internal next-edition research checklist must not appear on the client page")
 
-    player_match = re.search(r"<mel-audio-player\b[^>]*>", html, re.DOTALL)
+    player_match = re.search(r"<(?:mel|avc)-audio-player\b[^>]*>", html, re.DOTALL)
     if player_match:
         player_tag = player_match.group(0)
         src_match = re.search(r'\bsrc="([^"]+)"', player_tag)
