@@ -8,9 +8,9 @@ TITLE='The Standard in His Own Words'
 DESCRIPTION='Mat Ishbia’s public remarks reveal a consistent view of care, culture, roles and accountability, with a current Suns and league briefing.'
 URL='https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/'
 DATE='2026-09-27T00:00:00-07:00'
-MODIFIED='2026-09-27T18:09:29-07:00'
-STAMP='Updated Sep. 27, 2026 · 6:09 PM Arizona'
-OG='og-suns-signal-011-words-behind-work-v1.png'
+MODIFIED='2026-09-27T18:23:57-07:00'
+STAMP='Updated Sep. 27, 2026 · 6:23 PM Arizona'
+OG='og-suns-signal-011-the-standard-in-his-own-words-v2.png'
 AUDIO='suns-signal-011.mp3'
 ROOT=html.fromstring((HERE/'index.html').read_text())
 def one(xpath):

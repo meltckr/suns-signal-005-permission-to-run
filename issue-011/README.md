@@ -1,6 +1,6 @@
 # Suns Signal 011 — The Standard in His Own Words
 
-Issue 011 was published on September 27, 2026. This proof branch is ready for Mel’s complete audio listening review and must remain unmerged until explicit approval.
+Issue 011 was published on September 27, 2026. Mel approved the complete house-voice narration and authorized the final release on September 27, 2026.
 
 Canonical live URL: https://meltckr.github.io/suns-signal-005-permission-to-run/issue-011/
 
@@ -13,4 +13,4 @@ Home links return to this edition’s hub. The repository root currently opens I
 Build: python3 issue-011/build_issue.py
 Validation: python3 scripts/validate_weekly_structure.py issue-011/index.html
 
-The live file and new live stamp must be checked after Mel approves and the PR is merged. Repository visibility remains unchanged.
+The share kit includes the complete edition, approved narration, transcript, share card, metadata and ready-to-send iMessage. Post-deployment verification covers the live stamp, mobile view and exact deployed audio bytes. Repository visibility remains unchanged.

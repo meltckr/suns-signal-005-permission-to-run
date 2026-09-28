@@ -6,4 +6,4 @@ The MP3 uses the house Qwen Arizona voice, rendered locally through the canonica
 
 Technical gates passed: 24 kHz mono, 160 kb/s CBR with Xing; zero silence gaps at −50 dB lasting 0.30 seconds; zero digital-black intervals longer than 0.28 seconds. All three requested spectrogram windows were generated in private QA. Local speech recognition recovered the complete eight-theme overview and exact closing. It placed about 140 ms of natural air after the opening Matt, within the requested approximate 170 ms pause.
 
-The complete human listening review and explicit merge approval are pending. This branch must remain unmerged until Mel approves the complete narration.
+Mel approved the complete narration and authorized publication on September 27, 2026. The approval is recorded in the audio manifest.
