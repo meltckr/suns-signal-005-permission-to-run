@@ -1,0 +1,34 @@
+{
+  "issue": "008",
+  "title": "The Same From the Outside",
+  "audio_file": "audio/suns-signal-008-the-same-from-the-outside-mel-avc-v2.mp3",
+  "duration_seconds": 129.242,
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "bit_rate_bps": 128076,
+  "sha256": "160f774ee0e529a3fdcf72af10e95a04e5cb88635b1b5ccf7d85399ebbbcab64",
+  "transcript_file": "content/audio-brief-transcript.txt",
+  "transcript_sha256": "eef9446e01a236c2bb21888ba1590b7fc10e14864c4e0e4b394791decd077b88",
+  "voice_id": "0Wvw4CmsDX8vfHFYP836",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.77,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 1.05
+  },
+  "tts_aliases": {
+    "Oso": "Oh-so",
+    "Oso Ighodaro": "Oh-so ig-uh-DAR-oh",
+    "Mat": "Matt"
+  },
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": true,
+  "closing_verification_method": "Local MLX Whisper base pass on opening, middle, and final 15 seconds",
+  "opening_transcription": "Matt, Oso Ighodaro's week, starts with one revealing detail. His free youth camp at Pecos Community Center began with breathing and meditation.",
+  "middle_transcription": "The next bet is measurable. Oso made 53 of 117 free throws last season, 45.3% after shooting 58% as a rookie.",
+  "closing_transcription": "Much love my brother, dominate.",
+  "perceptual_review_completed": false,
+  "generated_at": "2026-08-28T21:51:02.108Z"
+}
