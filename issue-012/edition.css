@@ -1,0 +1,55 @@
+:root{--signal-ember:#ac4c15;--signal-ink:#152235}
+#hub{scroll-margin-top:72px}
+.section-view,[data-section-view] section{scroll-margin-top:110px}
+.reading-progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:100;background:transparent;pointer-events:none}
+.reading-progress span{display:block;height:100%;width:0;background:#ef933e}
+.issue-takeaway{font-size:21px;line-height:1.4;color:#f4e4cf;max-width:450px;margin:14px 0 10px}
+.readtime{color:#cbd4df;font-size:12px;line-height:1.5;margin:0}
+.readtime span{display:block;margin-top:4px}
+.audio-status{display:flex;align-items:center;gap:12px;border-top:1px solid #b68d634f;padding:12px 0;color:#cbd4df}
+.audio-status span{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#e7bd95}
+.audio-status p{font-size:12px;line-height:1.4;margin:0}
+.feature-copy{max-width:700px;font-size:18px;line-height:1.75}
+.ownership-view .newsletter-body{margin-top:0}
+.feature-copy p{margin:0 0 21px}.feature-copy h2{font-size:42px;line-height:1.08;margin:14px 0 28px}
+.feature-copy h3{font-size:25px;line-height:1.25;margin:35px 0 18px}
+.feature-copy p:first-of-type{font-size:21px;line-height:1.6;color:#28384a}
+.next-section{display:inline-flex;align-items:center;min-height:48px;margin:26px 0 0;padding:12px 18px;background:#142336;color:white!important;text-decoration:none!important;border-radius:8px;font-size:14px;font-weight:700}
+.matchups{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0 28px}
+.matchups>div{background:#152235;border-top:3px solid #d87835;border-radius:9px;color:#fff;padding:24px}
+.matchups small{color:#edb883;font-size:10px;letter-spacing:.12em}.matchups strong{display:flex;flex-direction:column;gap:8px;font-size:24px;line-height:1.25;margin-top:19px}
+.matchups i{font-style:normal;font-weight:400;color:#d6c0aa;font-size:13px}.matchups p{font-size:13px;color:#d9e0e8;margin:18px 0 0}
+.league-brief{font-size:18px;line-height:1.7;max-width:780px}
+.game-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.game-strip article{display:flex;gap:18px;align-items:center;border:1px solid #d5c4b1;border-radius:10px;padding:20px 16px;background:#fffdf9}
+.game-strip time{display:flex;flex-direction:column;min-width:50px}.game-strip time span{font-size:10px;text-transform:uppercase;color:#674d38}.game-strip time strong{font-size:40px;line-height:1.15;color:#ac4c15}
+.game-strip h3{font-size:18px;line-height:1.25;margin:0 0 6px}.game-strip p{font-size:16px;margin:0 0 7px}.game-strip small{font-size:10px;color:#596372}
+.source-detail{border:1px solid #d5c4b1;border-radius:9px;padding:0 18px;margin:14px 0;background:#fffdf9}
+.source-detail summary{cursor:pointer;padding:17px 0;font-size:17px;font-weight:650;line-height:1.5}.source-detail summary a{color:#823c12}.source-detail p{font-size:16px;line-height:1.7;margin:0 0 19px}
+.source-ledger h2{margin:15px 0 25px}.count-note{line-height:1.6}
+a:focus-visible,summary:focus-visible{outline:3px solid #ad591e;outline-offset:4px}
+.section-toolbar a{min-height:44px;display:flex;align-items:center}
+@media(max-width:760px){
+ .command-deck h1{font-size:42px;max-width:310px;line-height:1.04}
+ .hub-intro{min-height:0}.hub-layout{padding-top:22px;gap:15px}
+ .issue-takeaway{font-size:16px;line-height:1.45;max-width:280px;margin:12px 0 10px}.readtime{font-size:11px;max-width:295px}
+ .hub-tiles a{min-height:57px;padding:11px 12px}.hub-tiles strong{font-size:15px}.hub-tiles small{display:block;font-size:9px;margin-top:4px}.hub-tiles a:last-child small{display:block;margin:4px 0 0}
+ .decision-strip strong{font-size:11px}.decision-strip span{font-size:8px}.audio-status{padding:9px 0}
+ .section-view,.section-view.story{width:calc(100% - 38px);padding-top:28px}
+ .ownership-view .newsletter-body{display:block}.left-rail{display:none}.feature-copy{font-size:18px;line-height:1.75}
+ .feature-copy h2{font-size:35px;margin-bottom:25px}.feature-copy h3{font-size:25px}.feature-copy p:first-of-type{font-size:19px;line-height:1.7}
+ .matchups{grid-template-columns:1fr;gap:12px}.matchups>div{padding:19px}.matchups strong{font-size:23px}.league-brief{font-size:17px}
+ .game-strip{grid-template-columns:1fr;gap:12px}.game-strip article{padding:18px 20px}.game-strip time{min-width:64px}.game-strip h3{font-size:19px}
+ .source-detail{padding:0 15px}.source-detail summary{font-size:16px;min-height:48px}
+ .site-footer{padding-left:19px;padding-right:19px}.site-footer div span{font-size:10px;line-height:1.6}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+@media print{
+ @page{size:A4;margin:18mm}
+ .reading-progress,.next-section,.left-rail,.audio-status{display:none!important}
+ body{background:white!important;color:#111!important}
+ .section-view,.section-view.story{width:100%!important;padding:20px 0!important;border:0!important}
+ .feature-copy{max-width:none;font-size:11pt;line-height:1.55}.feature-copy h2{font-size:25pt}.feature-copy h3{font-size:16pt}.feature-copy p:first-of-type{font-size:12pt}
+ .matchups>div{background:white!important;color:#111!important;border:1px solid #999}.matchups small,.matchups p,.matchups i{color:#444!important}
+ .source-detail{break-inside:avoid}.source-detail p{font-size:10pt}h2,h3{break-after:avoid}p{orphans:3;widows:3}
+}

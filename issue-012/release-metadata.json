@@ -1,0 +1,45 @@
+{
+  "issue": "012",
+  "title": "Timing Takes Two",
+  "issue_date": "2026-10-04",
+  "reporting_cutoff": "2026-10-03T17:34:00-07:00",
+  "status": "reading_edition",
+  "audio": null,
+  "published": true,
+  "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/",
+  "complete_view_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/?review=all",
+  "description": "Gillespie and Maluach learn each other\u2019s timing, with the latest Suns camp updates, WNBA playoff watch and the week ahead.",
+  "social": {
+    "og:type": "article",
+    "og:site_name": "Suns Signal",
+    "article:published_time": "2026-10-04T00:00:00-07:00",
+    "article:modified_time": "2026-10-04T00:00:00-07:00",
+    "og:title": "Suns Signal 012 | Timing Takes Two",
+    "og:description": "Gillespie and Maluach learn each other\u2019s timing, with the latest Suns camp updates, WNBA playoff watch and the week ahead.",
+    "og:url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/",
+    "og:image": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/assets/og-suns-signal-012-timing-takes-two-v1.png",
+    "og:image:secure_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/assets/og-suns-signal-012-timing-takes-two-v1.png",
+    "og:image:type": "image/png",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "Timing Takes Two. Suns Signal 012, featuring Khaman Maluach in an archival Summer League photograph.",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Suns Signal 012 | Timing Takes Two",
+    "twitter:description": "Gillespie and Maluach learn each other\u2019s timing, with the latest Suns camp updates, WNBA playoff watch and the week ahead.",
+    "twitter:image": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/assets/og-suns-signal-012-timing-takes-two-v1.png",
+    "twitter:image:alt": "Timing Takes Two. Suns Signal 012, featuring Khaman Maluach in an archival Summer League photograph."
+  },
+  "structured_data": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Timing Takes Two",
+    "datePublished": "2026-10-04",
+    "author": {
+      "@type": "Organization",
+      "name": "Accelerated Velocity Consulting"
+    },
+    "image": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/assets/og-suns-signal-012-timing-takes-two-v1.png",
+    "mainEntityOfPage": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-012/"
+  },
+  "audio_references": []
+}
