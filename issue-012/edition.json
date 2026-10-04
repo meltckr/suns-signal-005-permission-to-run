@@ -3,7 +3,13 @@
   "title": "Timing Takes Two",
   "issue_date": "2026-10-04",
   "reporting_cutoff": "2026-10-03T17:34:00-07:00",
-  "status": "reading_edition",
-  "audio": null,
+  "status": "audio_reading_edition",
+  "audio": {
+    "src": "audio/suns-signal-012-timing-takes-two-mel-avc.mp3",
+    "duration_seconds": 67.108563,
+    "transcript": "content/audio-brief-transcript.txt",
+    "voice": "Mel AVC",
+    "sha256": "87ad2a5b3857ab3b482a03a5cd64acbe7cf1dc13386c43d09a48cdf864432299"
+  },
   "published": true
 }
