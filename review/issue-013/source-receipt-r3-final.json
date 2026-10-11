@@ -1,0 +1,17 @@
+{
+  "url": "https://www.nba.com/game/0012600039",
+  "checked_utc": "2026-10-11T05:06:37.356952+00:00",
+  "http_status": 200,
+  "sha256": "4f2986a42ceb0ec4bbb5256da78f209ef0e02860337a60ef29b285debf6ef6d8",
+  "game_id": "0012600039",
+  "game_status": 3,
+  "status": "Final",
+  "home": {
+    "team": "PHX",
+    "score": 102
+  },
+  "away": {
+    "team": "SAS",
+    "score": 98
+  }
+}

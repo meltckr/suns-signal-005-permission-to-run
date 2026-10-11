@@ -15,7 +15,15 @@
     "release_approved": false
   },
   "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
-  "build_stamp": "Review R2 \u00b7 Oct 10, 2026 \u00b7 7:15 PM Arizona",
-  "review_round": 2,
-  "release_status": "private_review_pending"
+  "build_stamp": "Review R3 \u00b7 Oct 10, 2026 \u00b7 10:07 PM Arizona",
+  "review_round": 3,
+  "release_status": "private_review_pending",
+  "final_result_update": {
+    "checked_at_utc": "2026-10-11T05:06:37.356952+00:00",
+    "source_url": "https://www.nba.com/game/0012600039",
+    "game_id": "0012600039",
+    "status": "Final",
+    "PHX": 102,
+    "SAS": 98
+  }
 }

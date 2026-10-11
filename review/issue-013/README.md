@@ -1,7 +1,5 @@
-# Suns Signal 013 · correction round 2
+# Suns Signal 013 · review packetv4 / correction round3
 
-Current candidate: index.html, unique v4 MP3 and matching transcript. Audio is mounted for review only; complete human listening, pronunciation, spoken numbers, joins and final ten seconds remain pending. No release approval. Earlier v2/v3 audio and round-one notes are retained as superseded review history.
+Review R3 · Oct 10, 2026 · 10:07 PM Arizona
 
-Visible build stamp: Review R2 · Oct 10, 2026 · 7:15 PM Arizona
-
-Original artwork remains unchanged. Availability independently verified before cutoff; Podziemski attribution flag resolved by reviewer recheck. Neutral NBA.com agreement wording retained. San Antonio outcome refresh is required before Sunday delivery. No publication or Mat message.
+Official final-result update: PHX102,SAS98; see source-receipt-r3-final.json and round-three-notes.md. Feature and audio v4 unchanged from reviewed packetv3. Listening and release approval remain pending. No publication/Mat delivery. Earlier review files retained as history.

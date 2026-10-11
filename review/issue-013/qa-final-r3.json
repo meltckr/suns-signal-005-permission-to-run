@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "Final-result card, source ledger and coupled timestamps; frozen feature/audio checked by hash",
+  "checks": [
+    {
+      "width": 390,
+      "routes": [
+        "pulse",
+        "sources"
+      ],
+      "overflow": false,
+      "errors": [],
+      "build_stamp": "Review R3 · Oct 10, 2026 · 10:07 PM Arizona"
+    },
+    {
+      "width": 1280,
+      "routes": [
+        "pulse",
+        "sources"
+      ],
+      "overflow": false,
+      "errors": [],
+      "build_stamp": "Review R3 · Oct 10, 2026 · 10:07 PM Arizona"
+    }
+  ]
+}

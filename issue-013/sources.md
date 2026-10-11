@@ -27,3 +27,6 @@ OUT — rest against San Antonio; Wednesday is next opportunity, not confirmed r
 
 [CBS/RotoWire · Bridges, Oct. 10](https://www.cbssports.com/fantasy/basketball/news/suns-miles-bridges-ruled-out-for-saturday/)
 OUT — ankle against San Antonio; Wednesday is next opportunity, not confirmed return.
+
+[NBA · Spurs–Suns final, Oct. 10](https://www.nba.com/game/0012600039)
+Final: Phoenix102,SanAntonio98; October10 preseason home opener.

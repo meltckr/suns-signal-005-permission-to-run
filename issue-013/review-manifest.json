@@ -1,8 +1,8 @@
 {
   "schema": "suns-signal.review-manifest.v1",
   "issue": "013",
-  "review_round": 2,
-  "build_stamp": "Review R2 \u00b7 Oct 10, 2026 \u00b7 7:15 PM Arizona",
+  "review_round": 3,
+  "build_stamp": "Review R3 \u00b7 Oct 10, 2026 \u00b7 10:07 PM Arizona",
   "release_status": "private_review_pending",
   "audio": {
     "src": "audio/suns-signal-013-narration-v4.mp3",
@@ -17,7 +17,8 @@
   },
   "source_proof_status": {
     "availability": "PASS: exact CBS articles published before cutoff",
-    "extension_byline": "RESOLVED: reviewer rechecked cached AP page and retracted flag. Neutral NBA.com reported agreement wording retained."
+    "extension_byline": "RESOLVED: reviewer rechecked cached AP page and retracted flag. Neutral NBA.com reported agreement wording retained.",
+    "sas_final": "PASS official gameStatus3 Final PHX102 SAS98"
   },
   "inventory": [
     {
@@ -70,7 +71,7 @@
     },
     {
       "path": "issue-013/content/issue-copy.json",
-      "sha256": "ce036868c5192ef9a3df926d51e8b31e0385a90583b01026c66e11e5a122c470"
+      "sha256": "335a211e5f497fcf542d8fc22f7ad7b616564e663060521220d10e2018ef472e"
     },
     {
       "path": "issue-013/depth.css",
@@ -86,7 +87,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "a9e6545f0facc16f5161d09878bd59b5a3a0a014bf502f7074379a87e4859f3d"
+      "sha256": "c6c5a27687b38b5c1da771469a766045a46840b5d6abd43f051a70ff81389dfc"
     },
     {
       "path": "issue-013/hub.css",
@@ -102,7 +103,7 @@
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "887a9afdb5fa1a8f03fa818fd5dcfe1c1cfb391e7494eb97bebe559374493bf6"
+      "sha256": "2810c42b2b3bf3aa4a8b7fb922d5a7136e0318ca6c216008db29d56dd4751cae"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -114,15 +115,23 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "a9e6545f0facc16f5161d09878bd59b5a3a0a014bf502f7074379a87e4859f3d"
+      "sha256": "c6c5a27687b38b5c1da771469a766045a46840b5d6abd43f051a70ff81389dfc"
     },
     {
       "path": "issue-013/sources.md",
-      "sha256": "776f120a8fcec74c5d58c0a2e8cb696e6361401d9b3a06422f6531cb41e81449"
+      "sha256": "93f5ef3740f9c0a6c1990ed2af0e686ba2613abbd5a44f5721f7aba2312e9637"
     },
     {
       "path": "issue-013/styles.css",
       "sha256": "6e3d4fc71c4d133deb118286bfcf3601329c0e9d7fa38d58e6f7f077956c30fb"
     }
-  ]
+  ],
+  "final_result_update": {
+    "checked_at_utc": "2026-10-11T05:06:37.356952+00:00",
+    "source_url": "https://www.nba.com/game/0012600039",
+    "game_id": "0012600039",
+    "status": "Final",
+    "PHX": 102,
+    "SAS": 98
+  }
 }
