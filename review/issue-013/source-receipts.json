@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "scope": "current Goodwin/Dunn roster and every factual Around The League item",
+  "receipts": [
+    {
+      "source_url": "https://www.nba.com/team/1610612756/suns",
+      "retrieved_at": "2026-10-11T01:53:01.806027+00:00",
+      "http_status": 200,
+      "sha256": "790b06c8cfc2864d4a1e1796b925b8a6288cc94fe6516081cc941be205e5f13d",
+      "size_bytes": 553286,
+      "id": "roster",
+      "claim_values": {
+        "Jordan Goodwin": "Listed on current Phoenix Suns roster",
+        "Ryan Dunn": "Listed on current Phoenix Suns roster"
+      },
+      "verified_text_tokens": [
+        "Jordan Goodwin",
+        "Ryan Dunn"
+      ],
+      "attribution": "Official league/team page",
+      "interpretation": "Ownership implications are AVC analysis, not assertions by the source",
+      "roster_rows": {
+        "Jordan Goodwin": "Jordan Goodwin23G6-3215 lbsOCT 23, 1998275St. LouisAwarded on Waivers on 07/23/25",
+        "Ryan Dunn": "Ryan Dunn0F6-7216 lbsJAN 07, 2003232VirginiaDraft Rights Traded from DEN on 06/26/24"
+      }
+    },
+    {
+      "source_url": "https://www.wnba.com/playoffs/2026",
+      "retrieved_at": "2026-10-11T01:53:02.316567+00:00",
+      "http_status": 200,
+      "sha256": "e6410c416f16bcfdd6657fea0320bce273e336ed3424ca6fa4ed358403276e62",
+      "size_bytes": 225188,
+      "id": "wnba",
+      "claim_values": {
+        "Atlanta semifinal": "3\u20130 over New York",
+        "Golden State semifinal": "3\u20130 over Las Vegas",
+        "Finals": "Golden State\u2013Atlanta; best of seven; begins October17"
+      },
+      "verified_text_tokens": [
+        "ATL wins 3-0",
+        "GSV wins 3-0",
+        "Oct. 17",
+        "Best of 7"
+      ],
+      "attribution": "Official league/team page",
+      "interpretation": "Ownership implications are AVC analysis, not assertions by the source"
+    },
+    {
+      "source_url": "https://www.nba.com/news/brandin-podziemski-warriors-extension-october-2026",
+      "retrieved_at": "2026-10-11T01:53:02.510221+00:00",
+      "http_status": 200,
+      "sha256": "f14e571cd490b4abfd1216e22b3a5983c3269a549224c10a620e2be6c60331e6",
+      "size_bytes": 314997,
+      "id": "extension",
+      "claim_values": {
+        "player": "Brandin Podziemski",
+        "team": "Golden State Warriors",
+        "transaction": "extension confirmed",
+        "reported_terms": "AP: five years, $110 million"
+      },
+      "verified_text_tokens": [
+        "Podziemski",
+        "110 million",
+        "5-year"
+      ],
+      "attribution": "AP reporting carried by NBA.com",
+      "interpretation": "Ownership implications are AVC analysis, not assertions by the source"
+    },
+    {
+      "source_url": "https://www.nba.com/news/grizzlies-center-isaiah-stewart-out-2-weeks-with-ankle-sprain",
+      "retrieved_at": "2026-10-11T01:53:02.857580+00:00",
+      "http_status": 200,
+      "sha256": "954cbfb7897468abcdf2ec7a2cef502381fcc90928a54c1fc4c8ca73df1f8204",
+      "size_bytes": 308394,
+      "id": "stewart",
+      "claim_values": {
+        "team": "Memphis Grizzlies",
+        "player": "Isaiah Stewart",
+        "injury": "moderate left ankle sprain",
+        "timetable": "reevaluation in two weeks, not guaranteed return"
+      },
+      "verified_text_tokens": [
+        "moderate left ankle sprain",
+        "reevaluated in two weeks"
+      ],
+      "attribution": "Official league/team page",
+      "interpretation": "Ownership implications are AVC analysis, not assertions by the source"
+    },
+    {
+      "source_url": "https://www.nba.com/news/starting-5-october-7-2026",
+      "retrieved_at": "2026-10-11T01:53:03.409057+00:00",
+      "http_status": 200,
+      "sha256": "2d9486139d33ab2000c3337084e562fa781be546e8a1ccafe0dd96c0fe457893",
+      "size_bytes": 369082,
+      "id": "china",
+      "claim_values": {
+        "teams": [
+          "Dallas Mavericks",
+          "Houston Rockets"
+        ],
+        "event": "NBA China Games",
+        "location": "Macao"
+      },
+      "verified_text_tokens": [
+        "Macao",
+        "Rockets",
+        "Mavericks"
+      ],
+      "attribution": "Official league/team page",
+      "interpretation": "Ownership implications are AVC analysis, not assertions by the source"
+    },
+    {
+      "source_url": "https://www.nba.com/news/key-dates",
+      "retrieved_at": "2026-10-11T01:53:04.000997+00:00",
+      "http_status": 200,
+      "sha256": "d892c0e6920b965ad6fdc916d122399f65a9c2ea11042c420a1d28930adaa8ad",
+      "size_bytes": 398089,
+      "id": "dates",
+      "claim_values": {
+        "opening_day_rosters": "October19,5p.m.ET",
+        "NBA_regular_season_start": "October20"
+      },
+      "verified_text_tokens": [
+        "Oct. 19",
+        "Oct. 20"
+      ],
+      "attribution": "Official league/team page",
+      "interpretation": "Ownership implications are AVC analysis, not assertions by the source"
+    }
+  ],
+  "note": "Original source HTML retained privately; full articles are excluded from review delivery."
+}

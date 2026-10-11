@@ -1,0 +1,29 @@
+{
+  "status": "original-art",
+  "authored_at": "2026-10-11T01:54:29.003143+00:00",
+  "inputs": "Original SVG geometry/text authored for this commission; existing approved charcoal, copper, ember and teal visual tokens; system Arial/Helvetica text rendered with existing local sharp.",
+  "third_party_photographs": false,
+  "team_logos": false,
+  "external_asset_inputs": [],
+  "license_evidence_for_old_Getty_photo": null,
+  "original_photo_action": "Excluded from revised branch tree and ancestry, updated art, metadata and review package; retained privately as evidence. Earlier v1 branch/Library artifacts are superseded and must not be used for publication.",
+  "assets": [
+    {
+      "svg": "og-suns-signal-013-carry-it-through-original-v2.svg",
+      "svg_sha256": "6e93398575d374dfb15a50c009e50f744a43b6fe528877df8c1f3a3eed27889e",
+      "png": "og-suns-signal-013-carry-it-through-original-v2.png",
+      "png_sha256": "92fb143c1248ce953260947abe6c4fdc56b355c452bea9b92fa30076a9c38906"
+    },
+    {
+      "svg": "share-suns-signal-013-carry-it-through-original-v2.svg",
+      "svg_sha256": "bad388d7df23caf6d4e6208062c75f5eacde08adbc666130aa8f89d621bf1737",
+      "png": "share-suns-signal-013-carry-it-through-original-v2.png",
+      "png_sha256": "5e66fd46498e5266743e375a08e11a7fb82a155db6212b5cdab798ba74dfa921"
+    }
+  ],
+  "frozen_editorial_audio_sha256": {
+    "issue-013/content/issue-copy.json": "6bf9a34687a0532c98f1ab3e2c03cc18d5402c759ca0a7e51f205e8badd14b2c",
+    "review/issue-013/audio-brief-transcript-v2.txt": "6cd888601e33267624afdd1fa96a4e7f3b283644031b60e208ef0ae5444f785b",
+    "review/issue-013/suns-signal-013-narration-v2.mp3": "271850b1cbc2a994d129c255df99c8e8718becb4f687029984668bc2a22ec01c"
+  }
+}
