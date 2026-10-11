@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "width": 390,
+      "routes": [
+        "ownership",
+        "pulse",
+        "league",
+        "calendar",
+        "sources"
+      ],
+      "errors": [],
+      "images": true,
+      "build_stamp": "Review R2 · Oct 10, 2026 · 7:15 PM Arizona",
+      "audio_controls": "PASS",
+      "no_autoplay": true,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "routes": [
+        "ownership",
+        "pulse",
+        "league",
+        "calendar",
+        "sources"
+      ],
+      "errors": [],
+      "images": true,
+      "build_stamp": "Review R2 · Oct 10, 2026 · 7:15 PM Arizona",
+      "audio_controls": "PASS",
+      "no_autoplay": true,
+      "overflow": false
+    }
+  ],
+  "human_listening": "pending",
+  "ASR": "ending recognized; Voita/Dillon spelling inconclusive"
+}

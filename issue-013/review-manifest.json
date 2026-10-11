@@ -1,23 +1,23 @@
 {
   "schema": "suns-signal.review-manifest.v1",
   "issue": "013",
-  "review_round": 1,
-  "build_stamp": "Review R1 \u00b7 Oct 10, 2026 \u00b7 7:06 PM Arizona",
+  "review_round": 2,
+  "build_stamp": "Review R2 \u00b7 Oct 10, 2026 \u00b7 7:15 PM Arizona",
   "release_status": "private_review_pending",
   "audio": {
-    "src": "audio/suns-signal-013-narration-v3.mp3",
-    "duration_seconds": 81.655125,
-    "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d",
+    "src": "audio/suns-signal-013-narration-v4.mp3",
+    "duration_seconds": 78.988417,
+    "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797",
     "transcript": "content/audio-brief-transcript.txt",
-    "transcript_sha256": "fde5e2a6174fb9204e210c884358e96ba04d73552574a10193405ceffdcd6bc7",
+    "transcript_sha256": "b0441b04d0b37cc156603c37e50a200edde3cfe044256328fd45a3f25a688ca9",
     "required_closing": "Much love, my brother, dominate!",
     "closing_verified": false,
     "review_status": "pending_human_listening",
     "release_approved": false
   },
   "source_proof_status": {
-    "availability": "PASS: exact CBS/RotoWire articles and UTC timestamps verify both OUT updates before original cutoff.",
-    "extension_byline": "conflict: fresh HTML AP; team proof ESPN/Shams. Public neutral NBA.com attribution."
+    "availability": "PASS: exact CBS articles published before cutoff",
+    "extension_byline": "RESOLVED: reviewer rechecked cached AP page and retracted flag. Neutral NBA.com reported agreement wording retained."
   },
   "inventory": [
     {
@@ -45,6 +45,14 @@
       "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d"
     },
     {
+      "path": "issue-013/audio/suns-signal-013-narration-v4.metadata.json",
+      "sha256": "f87e800afeb9946afd538b9e861fd93ce4cb57644579bc7482da50fdf32e2c5d"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v4.mp3",
+      "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797"
+    },
+    {
       "path": "issue-013/audio-player.js",
       "sha256": "b337e23c537f59c9be1eddce46c3536025e82af8b7ce575317433c0126a9f994"
     },
@@ -58,11 +66,11 @@
     },
     {
       "path": "issue-013/content/audio-brief-transcript.txt",
-      "sha256": "fde5e2a6174fb9204e210c884358e96ba04d73552574a10193405ceffdcd6bc7"
+      "sha256": "b0441b04d0b37cc156603c37e50a200edde3cfe044256328fd45a3f25a688ca9"
     },
     {
       "path": "issue-013/content/issue-copy.json",
-      "sha256": "64a9b34b03b45acc6cf6823895fed5185d08243cfda7df8971b93e31dbf07a3b"
+      "sha256": "ce036868c5192ef9a3df926d51e8b31e0385a90583b01026c66e11e5a122c470"
     },
     {
       "path": "issue-013/depth.css",
@@ -78,7 +86,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "9d78b192fbeeba809e894e8366a32780863d533f40da13ed65dd65feef4269af"
+      "sha256": "a9e6545f0facc16f5161d09878bd59b5a3a0a014bf502f7074379a87e4859f3d"
     },
     {
       "path": "issue-013/hub.css",
@@ -94,7 +102,7 @@
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "db199b846698f9f9645fa37d95c2a4787afe3b229ff637acaaf47053d4b40893"
+      "sha256": "887a9afdb5fa1a8f03fa818fd5dcfe1c1cfb391e7494eb97bebe559374493bf6"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -106,11 +114,11 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "9d78b192fbeeba809e894e8366a32780863d533f40da13ed65dd65feef4269af"
+      "sha256": "a9e6545f0facc16f5161d09878bd59b5a3a0a014bf502f7074379a87e4859f3d"
     },
     {
       "path": "issue-013/sources.md",
-      "sha256": "52b54d731777e484f51b4bb0ae6d6ef539e4fdcea61773f1a74ffd9e05b6f321"
+      "sha256": "776f120a8fcec74c5d58c0a2e8cb696e6361401d9b3a06422f6531cb41e81449"
     },
     {
       "path": "issue-013/styles.css",

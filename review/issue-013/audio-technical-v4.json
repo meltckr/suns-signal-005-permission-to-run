@@ -1,0 +1,21 @@
+{
+  "duration_seconds": 78.988417,
+  "word_count": 237,
+  "wpm": 180.02639551568683,
+  "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797",
+  "loudness": {
+    "input_i": "-17.06",
+    "input_tp": "-1.68",
+    "input_lra": "4.20",
+    "input_thresh": "-27.09",
+    "output_i": "-16.27",
+    "output_tp": "-1.50",
+    "output_lra": "3.60",
+    "output_thresh": "-26.28",
+    "normalization_type": "dynamic",
+    "target_offset": "0.27"
+  },
+  "human_listening": "pending",
+  "spoken_closing": "pending human listening",
+  "pipeline": "cached local Qwen AVC Arizona Voice v12; no paid calls"
+}

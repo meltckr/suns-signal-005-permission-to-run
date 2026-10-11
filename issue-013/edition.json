@@ -4,18 +4,18 @@
   "issue_date": "2026-10-11",
   "reporting_cutoff": "2026-10-10T18:45:00-07:00",
   "audio": {
-    "src": "audio/suns-signal-013-narration-v3.mp3",
-    "duration_seconds": 81.655125,
-    "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d",
+    "src": "audio/suns-signal-013-narration-v4.mp3",
+    "duration_seconds": 78.988417,
+    "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797",
     "transcript": "content/audio-brief-transcript.txt",
-    "transcript_sha256": "fde5e2a6174fb9204e210c884358e96ba04d73552574a10193405ceffdcd6bc7",
+    "transcript_sha256": "b0441b04d0b37cc156603c37e50a200edde3cfe044256328fd45a3f25a688ca9",
     "required_closing": "Much love, my brother, dominate!",
     "closing_verified": false,
     "review_status": "pending_human_listening",
     "release_approved": false
   },
   "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
-  "build_stamp": "Review R1 \u00b7 Oct 10, 2026 \u00b7 7:06 PM Arizona",
-  "review_round": 1,
+  "build_stamp": "Review R2 \u00b7 Oct 10, 2026 \u00b7 7:15 PM Arizona",
+  "review_round": 2,
   "release_status": "private_review_pending"
 }

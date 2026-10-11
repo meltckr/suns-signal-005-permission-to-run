@@ -1,8 +1,8 @@
 [Voita · Detroit, Oct. 5](https://www.brightsideofthesun.com/suns-game/111061/suns-preseason-opener-pistons-turnovers-jordan-goodwin-khaman-maluach)
-Goodwin’s early offensive rebounds; Detroit result and second-half lineup context. Ownership interpretation is AVC analysis.
+Goodwin’s early offensive rebounds; 109–107 Detroit result, 19-point lead and second-half lineup context. Ownership interpretation is AVC analysis.
 
 [Bowser · Chicago, Oct. 7](https://www.brightsideofthesun.com/suns-game/111202/bulls-preseason-loss-dillon-brooks-turnovers-miles-bridges-ankle-injury)
-Chicago result, pressure sequence, Brooks scoring and Bridges’ departure.
+124–117 Chicago result, 15-point lead, forced-turnover sequence and Brooks scoring.
 
 [NBA · Suns schedule](https://www.nba.com/team/1610612756/schedule)
 Upcoming Phoenix games; clocks converted from Eastern to Arizona time.
