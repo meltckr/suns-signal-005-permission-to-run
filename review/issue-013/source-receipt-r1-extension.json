@@ -1,0 +1,14 @@
+{
+  "url": "https://www.nba.com/news/brandin-podziemski-warriors-extension-october-2026",
+  "retrieved_at_utc": "2026-10-11T02:03:10.868247+00:00",
+  "http_status": 200,
+  "sha256": "1864cb88ed3ca171e4dccf55f2bd31c4063bd4315cd4e5880078dcdd0bf7edbb",
+  "author": {
+    "@type": "Person",
+    "name": "Janie McCauley | The Associated Press"
+  },
+  "date_modified": "2026-10-11T01:43:17Z",
+  "fact_summary": "NBA.com article reports five-year,$110million rookie-scale extension; structured description calls it agreement.",
+  "conflict": "Parent reviewer reports News Services citing ESPN Shams; independent current HTML still attributes Janie McCauley/AP. Do not relabel as ESPN/Shams without the differing source/version.",
+  "public_wording": "Conservative reported agreement, attributed to NBA.com."
+}

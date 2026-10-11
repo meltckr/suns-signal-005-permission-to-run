@@ -1,0 +1,120 @@
+{
+  "schema": "suns-signal.review-manifest.v1",
+  "issue": "013",
+  "review_round": 1,
+  "build_stamp": "Review R1 \u00b7 Oct 10, 2026 \u00b7 7:06 PM Arizona",
+  "release_status": "private_review_pending",
+  "audio": {
+    "src": "audio/suns-signal-013-narration-v3.mp3",
+    "duration_seconds": 81.655125,
+    "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d",
+    "transcript": "content/audio-brief-transcript.txt",
+    "transcript_sha256": "fde5e2a6174fb9204e210c884358e96ba04d73552574a10193405ceffdcd6bc7",
+    "required_closing": "Much love, my brother, dominate!",
+    "closing_verified": false,
+    "review_status": "pending_human_listening",
+    "release_approved": false
+  },
+  "source_proof_status": {
+    "availability": "PASS: exact CBS/RotoWire articles and UTC timestamps verify both OUT updates before original cutoff.",
+    "extension_byline": "conflict: fresh HTML AP; team proof ESPN/Shams. Public neutral NBA.com attribution."
+  },
+  "inventory": [
+    {
+      "path": "issue-013/assets/og-suns-signal-013-v2.png",
+      "sha256": "92fb143c1248ce953260947abe6c4fdc56b355c452bea9b92fa30076a9c38906"
+    },
+    {
+      "path": "issue-013/assets/share-suns-signal-013-v2.png",
+      "sha256": "5e66fd46498e5266743e375a08e11a7fb82a155db6212b5cdab798ba74dfa921"
+    },
+    {
+      "path": "issue-013/assets/signal-room-013-desktop.webp",
+      "sha256": "5799537b4e799f3c158defcc15a5d77cca127e945cf3297287639f1a762d8f5b"
+    },
+    {
+      "path": "issue-013/assets/signal-room-013-mobile.webp",
+      "sha256": "e74ced4f78a87606001b7189f1049e0cdf39109fd24a8d7652a00e4bae301946"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v3.metadata.json",
+      "sha256": "4f24c6869f791b8854b34301b771074c149e05f12710e40e19a0f5171e118672"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v3.mp3",
+      "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d"
+    },
+    {
+      "path": "issue-013/audio-player.js",
+      "sha256": "b337e23c537f59c9be1eddce46c3536025e82af8b7ce575317433c0126a9f994"
+    },
+    {
+      "path": "issue-013/base.css",
+      "sha256": "e07b43133a57b24aec49cb9633d9ace44d2f8344addc28604ad648fe36fa1d09"
+    },
+    {
+      "path": "issue-013/calendar.css",
+      "sha256": "ff548c7f8802c9d6449b9198ed80048dfe5a0299b54050ea9695a24baa5f6e65"
+    },
+    {
+      "path": "issue-013/content/audio-brief-transcript.txt",
+      "sha256": "fde5e2a6174fb9204e210c884358e96ba04d73552574a10193405ceffdcd6bc7"
+    },
+    {
+      "path": "issue-013/content/issue-copy.json",
+      "sha256": "64a9b34b03b45acc6cf6823895fed5185d08243cfda7df8971b93e31dbf07a3b"
+    },
+    {
+      "path": "issue-013/depth.css",
+      "sha256": "ac5f506605581b4d63f31ece1a44210c7249a5fad564541aa3b9ce23ffc6ab47"
+    },
+    {
+      "path": "issue-013/edition.css",
+      "sha256": "b787547e81ec5b93bf2f1b4b3e6c841d73e312fc7130cdc7506d4a36ee79c352"
+    },
+    {
+      "path": "issue-013/edition.js",
+      "sha256": "9e786a9535417704c524f8fa7cfb3d1983b8fdc9fb15776538e9108bcef6d727"
+    },
+    {
+      "path": "issue-013/edition.json",
+      "sha256": "9d78b192fbeeba809e894e8366a32780863d533f40da13ed65dd65feef4269af"
+    },
+    {
+      "path": "issue-013/hub.css",
+      "sha256": "6883451e559fa1b0d69c3c525fff46b294a0b5f826f30df3e26acdccab75f2ff"
+    },
+    {
+      "path": "issue-013/hub.js",
+      "sha256": "1b7d730c8878765c0caf787a9bb4c2e888e92ea4c49193ceb5f5dd6484f812d2"
+    },
+    {
+      "path": "issue-013/imessage.txt",
+      "sha256": "96d45f2485cc856c6455feffc2120071e3b55552542deefc796dacbaabff30c3"
+    },
+    {
+      "path": "issue-013/index.html",
+      "sha256": "db199b846698f9f9645fa37d95c2a4787afe3b229ff637acaaf47053d4b40893"
+    },
+    {
+      "path": "issue-013/premium-motion.js",
+      "sha256": "98edeecb7226b49b27d8bceefbda9b01a5fd46982d1fdb2ccc96bb5cc09b7984"
+    },
+    {
+      "path": "issue-013/premium.css",
+      "sha256": "d95635ec0e7ddf2da64ded031497faaf06095b19480ef1d333b5ab8931108d4a"
+    },
+    {
+      "path": "issue-013/release-metadata.json",
+      "sha256": "9d78b192fbeeba809e894e8366a32780863d533f40da13ed65dd65feef4269af"
+    },
+    {
+      "path": "issue-013/sources.md",
+      "sha256": "52b54d731777e484f51b4bb0ae6d6ef539e4fdcea61773f1a74ffd9e05b6f321"
+    },
+    {
+      "path": "issue-013/styles.css",
+      "sha256": "6e3d4fc71c4d133deb118286bfcf3601329c0e9d7fa38d58e6f7f077956c30fb"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
-Suns Signal 013 — Carry It Through
+# Suns Signal 013 · correction round 1
 
-Review candidate for Sunday, October 11, 2026. The page is reading-only while the separate narration awaits full human listening and final-ten-second closing verification. The script and recording are included here for proofing. No publication approval has been recorded.
+Current candidate: index.html, unique v3 MP3 and v3 transcript. Audio is mounted for review only; complete human listening, pronunciation, spoken numbers, joins and final ten seconds remain pending. No release approval. Earlier v2 audio and notes are retained as superseded review history.
 
-Reporting cutoff: October 10, 2026, 6:45 p.m. Arizona, before the San Antonio tipoff. Refresh game status and availability before final approval.
+Visible build stamp: Review R1 · Oct 10, 2026 · 7:06 PM Arizona
+
+Original artwork remains unchanged. Availability independently verified before cutoff; Podziemski byline conflict remains an open proof item; see round-one-notes.md and source-receipt-r1-extension.json. San Antonio outcome refresh is required before Sunday delivery. No publication or Mat message.

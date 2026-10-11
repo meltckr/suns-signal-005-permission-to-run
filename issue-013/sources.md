@@ -10,8 +10,8 @@ Upcoming Phoenix games; clocks converted from Eastern to Arizona time.
 [WNBA · 2026 playoff bracket](https://www.wnba.com/playoffs/2026)
 Atlanta and Golden State semifinal sweeps; October 17 Finals start and best-of-seven format.
 
-[AP · Podziemski, Oct. 10](https://www.nba.com/news/brandin-podziemski-warriors-extension-october-2026)
-Warriors extension; reported five-year, $110 million terms.
+[NBA.com · Podziemski extension, Oct. 10](https://www.nba.com/news/brandin-podziemski-warriors-extension-october-2026)
+Reported five-year, $110 million extension agreement.
 
 [Grizzlies · Stewart update, Oct. 10](https://www.nba.com/news/grizzlies-center-isaiah-stewart-out-2-weeks-with-ankle-sprain)
 Moderate ankle sprain; reevaluation in two weeks.
@@ -21,3 +21,9 @@ Dallas–Houston preseason games in Macao; international market context is AVC a
 
 [NBA · 2026–27 key dates](https://www.nba.com/news/key-dates)
 October 19 opening-day roster deadline; October 20 regular-season start.
+
+[CBS/RotoWire · Booker, Oct. 10](https://www.cbssports.com/fantasy/basketball/news/suns-devin-booker-not-playing-saturday-533922/)
+OUT — rest against San Antonio; Wednesday is next opportunity, not confirmed return.
+
+[CBS/RotoWire · Bridges, Oct. 10](https://www.cbssports.com/fantasy/basketball/news/suns-miles-bridges-ruled-out-for-saturday/)
+OUT — ankle against San Antonio; Wednesday is next opportunity, not confirmed return.

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "receipts": [
+    {
+      "id": "booker",
+      "url": "https://www.cbssports.com/fantasy/basketball/news/suns-devin-booker-not-playing-saturday-533922/",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-11T02:06:12.577197+00:00",
+      "published_utc": "2026-10-11T00:55:46+00:00",
+      "published_arizona": "2026-10-10T17:55:46-07:00",
+      "modified_utc": "2026-10-11T00:56:08+00:00",
+      "sha256": "0c471e75ca92d09d37c5c820efa4bfaba4b1e6d2c6f84e0ec127d5cb2a198ebc",
+      "availability": "OUT \u2014 rest",
+      "next_opportunity": "Wednesday,Oct14; return not confirmed",
+      "before_cutoff": true
+    },
+    {
+      "id": "bridges",
+      "url": "https://www.cbssports.com/fantasy/basketball/news/suns-miles-bridges-ruled-out-for-saturday/",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-11T02:06:12.581326+00:00",
+      "published_utc": "2026-10-11T00:52:35+00:00",
+      "published_arizona": "2026-10-10T17:52:35-07:00",
+      "modified_utc": "2026-10-11T00:53:28+00:00",
+      "sha256": "d5be133fc7298b680ac9304051287a8244d35836f32142efd6661fb26f1f8388",
+      "availability": "OUT \u2014 ankle",
+      "next_opportunity": "Wednesday,Oct14; return not confirmed",
+      "before_cutoff": true
+    }
+  ]
+}

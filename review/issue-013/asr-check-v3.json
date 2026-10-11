@@ -1,0 +1,17 @@
+{
+  "method": "cached local Whisper ASR; technical check only, no human listening claim",
+  "audio_sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d",
+  "closing_recognized": true,
+  "spoken_numbers_recognized": [
+    "three offensive rebounds",
+    "first three minutes",
+    "eight-second violation",
+    "October17th"
+  ],
+  "names_pending_human_listening": [
+    "John Voita (ASR:Voida)",
+    "Dillon Brooks (ASR:Dylan)"
+  ],
+  "complete_human_listening": "pending",
+  "final_ten_seconds_human_listening": "pending"
+}
