@@ -1,0 +1,149 @@
+{
+  "title": "Carry It Through",
+  "ownership": [
+    {
+      "type": "p",
+      "text": "Mat, Jordan Goodwin needed only a few minutes in Detroit to show what an extra possession can look like. John Voita’s game account described three offensive rebounds in his first three minutes. A guard kept giving Phoenix another chance.",
+      "sources": [
+        "det"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The ownership question I would keep in view is how much of that good play belongs to a particular group, and how much carries over when the group changes.",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "Mark Bowser described back-to-back forced turnovers in the first quarter, capped by Ryan Dunn forcing an eight-second violation. Different actions, the same benefit: making the opponent work before Phoenix had to create a shot.",
+      "sources": [
+        "chi"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Phoenix lost 109–107 in Detroit and 124–117 in Chicago after leading by 19 and 15. In Detroit, the starters finished their night at halftime; the players who followed had to sustain the lead against an opponent still using much of its starting group. The later stretches gave Jordan Ott evidence about where that continuity still breaks down.",
+      "sources": [
+        "det",
+        "chi"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "As the remaining preseason games arrive, I would follow what happens just after a substitution and just after a mistake. Does the next group continue making the opponent work? Does a lost possession turn into several, or does the team recover its attention on the next trip?",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "Phoenix has already shown players who can improve a possession through their effort. Carrying that contribution from one group to the next would make the team easier to trust over a full night.",
+      "sources": []
+    }
+  ],
+  "pulse": [
+    {
+      "title": "Brooks makes his touches count",
+      "date": "2026-10-07",
+      "status": "Reported",
+      "text": "Mark Bowser reported 24 points on nine shots for Dillon Brooks in Chicago. Efficient production from a complementary scorer adds to the early offense.",
+      "sources": [
+        "chi"
+      ]
+    },
+    {
+      "title": "Booker and Bridges out against San Antonio",
+      "date": "2026-10-10",
+      "status": "Reported",
+      "text": "Devin Booker was reported out for rest and Miles Bridges out with an ankle injury against San Antonio on October 10. Wednesday’s game in San Antonio is their next opportunity; a return has not been confirmed.",
+      "sources": [
+        "booker",
+        "bridges"
+      ]
+    },
+    {
+      "title": "Preseason home opener ends with Suns win",
+      "date": "2026-10-10",
+      "status": "Official",
+      "text": "Phoenix beat San Antonio 102–98 in the October 10 preseason home opener.",
+      "sources": [
+        "sas_final"
+      ]
+    }
+  ],
+  "league": [
+    {
+      "type": "h3",
+      "text": "Official · WNBA Finals are set"
+    },
+    {
+      "type": "p",
+      "text": "Golden State and Atlanta each swept their semifinal, 3–0. Their best-of-seven Finals begin October 17. For a two-franchise owner, the longer series offers a timely view of how the league’s last two teams respond to repeated adjustments.",
+      "sources": [
+        "wnba"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Reported · Podziemski extension agreement"
+    },
+    {
+      "type": "p",
+      "text": "NBA.com reports a five-year, $110 million extension agreement for Brandin Podziemski. Keeping a developing contributor gives ownership another example of how a contender balances continuity with its next generation.",
+      "sources": [
+        "extension"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Official · Memphis’ center depth gets tested"
+    },
+    {
+      "type": "p",
+      "text": "Isaiah Stewart will be reevaluated in two weeks after a moderate left ankle sprain. Memphis now has an early test of how its preparation holds up when availability changes.",
+      "sources": [
+        "stewart"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Official · Preseason reaches Macao"
+    },
+    {
+      "type": "p",
+      "text": "Dallas and Houston’s China Games put preseason on an international stage. The ownership interest extends to the relationship built with fans in another market.",
+      "sources": [
+        "china"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Official · The roster deadline approaches"
+    },
+    {
+      "type": "p",
+      "text": "Opening-day rosters are due October 19; the NBA season starts October 20. The calendar compresses the remaining evaluation work and turns camp observations into decisions.",
+      "sources": [
+        "dates"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "date": "2026-10-14",
+      "opponent": "at San Antonio",
+      "time_arizona": "5 p.m. Arizona",
+      "source": "schedule"
+    },
+    {
+      "date": "2026-10-16",
+      "opponent": "vs. Utah",
+      "time_arizona": "7 p.m. Arizona",
+      "source": "schedule"
+    },
+    {
+      "date": "2026-10-21",
+      "opponent": "at Portland · Regular-season opener",
+      "time_arizona": "7 p.m. Arizona",
+      "source": "schedule"
+    }
+  ]
+}

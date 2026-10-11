@@ -1,0 +1,153 @@
+{
+  "schema": "suns-signal.review-manifest.v1",
+  "issue": "013",
+  "review_round": 3,
+  "build_stamp": "Published \u00b7 Oct 10, 2026 \u00b7 11:03 PM Arizona",
+  "release_status": "published",
+  "audio": {
+    "src": "audio/suns-signal-013-narration-v4.mp3",
+    "duration_seconds": 78.988417,
+    "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797",
+    "transcript": "content/audio-brief-transcript.txt",
+    "transcript_sha256": "b0441b04d0b37cc156603c37e50a200edde3cfe044256328fd45a3f25a688ca9",
+    "required_closing": "Much love, my brother, dominate!",
+    "closing_verified": true,
+    "review_status": "approved_human_listening",
+    "release_approved": true,
+    "approval": {
+      "approved_review_commit": "f2f113e69f82669d7d7dfb7d762157acfbae3240",
+      "recorded_at_utc": "2026-10-11T06:03:56.950460+00:00",
+      "audio_listening_confirmed_by": "Mel Tucker",
+      "ace_review_waived_by": "Mel Tucker",
+      "provenance_sha256": "e3e42b7459a82b6a0ff699163404199722776cc824fcbf296441c16d5d026ced"
+    }
+  },
+  "source_proof_status": {
+    "availability": "PASS: exact CBS articles published before cutoff",
+    "extension_byline": "RESOLVED: reviewer rechecked cached AP page and retracted flag. Neutral NBA.com reported agreement wording retained.",
+    "sas_final": "PASS official gameStatus3 Final PHX102 SAS98"
+  },
+  "inventory": [
+    {
+      "path": "issue-013/assets/og-suns-signal-013-v2.png",
+      "sha256": "92fb143c1248ce953260947abe6c4fdc56b355c452bea9b92fa30076a9c38906"
+    },
+    {
+      "path": "issue-013/assets/share-suns-signal-013-v2.png",
+      "sha256": "5e66fd46498e5266743e375a08e11a7fb82a155db6212b5cdab798ba74dfa921"
+    },
+    {
+      "path": "issue-013/assets/signal-room-013-desktop.webp",
+      "sha256": "5799537b4e799f3c158defcc15a5d77cca127e945cf3297287639f1a762d8f5b"
+    },
+    {
+      "path": "issue-013/assets/signal-room-013-mobile.webp",
+      "sha256": "e74ced4f78a87606001b7189f1049e0cdf39109fd24a8d7652a00e4bae301946"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v3.metadata.json",
+      "sha256": "4f24c6869f791b8854b34301b771074c149e05f12710e40e19a0f5171e118672"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v3.mp3",
+      "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v4.metadata.json",
+      "sha256": "e02d2561c2dd0dd531f42fdc816ae963f1a913cfc27c873bd04cd94634c88af5"
+    },
+    {
+      "path": "issue-013/audio/suns-signal-013-narration-v4.mp3",
+      "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797"
+    },
+    {
+      "path": "issue-013/audio-player.js",
+      "sha256": "b337e23c537f59c9be1eddce46c3536025e82af8b7ce575317433c0126a9f994"
+    },
+    {
+      "path": "issue-013/base.css",
+      "sha256": "e07b43133a57b24aec49cb9633d9ace44d2f8344addc28604ad648fe36fa1d09"
+    },
+    {
+      "path": "issue-013/calendar.css",
+      "sha256": "ff548c7f8802c9d6449b9198ed80048dfe5a0299b54050ea9695a24baa5f6e65"
+    },
+    {
+      "path": "issue-013/content/audio-brief-transcript.txt",
+      "sha256": "b0441b04d0b37cc156603c37e50a200edde3cfe044256328fd45a3f25a688ca9"
+    },
+    {
+      "path": "issue-013/content/issue-copy.json",
+      "sha256": "335a211e5f497fcf542d8fc22f7ad7b616564e663060521220d10e2018ef472e"
+    },
+    {
+      "path": "issue-013/depth.css",
+      "sha256": "ac5f506605581b4d63f31ece1a44210c7249a5fad564541aa3b9ce23ffc6ab47"
+    },
+    {
+      "path": "issue-013/edition.css",
+      "sha256": "b787547e81ec5b93bf2f1b4b3e6c841d73e312fc7130cdc7506d4a36ee79c352"
+    },
+    {
+      "path": "issue-013/edition.js",
+      "sha256": "9e786a9535417704c524f8fa7cfb3d1983b8fdc9fb15776538e9108bcef6d727"
+    },
+    {
+      "path": "issue-013/edition.json",
+      "sha256": "5a44985c3bc6bd75a4d55fd26fb39287f89ed68bd72f22b8aa3390ec03db863c"
+    },
+    {
+      "path": "issue-013/hub.css",
+      "sha256": "6883451e559fa1b0d69c3c525fff46b294a0b5f826f30df3e26acdccab75f2ff"
+    },
+    {
+      "path": "issue-013/hub.js",
+      "sha256": "1b7d730c8878765c0caf787a9bb4c2e888e92ea4c49193ceb5f5dd6484f812d2"
+    },
+    {
+      "path": "issue-013/imessage.txt",
+      "sha256": "c12227391deaf1baf5be4dd3d43409446212b79a17314311fbeb8acd8cd42510"
+    },
+    {
+      "path": "issue-013/index.html",
+      "sha256": "92235b3884faa9abe020c42df4eddfc0ec8cbc930b02507bc020e9f49c405217"
+    },
+    {
+      "path": "issue-013/premium-motion.js",
+      "sha256": "98edeecb7226b49b27d8bceefbda9b01a5fd46982d1fdb2ccc96bb5cc09b7984"
+    },
+    {
+      "path": "issue-013/premium.css",
+      "sha256": "d95635ec0e7ddf2da64ded031497faaf06095b19480ef1d333b5ab8931108d4a"
+    },
+    {
+      "path": "issue-013/release-metadata.json",
+      "sha256": "5a44985c3bc6bd75a4d55fd26fb39287f89ed68bd72f22b8aa3390ec03db863c"
+    },
+    {
+      "path": "issue-013/sources.md",
+      "sha256": "93f5ef3740f9c0a6c1990ed2af0e686ba2613abbd5a44f5721f7aba2312e9637"
+    },
+    {
+      "path": "issue-013/styles.css",
+      "sha256": "6e3d4fc71c4d133deb118286bfcf3601329c0e9d7fa38d58e6f7f077956c30fb"
+    }
+  ],
+  "final_result_update": {
+    "checked_at_utc": "2026-10-11T05:06:37.356952+00:00",
+    "source_url": "https://www.nba.com/game/0012600039",
+    "game_id": "0012600039",
+    "status": "Final",
+    "PHX": 102,
+    "SAS": 98
+  },
+  "approved_review_commit": "f2f113e69f82669d7d7dfb7d762157acfbae3240",
+  "approval": {
+    "approved_review_commit": "f2f113e69f82669d7d7dfb7d762157acfbae3240",
+    "recorded_at_utc": "2026-10-11T06:03:56.950460+00:00",
+    "audio_listening_confirmed_by": "Mel Tucker",
+    "ace_review_waived_by": "Mel Tucker",
+    "provenance_sha256": "e3e42b7459a82b6a0ff699163404199722776cc824fcbf296441c16d5d026ced"
+  },
+  "published_at": "2026-10-10T23:03:56.950460-07:00"
+}

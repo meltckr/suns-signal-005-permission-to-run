@@ -1,0 +1,11 @@
+{
+  "src": "audio/suns-signal-013-narration-v3.mp3",
+  "duration_seconds": 81.655125,
+  "sha256": "0063557acb952cfa029a3f1d9ae1b0d885b88bf6a84c34c90908076aeb00988d",
+  "transcript": "content/audio-brief-transcript.txt",
+  "transcript_sha256": "fde5e2a6174fb9204e210c884358e96ba04d73552574a10193405ceffdcd6bc7",
+  "required_closing": "Much love, my brother, dominate!",
+  "closing_verified": false,
+  "review_status": "pending_human_listening",
+  "release_approved": false
+}

@@ -1,0 +1,46 @@
+{
+  "issue": "013",
+  "title": "Carry It Through",
+  "issue_date": "2026-10-11",
+  "reporting_cutoff": "2026-10-10T18:45:00-07:00",
+  "audio": {
+    "src": "audio/suns-signal-013-narration-v4.mp3",
+    "duration_seconds": 78.988417,
+    "sha256": "a69113d345029f1e2c272ee294bcab32e43c3aa6fac7df840b03c195642db797",
+    "transcript": "content/audio-brief-transcript.txt",
+    "transcript_sha256": "b0441b04d0b37cc156603c37e50a200edde3cfe044256328fd45a3f25a688ca9",
+    "required_closing": "Much love, my brother, dominate!",
+    "closing_verified": true,
+    "review_status": "approved_human_listening",
+    "release_approved": true,
+    "approval": {
+      "approved_review_commit": "f2f113e69f82669d7d7dfb7d762157acfbae3240",
+      "recorded_at_utc": "2026-10-11T06:03:56.950460+00:00",
+      "audio_listening_confirmed_by": "Mel Tucker",
+      "ace_review_waived_by": "Mel Tucker",
+      "provenance_sha256": "e3e42b7459a82b6a0ff699163404199722776cc824fcbf296441c16d5d026ced"
+    }
+  },
+  "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
+  "build_stamp": "Published \u00b7 Oct 10, 2026 \u00b7 11:03 PM Arizona",
+  "review_round": 3,
+  "release_status": "published",
+  "final_result_update": {
+    "checked_at_utc": "2026-10-11T05:06:37.356952+00:00",
+    "source_url": "https://www.nba.com/game/0012600039",
+    "game_id": "0012600039",
+    "status": "Final",
+    "PHX": 102,
+    "SAS": 98
+  },
+  "published": true,
+  "published_at": "2026-10-10T23:03:56.950460-07:00",
+  "approved_review_commit": "f2f113e69f82669d7d7dfb7d762157acfbae3240",
+  "approval": {
+    "approved_review_commit": "f2f113e69f82669d7d7dfb7d762157acfbae3240",
+    "recorded_at_utc": "2026-10-11T06:03:56.950460+00:00",
+    "audio_listening_confirmed_by": "Mel Tucker",
+    "ace_review_waived_by": "Mel Tucker",
+    "provenance_sha256": "e3e42b7459a82b6a0ff699163404199722776cc824fcbf296441c16d5d026ced"
+  }
+}
