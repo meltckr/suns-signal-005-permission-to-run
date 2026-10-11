@@ -1,0 +1,163 @@
+{
+  "title": "Carry It Through",
+  "ownership": [
+    {
+      "type": "p",
+      "text": "Mat, Jordan Goodwin needed only a few minutes in Detroit to show what an extra possession can look like. John Voita’s game account described three offensive rebounds in his first three minutes. A guard kept giving Phoenix another chance.",
+      "sources": [
+        "det"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Two nights later in Chicago, Mark Bowser described consecutive forced turnovers as Goodwin applied pressure and Ryan Dunn forced an eight-second violation. Different actions, the same benefit: making the opponent work before Phoenix had to create a shot.",
+      "sources": [
+        "chi"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "There is something encouraging in seeing players outside the starting five supply that kind of activity. It gives the team a way to change a possession even when the ball is in someone else’s hands. A rebound extends an opportunity. Pressure can take one away from the opponent.",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "The week also showed how much remains in carrying that work through a game. Phoenix lost 109–107 in Detroit and 124–117 in Chicago. The early advantages disappeared in both. In Detroit, the starters finished their night at halftime; the players who followed had to sustain the lead against an opponent still using much of its starting group. Voita’s account makes that distinction important.",
+      "sources": [
+        "det",
+        "chi"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That is the ownership question I would keep in view: how much of the good play belongs to a particular group, and how much carries over when the group changes?",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "A team becomes more dependable when the next player recognizes what the possession needs. That might be protecting the ball after a stop, pursuing a second chance or maintaining pressure as a teammate takes a breather. The contribution can be small. Its value grows when another player continues it.",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "Goodwin gives us a concrete place to look. His early work created opportunities. Dunn’s pressure in Chicago provided another example. The later stretches give Jordan Ott useful evidence about where that continuity still breaks down. These are different parts of the same week.",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "As the remaining preseason games arrive, I would follow what happens just after a substitution and just after a mistake. Does the next group continue making the opponent work? Does a lost possession turn into several, or does the team recover its attention on the next trip?",
+      "sources": []
+    },
+    {
+      "type": "p",
+      "text": "The promising part is that Phoenix has already shown players who can improve a possession through their effort. Carrying that contribution across more combinations would make the team easier to trust over a full night.",
+      "sources": []
+    }
+  ],
+  "pulse": [
+    {
+      "title": "Brooks makes his touches count",
+      "date": "2026-10-07",
+      "status": "Reported",
+      "text": "Mark Bowser reported 24 points on nine shots for Dillon Brooks in Chicago. Efficient production from a complementary scorer is an encouraging piece of the early offense.",
+      "sources": [
+        "chi"
+      ]
+    },
+    {
+      "title": "Bridges’ ankle is the availability watch",
+      "date": "2026-10-07",
+      "status": "Reported",
+      "text": "Bowser reported that Miles Bridges left the Chicago game after turning an ankle and did not return. His next verified availability update matters for continuity in the starting group.",
+      "sources": [
+        "chi"
+      ]
+    },
+    {
+      "title": "Home opener still ahead at cutoff",
+      "date": "2026-10-10",
+      "status": "Official",
+      "text": "San Antonio was scheduled in Phoenix at 7:30 p.m. Arizona on October 10. The reporting cutoff precedes tipoff.",
+      "sources": [
+        "schedule"
+      ]
+    }
+  ],
+  "league": [
+    {
+      "type": "h3",
+      "text": "Official · WNBA Finals are set"
+    },
+    {
+      "type": "p",
+      "text": "Golden State and Atlanta each swept their semifinal, 3–0. Their best-of-seven Finals begin October 17. For a two-franchise owner, the longer series offers a timely view of how the league’s last two teams respond to repeated adjustments.",
+      "sources": [
+        "wnba"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Reported · Golden State retains Podziemski"
+    },
+    {
+      "type": "p",
+      "text": "The Warriors extended Brandin Podziemski; AP reported five years and $110 million. Retaining a developing contributor gives ownership another example of how a contender balances continuity with its next generation.",
+      "sources": [
+        "extension"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Official · Memphis’ center depth gets tested"
+    },
+    {
+      "type": "p",
+      "text": "Isaiah Stewart will be reevaluated in two weeks after a moderate left ankle sprain. Memphis now has an early test of how its preparation holds up when availability changes.",
+      "sources": [
+        "stewart"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Official · Preseason reaches Macao"
+    },
+    {
+      "type": "p",
+      "text": "Dallas and Houston’s China Games put preseason on an international stage. The ownership interest extends to the relationship built with fans in another market.",
+      "sources": [
+        "china"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Official · The roster deadline approaches"
+    },
+    {
+      "type": "p",
+      "text": "Opening-day rosters are due October 19; the NBA season starts October 20. The calendar compresses the remaining evaluation work and turns camp observations into decisions.",
+      "sources": [
+        "dates"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "date": "2026-10-14",
+      "opponent": "at San Antonio",
+      "time_arizona": "5 p.m. Arizona",
+      "source": "schedule"
+    },
+    {
+      "date": "2026-10-16",
+      "opponent": "vs. Utah",
+      "time_arizona": "7 p.m. Arizona",
+      "source": "schedule"
+    },
+    {
+      "date": "2026-10-21",
+      "opponent": "at Portland · Regular-season opener",
+      "time_arizona": "7 p.m. Arizona",
+      "source": "schedule"
+    }
+  ]
+}
