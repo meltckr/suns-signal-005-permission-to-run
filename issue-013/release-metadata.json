@@ -42,5 +42,13 @@
     "audio_listening_confirmed_by": "Mel Tucker",
     "ace_review_waived_by": "Mel Tucker",
     "provenance_sha256": "e3e42b7459a82b6a0ff699163404199722776cc824fcbf296441c16d5d026ced"
+  },
+  "repair": {
+    "type": "audio_home_placement",
+    "based_on_release_commit": "9b39af0984538d3e0fe585dd90ec4d303a782968",
+    "recorded_at_utc": "2026-10-11T23:18:00.564415+00:00",
+    "cause": "Single player was nested in Ownership section, hidden on initial Home route. Custom element and MP3 work.",
+    "change": "Restore the same mounted player to existing Home audio grid slot; no copy/audio/runtime/style edits.",
+    "status": "review_candidate_not_deployed"
   }
 }

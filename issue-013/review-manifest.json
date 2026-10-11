@@ -94,7 +94,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "5a44985c3bc6bd75a4d55fd26fb39287f89ed68bd72f22b8aa3390ec03db863c"
+      "sha256": "53b825c8adb2547cb620c6d9bdfe03781c2cc98a22a7860d2306b4eba519b0a6"
     },
     {
       "path": "issue-013/hub.css",
@@ -110,7 +110,7 @@
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "92235b3884faa9abe020c42df4eddfc0ec8cbc930b02507bc020e9f49c405217"
+      "sha256": "a98416dae9b59fad05b2bb9d5386803b95a7a5f7586cc24e25c044b8fb127a3e"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -122,7 +122,7 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "5a44985c3bc6bd75a4d55fd26fb39287f89ed68bd72f22b8aa3390ec03db863c"
+      "sha256": "53b825c8adb2547cb620c6d9bdfe03781c2cc98a22a7860d2306b4eba519b0a6"
     },
     {
       "path": "issue-013/sources.md",
@@ -149,5 +149,13 @@
     "ace_review_waived_by": "Mel Tucker",
     "provenance_sha256": "e3e42b7459a82b6a0ff699163404199722776cc824fcbf296441c16d5d026ced"
   },
-  "published_at": "2026-10-10T23:03:56.950460-07:00"
+  "published_at": "2026-10-10T23:03:56.950460-07:00",
+  "repair": {
+    "type": "audio_home_placement",
+    "based_on_release_commit": "9b39af0984538d3e0fe585dd90ec4d303a782968",
+    "recorded_at_utc": "2026-10-11T23:18:00.564415+00:00",
+    "cause": "Single player was nested in Ownership section, hidden on initial Home route. Custom element and MP3 work.",
+    "change": "Restore the same mounted player to existing Home audio grid slot; no copy/audio/runtime/style edits.",
+    "status": "review_candidate_not_deployed"
+  }
 }
