@@ -2,7 +2,7 @@
   "schema": "suns-signal.review-manifest.v1",
   "issue": "013",
   "review_round": 3,
-  "build_stamp": "Page updated \u00b7 Oct 11, 2026 \u00b7 7:21 PM Arizona",
+  "build_stamp": "Pulse updated \u00b7 Oct 12, 2026 \u00b7 9:33 AM Arizona",
   "release_status": "published",
   "audio": {
     "src": "audio/suns-signal-013-narration-v4.mp3",
@@ -23,10 +23,12 @@
     }
   },
   "source_proof_status": {
-    "availability": "PASS: exact CBS articles published before cutoff",
-    "extension_byline": "RESOLVED: reviewer rechecked cached AP page and retracted flag. Neutral NBA.com reported agreement wording retained.",
+    "availability": "PASS: NBA-carried RotoWire reporting; Wednesday returns unconfirmed",
+    "extension_byline": "PASS: signed extension; five-year/$110m terms reported",
     "sas_final": "PASS official gameStatus3 Final PHX102 SAS98",
-    "win_close": "PASS official NBA play-by-play verified 102\u201390 at1:44 and remaining scoring sequence"
+    "win_close": "PASS official NBA play-by-play verified 102\u201390 at1:44 and remaining scoring sequence",
+    "schedule": "PASS: all three official NBA schedule entries; Arizona conversions verified",
+    "voices": "PASS: seven exact excerpts from seven fully retrieved pages; dates and contexts audited"
   },
   "inventory": [
     {
@@ -79,7 +81,7 @@
     },
     {
       "path": "issue-013/content/issue-copy.json",
-      "sha256": "6670d4299f22b9cb860531254c240e0cc46bc20197c21e88049c01b47d4433ce"
+      "sha256": "9246f2bfca5f0bba7905657fa5bb85c1ec47f6ddc40faa68a6dbb4a245d1ca97"
     },
     {
       "path": "issue-013/depth.css",
@@ -87,7 +89,7 @@
     },
     {
       "path": "issue-013/edition.css",
-      "sha256": "b787547e81ec5b93bf2f1b4b3e6c841d73e312fc7130cdc7506d4a36ee79c352"
+      "sha256": "c81b6424cc5f2201a27afac31ea998b0917bfd849c419db384e1bcd18922447b"
     },
     {
       "path": "issue-013/edition.js",
@@ -95,7 +97,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "f5b8b98cbcd07e070c7f948ad32eeca981aade96e9ca5a512b2d8253fa1bdfbc"
+      "sha256": "dec5f4855c41bddd7b2c1649dd8ab24c23d9fefa1eb63b1e162686087f5803d8"
     },
     {
       "path": "issue-013/hub.css",
@@ -107,11 +109,11 @@
     },
     {
       "path": "issue-013/imessage.txt",
-      "sha256": "c12227391deaf1baf5be4dd3d43409446212b79a17314311fbeb8acd8cd42510"
+      "sha256": "3282590c22fbe11f3a6b29fc5da8bc7fd54fbd508a69e1598a2885a6af18f6b0"
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "a93e40545adf069eb1007c516444a60710333ef8d741809dfa676bcd61930c1c"
+      "sha256": "3160176ce33241041507420eb012ad4c8ce7391a8c849fec86862ca2ec5d842e"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -123,11 +125,11 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "f5b8b98cbcd07e070c7f948ad32eeca981aade96e9ca5a512b2d8253fa1bdfbc"
+      "sha256": "dec5f4855c41bddd7b2c1649dd8ab24c23d9fefa1eb63b1e162686087f5803d8"
     },
     {
       "path": "issue-013/sources.md",
-      "sha256": "8c4b4991d1f1317d24752d3dbba189ba42b341661bba79c5c9fc771204efb3aa"
+      "sha256": "a805c667edfb4dd0ceae76ed180b25378af10d5c02bfaf29f639363eed2d7e7a"
     },
     {
       "path": "issue-013/styles.css",
@@ -160,14 +162,17 @@
     "status": "included_in_authorized_live_update"
   },
   "page_update": {
-    "kind": "page_only_win_close_and_home_audio",
-    "updated_at": "2026-10-11T19:21:35.151313-07:00",
-    "source_url": "https://www.nba.com/game/sas-vs-phx-0012600039/play-by-play",
-    "source_checked_at_utc": "2026-10-12T02:20:36.530897+00:00",
-    "figma_waived": true,
+    "kind": "pulse_upgrade_and_camp_voices",
+    "updated_at": "2026-10-12T09:33:25.740079-07:00",
+    "based_on_commit": "c5ed66476a619dc65366429ddc58c645a847d68b",
+    "source_count": 19,
+    "voice_excerpts": 7,
     "audio_version": 4,
     "audio_unchanged": true,
+    "transcript_unchanged": true,
     "blender_art_unchanged": true,
-    "approval_provenance_sha256": "ecddb2d064cf1fa9bba8351478dae77c8c9fad9a70e7941751c2c44dd3ca874b"
-  }
+    "approval_provenance_sha256": "3db3ba00edacc0e9ec76b030812f5b2177f15b9f0063f7b3984d76d1ce6acd80"
+  },
+  "reporting_cutoff": "2026-10-12T09:33:25.740079-07:00",
+  "reporting_refresh_at": "2026-10-12T09:33:25.740079-07:00"
 }

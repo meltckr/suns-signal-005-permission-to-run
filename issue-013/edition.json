@@ -2,7 +2,7 @@
   "issue": "013",
   "title": "Carry It Through",
   "issue_date": "2026-10-11",
-  "reporting_cutoff": "2026-10-10T18:45:00-07:00",
+  "reporting_cutoff": "2026-10-12T09:33:25.740079-07:00",
   "audio": {
     "src": "audio/suns-signal-013-narration-v4.mp3",
     "duration_seconds": 78.988417,
@@ -22,7 +22,7 @@
     }
   },
   "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
-  "build_stamp": "Page updated \u00b7 Oct 11, 2026 \u00b7 7:21 PM Arizona",
+  "build_stamp": "Pulse updated \u00b7 Oct 12, 2026 \u00b7 9:33 AM Arizona",
   "review_round": 3,
   "release_status": "published",
   "final_result_update": {
@@ -52,14 +52,16 @@
     "status": "included_in_authorized_live_update"
   },
   "page_update": {
-    "kind": "page_only_win_close_and_home_audio",
-    "updated_at": "2026-10-11T19:21:35.151313-07:00",
-    "source_url": "https://www.nba.com/game/sas-vs-phx-0012600039/play-by-play",
-    "source_checked_at_utc": "2026-10-12T02:20:36.530897+00:00",
-    "figma_waived": true,
+    "kind": "pulse_upgrade_and_camp_voices",
+    "updated_at": "2026-10-12T09:33:25.740079-07:00",
+    "based_on_commit": "c5ed66476a619dc65366429ddc58c645a847d68b",
+    "source_count": 19,
+    "voice_excerpts": 7,
     "audio_version": 4,
     "audio_unchanged": true,
+    "transcript_unchanged": true,
     "blender_art_unchanged": true,
-    "approval_provenance_sha256": "ecddb2d064cf1fa9bba8351478dae77c8c9fad9a70e7941751c2c44dd3ca874b"
-  }
+    "approval_provenance_sha256": "3db3ba00edacc0e9ec76b030812f5b2177f15b9f0063f7b3984d76d1ce6acd80"
+  },
+  "reporting_refresh_at": "2026-10-12T09:33:25.740079-07:00"
 }

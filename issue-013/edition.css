@@ -1,4 +1,5 @@
 :root{--signal-ember:#ac4c15;--signal-ink:#152235}
+#pulse .scoreboard-grid{display:grid}
 #hub{scroll-margin-top:72px}
 .section-view,[data-section-view] section{scroll-margin-top:110px}
 .reading-progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:100;background:transparent;pointer-events:none}

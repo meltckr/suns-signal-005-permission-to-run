@@ -3,7 +3,7 @@
   "ownership": [
     {
       "type": "p",
-      "text": "Mat, Jordan Goodwin needed only a few minutes in Detroit to show what an extra possession can look like. John Voita’s game account described three offensive rebounds in his first three minutes. A guard kept giving Phoenix another chance.",
+      "text": "Jordan Goodwin needed only a few minutes in Detroit to show what an extra possession can look like. He collected three offensive rebounds in his first three minutes. A guard kept giving Phoenix another chance.",
       "sources": [
         "det"
       ]
@@ -15,7 +15,7 @@
     },
     {
       "type": "p",
-      "text": "Mark Bowser described back-to-back forced turnovers in the first quarter, capped by Ryan Dunn forcing an eight-second violation. Different actions, the same benefit: making the opponent work before Phoenix had to create a shot.",
+      "text": "In Chicago’s first quarter, Phoenix forced back-to-back turnovers, capped by Ryan Dunn forcing an eight-second violation. Different actions, the same benefit: making the opponent work before Phoenix had to create a shot.",
       "sources": [
         "chi"
       ]
@@ -30,7 +30,7 @@
     },
     {
       "type": "p",
-      "text": "Saturday’s 102–98 win put that question into the final possessions: Phoenix led 102–90 with 1:44 left, then San Antonio scored the last eight, including two Brown threes. Goodwin’s extra chances and Dunn’s pressure remain the spine; carrying those gains through the closing stretch is what makes them dependable.",
+      "text": "Saturday’s 102–98 win put that question into the final possessions: Phoenix led 102–90 with 1:44 left, then San Antonio scored the last eight, including two three-pointers by San Antonio’s Brown. Goodwin’s extra chances and Dunn’s pressure remain the spine; carrying those gains through the closing stretch is what makes them dependable.",
       "sources": [
         "win_close"
       ]
@@ -48,31 +48,63 @@
   ],
   "pulse": [
     {
-      "title": "Brooks makes his touches count",
-      "date": "2026-10-07",
-      "status": "Reported",
-      "text": "Mark Bowser reported 24 points on nine shots for Dillon Brooks in Chicago. Efficient production from a complementary scorer adds to the early offense.",
-      "sources": [
-        "chi"
-      ]
-    },
-    {
-      "title": "Booker and Bridges out against San Antonio",
-      "date": "2026-10-10",
-      "status": "Reported",
-      "text": "Devin Booker was reported out for rest and Miles Bridges out with an ankle injury against San Antonio on October 10. Wednesday’s game in San Antonio is their next opportunity; a return has not been confirmed.",
-      "sources": [
-        "booker",
-        "bridges"
-      ]
-    },
-    {
-      "title": "Preseason home opener ends with Suns win",
+      "title": "Saturday’s finish",
       "date": "2026-10-10",
       "status": "Official",
-      "text": "Phoenix beat San Antonio 102–98 in the October 10 preseason home opener.",
+      "lines": [
+        "Phoenix led San Antonio 102–90 with 1:44 left.",
+        "The Spurs scored the final eight, including two three-pointers by San Antonio’s Brown.",
+        "Phoenix held on, 102–98."
+      ],
       "sources": [
-        "sas_final"
+        "win_close"
+      ],
+      "text": "Phoenix led San Antonio 102–90 with 1:44 left.\nThe Spurs scored the final eight, including two three-pointers by San Antonio’s Brown.\nPhoenix held on, 102–98."
+    },
+    {
+      "title": "Next three games · Arizona time",
+      "date": "2026-10-12",
+      "status": "Official",
+      "checked": true,
+      "lines": [
+        "Wed, Oct. 14 · at San Antonio · 5 p.m.",
+        "Fri, Oct. 16 · vs. Utah · 7 p.m.",
+        "Wed, Oct. 21 · at Portland · 7 p.m. · Regular-season opener"
+      ],
+      "sources": [
+        "schedule"
+      ],
+      "text": "Wed, Oct. 14 · at San Antonio · 5 p.m.\nFri, Oct. 16 · vs. Utah · 7 p.m.\nWed, Oct. 21 · at Portland · 7 p.m. · Regular-season opener"
+    },
+    {
+      "title": "Booker and Bridges · Wednesday watch",
+      "date": "2026-10-10",
+      "status": "Reported",
+      "text": "Devin Booker rested Saturday; Miles Bridges sat out with an ankle injury. Their status for Wednesday in San Antonio is unconfirmed.",
+      "sources": [
+        "booker_official_news",
+        "bridges_official_news"
+      ]
+    },
+    {
+      "title": "Mercury league watch · WNBA Finals",
+      "date": "2026-10-12",
+      "status": "Official",
+      "checked": true,
+      "text": "The Golden State Valkyries and Atlanta Dream open the best-of-seven WNBA Finals on October 17. For Mercury ownership, watch how the finalists adjust their rotations against the same opponent.",
+      "sources": [
+        "wnba"
+      ]
+    },
+    {
+      "title": "Carry forward after the next substitution",
+      "date": "2026-10-12",
+      "status": "Analysis",
+      "checked": true,
+      "text": "Jordan Goodwin’s offensive rebounds in Detroit and Ryan Dunn’s eight-second pressure sequence in Chicago gave Phoenix extra chances. After the next substitution, watch the second chances, ball pressure and whether a stop leads to a controlled possession.",
+      "sources": [
+        "det",
+        "chi"
       ]
     }
   ],
@@ -90,11 +122,11 @@
     },
     {
       "type": "h3",
-      "text": "Reported · Podziemski extension agreement"
+      "text": "Reported · Podziemski extension terms"
     },
     {
       "type": "p",
-      "text": "NBA.com reports a five-year, $110 million extension agreement for Brandin Podziemski. Keeping a developing contributor gives ownership another example of how a contender balances continuity with its next generation.",
+      "text": "Golden State signed Brandin Podziemski to an extension; NBA.com reported five years and $110 million. Keeping a developing contributor gives ownership another example of how a contender balances continuity with its next generation.",
       "sources": [
         "extension"
       ]
@@ -151,6 +183,71 @@
       "opponent": "at Portland · Regular-season opener",
       "time_arizona": "7 p.m. Arizona",
       "source": "schedule"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "Jordan Ott",
+      "role": "Suns head coach",
+      "date": "2026-10-04",
+      "date_label": "Camp · published Oct. 4 Arizona",
+      "quote": "We liked it and we're going to continue doubling down",
+      "context": "Full-court pressure: watch whether the next group sustains it.",
+      "source": "ott_pressure"
+    },
+    {
+      "speaker": "Oso Ighodaro",
+      "role": "Suns center",
+      "date": "2026-10-05",
+      "date_label": "Oct. 5 postgame · reported Oct. 6",
+      "quote": "Whoever starts, whoever doesn't, we'll come in and impact the game",
+      "context": "On competing with Maluach for the start. Watch what each center’s group carries forward.",
+      "source": "oso_role"
+    },
+    {
+      "speaker": "Luke Kennard",
+      "role": "Suns guard",
+      "date": "2026-10-11",
+      "date_label": "Reported Oct. 11",
+      "quote": "There's a lot of just freedom of movement out there",
+      "context": "On his fit in the offense. Watch whether the movement survives the next lineup change.",
+      "source": "kennard_movement"
+    },
+    {
+      "speaker": "Jordan Ott",
+      "role": "Suns head coach",
+      "date": "2026-10-10",
+      "date_label": "Oct. 10 postgame · reported Oct. 11",
+      "quote": "We need 48 minutes of great five-man play.",
+      "context": "On Maluach and center depth. Watch whether each center’s group rebounds and limits turnovers.",
+      "source": "ott_five"
+    },
+    {
+      "speaker": "Jalen Green",
+      "role": "Suns guard",
+      "date": "2026-10-10",
+      "date_label": "Reported Oct. 10",
+      "quote": "Get into the paint, draw two, make the right read.",
+      "context": "His stated approach offers a useful check: when he draws help, does Phoenix find the next good shot?",
+      "source": "green_read"
+    },
+    {
+      "speaker": "Mark Bowser",
+      "role": "Local writer · analysis",
+      "date": "2026-10-08",
+      "date_label": "Published Oct. 8",
+      "quote": "I see it also as a loss of focus.",
+      "context": "His Chicago turnover assessment. Watch whether Phoenix restores its attention on the next trip after a mistake.",
+      "source": "chi"
+    },
+    {
+      "speaker": "Nekias Duncan",
+      "role": "National writer · analysis",
+      "date": "2026-10-08",
+      "date_label": "Published Oct. 8",
+      "quote": "I'm slightly underwhelmed by the collective passing ability on the roster.",
+      "context": "His concern is team passing. The next test comes when a stronger defense takes away Phoenix’s first option.",
+      "source": "duncan_passing"
     }
   ]
 }
