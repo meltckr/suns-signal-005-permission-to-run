@@ -2,7 +2,7 @@
   "schema": "suns-signal.review-manifest.v1",
   "issue": "013",
   "review_round": 3,
-  "build_stamp": "Pulse updated \u00b7 Oct 12, 2026 \u00b7 9:33 AM Arizona",
+  "build_stamp": "Page updated \u00b7 Oct 12, 2026 \u00b7 9:58 AM Arizona",
   "release_status": "published",
   "audio": {
     "src": "audio/suns-signal-013-narration-v4.mp3",
@@ -28,12 +28,17 @@
     "sas_final": "PASS official gameStatus3 Final PHX102 SAS98",
     "win_close": "PASS official NBA play-by-play verified 102\u201390 at1:44 and remaining scoring sequence",
     "schedule": "PASS: all three official NBA schedule entries; Arizona conversions verified",
-    "voices": "PASS: seven exact excerpts from seven fully retrieved pages; dates and contexts audited"
+    "voices": "PASS: seven exact excerpts from seven fully retrieved pages; dates and contexts audited",
+    "final_hostile_pass": "PASS: independent fresh checks Oct.12 9:52AM Arizona; all Pulse numbers/clocks/names/quotes and nineteen source links verified; Wednesday availability remains unconfirmed."
   },
   "inventory": [
     {
       "path": "issue-013/assets/og-suns-signal-013-v2.png",
       "sha256": "92fb143c1248ce953260947abe6c4fdc56b355c452bea9b92fa30076a9c38906"
+    },
+    {
+      "path": "issue-013/assets/og-suns-signal-013-win-close-v3.png",
+      "sha256": "1e31afb6a69314afaab60ec2b88fea04bd8a4a075cd27a9623e30b4582577e33"
     },
     {
       "path": "issue-013/assets/share-suns-signal-013-v2.png",
@@ -97,7 +102,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "dec5f4855c41bddd7b2c1649dd8ab24c23d9fefa1eb63b1e162686087f5803d8"
+      "sha256": "3fabac850f4de2a37ec53f3dce077a910a402ab91e520b3975e6de8760f4d673"
     },
     {
       "path": "issue-013/hub.css",
@@ -113,7 +118,7 @@
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "3160176ce33241041507420eb012ad4c8ce7391a8c849fec86862ca2ec5d842e"
+      "sha256": "c183a8ebd11dad9ccf1d5f909305cd301946dfc406391db912363c17de5afec4"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -125,7 +130,7 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "dec5f4855c41bddd7b2c1649dd8ab24c23d9fefa1eb63b1e162686087f5803d8"
+      "sha256": "3fabac850f4de2a37ec53f3dce077a910a402ab91e520b3975e6de8760f4d673"
     },
     {
       "path": "issue-013/sources.md",
@@ -162,17 +167,39 @@
     "status": "included_in_authorized_live_update"
   },
   "page_update": {
-    "kind": "pulse_upgrade_and_camp_voices",
-    "updated_at": "2026-10-12T09:33:25.740079-07:00",
-    "based_on_commit": "c5ed66476a619dc65366429ddc58c645a847d68b",
-    "source_count": 19,
-    "voice_excerpts": 7,
+    "kind": "final_hostile_proof_and_og_v3",
+    "updated_at": "2026-10-12T09:58:20.479591-07:00",
+    "based_on_commit": "960c3bc75f436cf05b7d1c339752a3ae402f74a0",
+    "pulse_copy_unchanged": true,
     "audio_version": 4,
     "audio_unchanged": true,
     "transcript_unchanged": true,
-    "blender_art_unchanged": true,
-    "approval_provenance_sha256": "3db3ba00edacc0e9ec76b030812f5b2177f15b9f0063f7b3984d76d1ce6acd80"
+    "hero_art_unchanged": true,
+    "og": {
+      "src": "assets/og-suns-signal-013-win-close-v3.png",
+      "url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/assets/og-suns-signal-013-win-close-v3.png",
+      "sha256": "1e31afb6a69314afaab60ec2b88fea04bd8a4a075cd27a9623e30b4582577e33",
+      "width": 1200,
+      "height": 630,
+      "type": "image/png",
+      "version": 3,
+      "artwork": "Approved original Blender court-room still",
+      "no_visible_byline_or_Mat": true
+    },
+    "independent_fact_pass_at": "2026-10-12T09:52:00-07:00",
+    "source_links_http_200": 19
   },
   "reporting_cutoff": "2026-10-12T09:33:25.740079-07:00",
-  "reporting_refresh_at": "2026-10-12T09:33:25.740079-07:00"
+  "reporting_refresh_at": "2026-10-12T09:33:25.740079-07:00",
+  "open_graph": {
+    "src": "assets/og-suns-signal-013-win-close-v3.png",
+    "url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/assets/og-suns-signal-013-win-close-v3.png",
+    "sha256": "1e31afb6a69314afaab60ec2b88fea04bd8a4a075cd27a9623e30b4582577e33",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png",
+    "version": 3,
+    "artwork": "Approved original Blender court-room still",
+    "no_visible_byline_or_Mat": true
+  }
 }

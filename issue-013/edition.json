@@ -22,7 +22,7 @@
     }
   },
   "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
-  "build_stamp": "Pulse updated \u00b7 Oct 12, 2026 \u00b7 9:33 AM Arizona",
+  "build_stamp": "Page updated \u00b7 Oct 12, 2026 \u00b7 9:58 AM Arizona",
   "review_round": 3,
   "release_status": "published",
   "final_result_update": {
@@ -52,16 +52,38 @@
     "status": "included_in_authorized_live_update"
   },
   "page_update": {
-    "kind": "pulse_upgrade_and_camp_voices",
-    "updated_at": "2026-10-12T09:33:25.740079-07:00",
-    "based_on_commit": "c5ed66476a619dc65366429ddc58c645a847d68b",
-    "source_count": 19,
-    "voice_excerpts": 7,
+    "kind": "final_hostile_proof_and_og_v3",
+    "updated_at": "2026-10-12T09:58:20.479591-07:00",
+    "based_on_commit": "960c3bc75f436cf05b7d1c339752a3ae402f74a0",
+    "pulse_copy_unchanged": true,
     "audio_version": 4,
     "audio_unchanged": true,
     "transcript_unchanged": true,
-    "blender_art_unchanged": true,
-    "approval_provenance_sha256": "3db3ba00edacc0e9ec76b030812f5b2177f15b9f0063f7b3984d76d1ce6acd80"
+    "hero_art_unchanged": true,
+    "og": {
+      "src": "assets/og-suns-signal-013-win-close-v3.png",
+      "url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/assets/og-suns-signal-013-win-close-v3.png",
+      "sha256": "1e31afb6a69314afaab60ec2b88fea04bd8a4a075cd27a9623e30b4582577e33",
+      "width": 1200,
+      "height": 630,
+      "type": "image/png",
+      "version": 3,
+      "artwork": "Approved original Blender court-room still",
+      "no_visible_byline_or_Mat": true
+    },
+    "independent_fact_pass_at": "2026-10-12T09:52:00-07:00",
+    "source_links_http_200": 19
   },
-  "reporting_refresh_at": "2026-10-12T09:33:25.740079-07:00"
+  "reporting_refresh_at": "2026-10-12T09:33:25.740079-07:00",
+  "open_graph": {
+    "src": "assets/og-suns-signal-013-win-close-v3.png",
+    "url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/assets/og-suns-signal-013-win-close-v3.png",
+    "sha256": "1e31afb6a69314afaab60ec2b88fea04bd8a4a075cd27a9623e30b4582577e33",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png",
+    "version": 3,
+    "artwork": "Approved original Blender court-room still",
+    "no_visible_byline_or_Mat": true
+  }
 }
