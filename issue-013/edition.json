@@ -22,7 +22,7 @@
     }
   },
   "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
-  "build_stamp": "Page updated \u00b7 Oct 12, 2026 \u00b7 9:58 AM Arizona",
+  "build_stamp": "Page updated \u00b7 Oct 12, 2026 \u00b7 10:03 AM Arizona",
   "review_round": 3,
   "release_status": "published",
   "final_result_update": {
@@ -53,7 +53,7 @@
   },
   "page_update": {
     "kind": "final_hostile_proof_and_og_v3",
-    "updated_at": "2026-10-12T09:58:20.479591-07:00",
+    "updated_at": "2026-10-12T10:03:51.939355-07:00",
     "based_on_commit": "960c3bc75f436cf05b7d1c339752a3ae402f74a0",
     "pulse_copy_unchanged": true,
     "audio_version": 4,
@@ -69,7 +69,8 @@
       "type": "image/png",
       "version": 3,
       "artwork": "Approved original Blender court-room still",
-      "no_visible_byline_or_Mat": true
+      "no_visible_byline_or_Mat": true,
+      "preview_author_metadata_removed": true
     },
     "independent_fact_pass_at": "2026-10-12T09:52:00-07:00",
     "source_links_http_200": 19
@@ -84,6 +85,7 @@
     "type": "image/png",
     "version": 3,
     "artwork": "Approved original Blender court-room still",
-    "no_visible_byline_or_Mat": true
+    "no_visible_byline_or_Mat": true,
+    "preview_author_metadata_removed": true
   }
 }

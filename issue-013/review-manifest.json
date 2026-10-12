@@ -2,7 +2,7 @@
   "schema": "suns-signal.review-manifest.v1",
   "issue": "013",
   "review_round": 3,
-  "build_stamp": "Page updated \u00b7 Oct 12, 2026 \u00b7 9:58 AM Arizona",
+  "build_stamp": "Page updated \u00b7 Oct 12, 2026 \u00b7 10:03 AM Arizona",
   "release_status": "published",
   "audio": {
     "src": "audio/suns-signal-013-narration-v4.mp3",
@@ -102,7 +102,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "3fabac850f4de2a37ec53f3dce077a910a402ab91e520b3975e6de8760f4d673"
+      "sha256": "eccd4409d24d080b6526267cbd5758ad536f0a155dff4e7ae38e53047606dd12"
     },
     {
       "path": "issue-013/hub.css",
@@ -118,7 +118,7 @@
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "c183a8ebd11dad9ccf1d5f909305cd301946dfc406391db912363c17de5afec4"
+      "sha256": "205484b3e0c57f815107b0a9c7a10e6b6c3ec5a7413600f6520ca72b02a009dc"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -130,7 +130,7 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "3fabac850f4de2a37ec53f3dce077a910a402ab91e520b3975e6de8760f4d673"
+      "sha256": "eccd4409d24d080b6526267cbd5758ad536f0a155dff4e7ae38e53047606dd12"
     },
     {
       "path": "issue-013/sources.md",
@@ -168,7 +168,7 @@
   },
   "page_update": {
     "kind": "final_hostile_proof_and_og_v3",
-    "updated_at": "2026-10-12T09:58:20.479591-07:00",
+    "updated_at": "2026-10-12T10:03:51.939355-07:00",
     "based_on_commit": "960c3bc75f436cf05b7d1c339752a3ae402f74a0",
     "pulse_copy_unchanged": true,
     "audio_version": 4,
@@ -184,7 +184,8 @@
       "type": "image/png",
       "version": 3,
       "artwork": "Approved original Blender court-room still",
-      "no_visible_byline_or_Mat": true
+      "no_visible_byline_or_Mat": true,
+      "preview_author_metadata_removed": true
     },
     "independent_fact_pass_at": "2026-10-12T09:52:00-07:00",
     "source_links_http_200": 19
@@ -200,6 +201,7 @@
     "type": "image/png",
     "version": 3,
     "artwork": "Approved original Blender court-room still",
-    "no_visible_byline_or_Mat": true
+    "no_visible_byline_or_Mat": true,
+    "preview_author_metadata_removed": true
   }
 }
