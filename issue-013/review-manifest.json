@@ -2,7 +2,7 @@
   "schema": "suns-signal.review-manifest.v1",
   "issue": "013",
   "review_round": 3,
-  "build_stamp": "Published \u00b7 Oct 10, 2026 \u00b7 11:03 PM Arizona",
+  "build_stamp": "Page updated \u00b7 Oct 11, 2026 \u00b7 7:21 PM Arizona",
   "release_status": "published",
   "audio": {
     "src": "audio/suns-signal-013-narration-v4.mp3",
@@ -25,7 +25,8 @@
   "source_proof_status": {
     "availability": "PASS: exact CBS articles published before cutoff",
     "extension_byline": "RESOLVED: reviewer rechecked cached AP page and retracted flag. Neutral NBA.com reported agreement wording retained.",
-    "sas_final": "PASS official gameStatus3 Final PHX102 SAS98"
+    "sas_final": "PASS official gameStatus3 Final PHX102 SAS98",
+    "win_close": "PASS official NBA play-by-play verified 102\u201390 at1:44 and remaining scoring sequence"
   },
   "inventory": [
     {
@@ -78,7 +79,7 @@
     },
     {
       "path": "issue-013/content/issue-copy.json",
-      "sha256": "335a211e5f497fcf542d8fc22f7ad7b616564e663060521220d10e2018ef472e"
+      "sha256": "6670d4299f22b9cb860531254c240e0cc46bc20197c21e88049c01b47d4433ce"
     },
     {
       "path": "issue-013/depth.css",
@@ -94,7 +95,7 @@
     },
     {
       "path": "issue-013/edition.json",
-      "sha256": "53b825c8adb2547cb620c6d9bdfe03781c2cc98a22a7860d2306b4eba519b0a6"
+      "sha256": "f5b8b98cbcd07e070c7f948ad32eeca981aade96e9ca5a512b2d8253fa1bdfbc"
     },
     {
       "path": "issue-013/hub.css",
@@ -110,7 +111,7 @@
     },
     {
       "path": "issue-013/index.html",
-      "sha256": "a98416dae9b59fad05b2bb9d5386803b95a7a5f7586cc24e25c044b8fb127a3e"
+      "sha256": "a93e40545adf069eb1007c516444a60710333ef8d741809dfa676bcd61930c1c"
     },
     {
       "path": "issue-013/premium-motion.js",
@@ -122,11 +123,11 @@
     },
     {
       "path": "issue-013/release-metadata.json",
-      "sha256": "53b825c8adb2547cb620c6d9bdfe03781c2cc98a22a7860d2306b4eba519b0a6"
+      "sha256": "f5b8b98cbcd07e070c7f948ad32eeca981aade96e9ca5a512b2d8253fa1bdfbc"
     },
     {
       "path": "issue-013/sources.md",
-      "sha256": "93f5ef3740f9c0a6c1990ed2af0e686ba2613abbd5a44f5721f7aba2312e9637"
+      "sha256": "8c4b4991d1f1317d24752d3dbba189ba42b341661bba79c5c9fc771204efb3aa"
     },
     {
       "path": "issue-013/styles.css",
@@ -156,6 +157,17 @@
     "recorded_at_utc": "2026-10-11T23:18:00.564415+00:00",
     "cause": "Single player was nested in Ownership section, hidden on initial Home route. Custom element and MP3 work.",
     "change": "Restore the same mounted player to existing Home audio grid slot; no copy/audio/runtime/style edits.",
-    "status": "review_candidate_not_deployed"
+    "status": "included_in_authorized_live_update"
+  },
+  "page_update": {
+    "kind": "page_only_win_close_and_home_audio",
+    "updated_at": "2026-10-11T19:21:35.151313-07:00",
+    "source_url": "https://www.nba.com/game/sas-vs-phx-0012600039/play-by-play",
+    "source_checked_at_utc": "2026-10-12T02:20:36.530897+00:00",
+    "figma_waived": true,
+    "audio_version": 4,
+    "audio_unchanged": true,
+    "blender_art_unchanged": true,
+    "approval_provenance_sha256": "ecddb2d064cf1fa9bba8351478dae77c8c9fad9a70e7941751c2c44dd3ca874b"
   }
 }

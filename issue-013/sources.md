@@ -30,3 +30,6 @@ OUT — ankle against San Antonio; Wednesday is next opportunity, not confirmed 
 
 [NBA · Spurs–Suns final, Oct. 10](https://www.nba.com/game/0012600039)
 Final: Phoenix102,SanAntonio98; October10 preseason home opener.
+
+[NBA · Saturday closing sequence](https://www.nba.com/game/sas-vs-phx-0012600039/play-by-play)
+102–90 with1:44left; Spursfinaleight; 102–98 Phoenixwin. Checked:2026-10-12T02:20:36.530897+00:00

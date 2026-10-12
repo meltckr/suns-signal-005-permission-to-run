@@ -22,7 +22,7 @@
     }
   },
   "canonical_url": "https://meltckr.github.io/suns-signal-005-permission-to-run/issue-013/",
-  "build_stamp": "Published \u00b7 Oct 10, 2026 \u00b7 11:03 PM Arizona",
+  "build_stamp": "Page updated \u00b7 Oct 11, 2026 \u00b7 7:21 PM Arizona",
   "review_round": 3,
   "release_status": "published",
   "final_result_update": {
@@ -49,6 +49,17 @@
     "recorded_at_utc": "2026-10-11T23:18:00.564415+00:00",
     "cause": "Single player was nested in Ownership section, hidden on initial Home route. Custom element and MP3 work.",
     "change": "Restore the same mounted player to existing Home audio grid slot; no copy/audio/runtime/style edits.",
-    "status": "review_candidate_not_deployed"
+    "status": "included_in_authorized_live_update"
+  },
+  "page_update": {
+    "kind": "page_only_win_close_and_home_audio",
+    "updated_at": "2026-10-11T19:21:35.151313-07:00",
+    "source_url": "https://www.nba.com/game/sas-vs-phx-0012600039/play-by-play",
+    "source_checked_at_utc": "2026-10-12T02:20:36.530897+00:00",
+    "figma_waived": true,
+    "audio_version": 4,
+    "audio_unchanged": true,
+    "blender_art_unchanged": true,
+    "approval_provenance_sha256": "ecddb2d064cf1fa9bba8351478dae77c8c9fad9a70e7941751c2c44dd3ca874b"
   }
 }
